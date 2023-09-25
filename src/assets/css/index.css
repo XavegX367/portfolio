@@ -15,3 +15,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+#circle{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: #551079;
+    border-radius:50%;
+    -webkit-backdrop-filter: invert(80%);
+    backdrop-filter: invert(80%);
+}

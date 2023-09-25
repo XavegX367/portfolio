@@ -4,12 +4,12 @@ function Landing() {
     return (
         <div>
             {/* Add row with LinkedIn button */}
-            <div className="flex justify-end mt-10">
+            <div className="flex justify-end mt-5 mr-10">
                 <Btn content={"LinkedIn"} />
             </div>
             {/* Add row with LinkedIn button */}
             <div className="flex justify-center">
-                <img src={header} alt="header" className="w-full m-4 select-none" draggable="false" />
+                <img src={header} alt="header" className="w-full pl-20 mr-4 select-none" draggable="false" />
             </div>
 
             <div className="flex justify-center mt-4">
