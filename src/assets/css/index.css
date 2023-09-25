@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'lunchtype22';
+    src: url('../fonts/lunchtype22-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gentiumbookbasic';
+    src: url('../fonts/GenBkBasR.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
