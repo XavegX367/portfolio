@@ -1,13 +1,14 @@
 import { header } from "../../assets"
+import Btn from "../Layout/Btn"
 function Landing() {
     return (
         <div>
             {/* Add row with LinkedIn button */}
-            <div className="flex justify-end">
-
+            <div className="flex justify-end mt-10">
+                <Btn content={"LinkedIn"} />
             </div>
             {/* Add row with LinkedIn button */}
-            <div className="flex justify-center mt-24">
+            <div className="flex justify-center">
                 <img src={header} alt="header" className="w-full m-4 select-none" draggable="false" />
             </div>
 
