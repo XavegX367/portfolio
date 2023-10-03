@@ -5,9 +5,9 @@ import './assets/css/index.css'
 import Layout from './components/Layout/Layout';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Layout>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </Layout>
+  <BrowserRouter>
+    <Layout>
+        <App />
+    </Layout>
+  </BrowserRouter>
 )

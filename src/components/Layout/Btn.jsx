@@ -1,18 +1,19 @@
 import PropTypes from 'prop-types';
 
-function Btn({content}) {
+function Btn({content, link}) {
 
     return (
         <>
-            <button className="bg-transparent text-slate-200 border-slate-200 border-2 font-bold py-2 px-4 rounded-xl transition-colors duration-300 ease-in-out hover:bg-slate-200 hover:text-black">
+            <a target='blank' href={link} className="bg-transparent text-6xl uppercase text-gray-400 border-gray-300 border-2 font-bold py-2 px-4 rounded-xl transition-colors duration-300 ease-in-out hover:bg-slate-200 hover:text-black">
                 {content}
-            </button>
+            </a>
         </>
     )
 }
 
 Btn.propTypes = {
     content: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
 };
 
 export default Btn
