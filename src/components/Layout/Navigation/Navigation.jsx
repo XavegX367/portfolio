@@ -21,10 +21,10 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
   return (
     <>
       {/* Create a full screen overlay that contains some nav links */}
-      <div className={`${sideBarToggle ? "h-screen opacity-100" : "h-0 opacity-0"} fixed select-none z-50 transition-all w-full bg-black flex justify-center items-center duration-150`}>
-        <div className='fixed top-8'>
+      <div className={`${sideBarToggle ? "h-full opacity-100" : "h-0 opacity-0"} fixed select-none z-50 transition-all w-full bg-black flex justify-center items-center duration-150`}>
+        <div className='fixed top-6 md:top-8'>
             <FontAwesomeIcon icon={faTimes} 
-              className={`${sideBarToggle && "rotate-180"} cursor-pointer text-6xl fixed right-14 duration-500 text-gray-400 hover:text-white transition-all ease-in-out`} 
+              className={`${sideBarToggle && "rotate-180"} cursor-pointer text-3xl md:text-6xl fixed right-6 md:right-14 duration-500 text-gray-400 hover:text-white transition-all ease-in-out`} 
               onClick={handleClick}
             />
         </div>

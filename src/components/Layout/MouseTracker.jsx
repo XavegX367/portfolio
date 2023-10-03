@@ -11,7 +11,7 @@ function MouseTracker() {
   }, []);
     
   return (
-    <div className='cursor' id="cursor"></div>
+    <div className='cursor hidden md:block' id="cursor"></div>
   )
 }
 
