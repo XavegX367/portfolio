@@ -8,7 +8,7 @@ class Layout extends React.Component {
         <>
             <Header />
             <MouseTracker/>
-            <div>
+            <div className="h-screen">
 
                 <div className="">
                     <main className="opacity-100 z-10">{this.props.children}</main>

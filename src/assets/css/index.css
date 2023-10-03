@@ -16,12 +16,26 @@
     font-style: normal;
 }
 
-#circle{
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    background-color: #551079;
-    border-radius:50%;
-    -webkit-backdrop-filter: invert(80%);
-    backdrop-filter: invert(80%);
+body {
+    margin: 0;
+    background: #20262E;
+    min-height: 300px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursor {
+    position: fixed;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    pointer-events: none;
+    left: -100px;
+    top: 50%;
+    mix-blend-mode: difference;
+    background-color: rgb(200, 0, 255);
+    z-index: 10000;
+    height: 20px;
+    width: 20px;
+    transition: all 50ms ease-out;
+    backdrop-filter: blur(80%);
 }
