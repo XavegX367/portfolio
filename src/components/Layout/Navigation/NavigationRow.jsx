@@ -17,7 +17,7 @@ function NavigationRow() {
         <Navigation sideBarToggle={sideBarToggle} setSideBarToggle={toggleSidebar} />
         <div className="flex flex-row-reverse pt-5 mr-6 md:mr-10 gap-x-12 md:gap-x-60 transition-all">
 
-          <button className={`${sideBarToggle && "rotate-180"} text-2xl md:text-5xl text-gray-400 hover:text-white md:p-4 ease-in-out transition-all duration-500`}
+          <button className={`${sideBarToggle && "rotate-180"} text-2xl md:text-5xl text-gray-400 hover:text-white p-0 md:p-4 ease-in-out transition-all duration-500`}
             onClick={toggleSidebar}
           >
             <FontAwesomeIcon icon={faBars} />

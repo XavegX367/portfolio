@@ -28,7 +28,7 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
               onClick={handleClick}
             />
         </div>
-        <nav className="flex flex-col justify-center items-center">
+        <nav className={`${sideBarToggle ? "" : "hidden"} flex flex-col justify-center items-center`}>
           <NavItem name={"Home"} path={"/"} closeNavigation={handleClick}/>
           <NavItem name={"Build up"} path={"/buildup"} closeNavigation={handleClick}/>
           <NavItem name={"Learning Outcomes"} path={"/learning-outcomes"} closeNavigation={handleClick}/>
