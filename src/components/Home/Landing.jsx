@@ -8,9 +8,9 @@ function Landing() {
             </div>
 
             <div className="flex justify-center mt-4">
-                <span className="text-center text-sm md:text-xl mx-4 md:mx-48">I am 21 years old. I live in Schijndel in The Netherlands and have graduated from MBO 
-                    Application End Media Developer level 4 since 2022. Currently I am studying at Fontys Hogeschool in Eindhoven. Besides school I 
-                    have also got a job at Apostle in Oss as junior developer.
+                <span className="text-center text-sm md:text-xl mx-4 md:mx-48">
+                    I'm 21 years old and living in Schijndel, The Netherlands. I graduated from MBO Application and Media Developer level 4 in 2022. 
+                    Right now, I'm studying at Fontys Hogeschool in Eindhoven. Besides my studies, I'm also working as a junior developer at Apostle in Oss.
                 </span>
             </div>
         </div>
