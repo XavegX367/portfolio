@@ -1,12 +1,11 @@
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import NavItem from './NavItem'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
+import PropTypes from 'prop-types'
 import fragments from './fragments.json'
 
 function Navigation({sideBarToggle, setSideBarToggle}) {
-  console.log(fragments[0].name);
-
   const handleClick = () => {
     setSideBarToggle();
   };
@@ -19,12 +18,12 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
     };
     window.addEventListener('keydown', handleEscape);
     return () => window.removeEventListener('keydown', handleEscape);
-  }, [setSideBarToggle]);
+  }, [sideBarToggle, setSideBarToggle]);
 
   return (
     <>
       {/* Create a full screen overlay that contains some nav links */}
-      <div className={`${sideBarToggle ? "h-full opacity-100" : "h-0 opacity-0"} fixed select-none z-50 transition-all w-full bg-black flex justify-center items-center duration-150`}>
+      <div className={`${sideBarToggle ? "h-full opacity-100" : "h-0 opacity-0"} ease-in-out fixed select-none z-50 transition-all w-full bg-black flex justify-center items-center duration-150`}>
         <div className='fixed top-6 md:top-8'>
             <FontAwesomeIcon icon={faTimes} 
               className={`${sideBarToggle && "rotate-180"} cursor-pointer text-3xl md:text-6xl fixed right-6 md:right-14 duration-500 text-gray-400 hover:text-white transition-all ease-in-out`} 
@@ -44,6 +43,11 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
       </div>
     </>
   )
+}
+
+Navigation.propTypes = {
+  sideBarToggle: PropTypes.bool.isRequired,
+  setSideBarToggle: PropTypes.func.isRequired
 }
 
 export default Navigation
