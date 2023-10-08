@@ -2,12 +2,14 @@ import PropTypes from 'prop-types';
 
 function SiteInspiration({id, name, url, img, description}) {
     return (
-        <div className='flex flex-col gap-y-1'>
-        <h1 className='text-2xl'>{id}. <a className='url' href={url} target='blank'>{name}</a></h1>
-        <img src={img} alt='conference_awwwards' className='w-72 h-42 self-center' />
-        <span className='text-center text-sm italic'>
-            {description}
-        </span>
+        <div className='flex flex-col gap-y-1 mb-10'>
+        <h1 className='text-2xl md:ml-4'>{id}. <a className='url' href={url} target='blank'>{name}</a></h1>
+        <div className='md:flex flex-col md:flex-row items-center self-center justify-center md:items-center md:align-middle md:gap-x-4 md:mx-10'>
+            <img src={img} alt='conference_awwwards' className='w-72 h-42 md:w-1/4 self-center md:mt-2' />
+            <span className='text-center text-sm md:text-xl italic'>
+                {description}
+            </span>
+        </div>
     </div>
     )
 }

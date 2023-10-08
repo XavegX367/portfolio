@@ -28,6 +28,10 @@ h1 {
     @apply font-serif
 }
 
+img {
+    @apply transition-all duration-500 ease-in-out transform hover:scale-110
+}
+
 .url {
     @apply text-blue-500 hover:text-blue-600 underline
 }
