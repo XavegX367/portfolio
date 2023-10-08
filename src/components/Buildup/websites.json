@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Awwwards Conference",
+        "url": "https://conference.awwwards.com/",
+        "description": "It's a super interactive website with a lot of effects, and I probably haven't even seen half of the animations myself, but the following things stand out to me: The mouse tracker using dark colors is a design aspect that really appeals to me. Additionally, the website uses nice animations on hovers and scrolling. Furthermore, cool extra graphics like those 'pluses' have been added."
+    },
+    {
+        "id": 2,
+        "name": "Joshua's World",
+        "url": "https://www.joshuas.world",
+        "description": "Even as a web developer, I would like to delve into creating 3D models and, of course, use them for my own website. That's why I've included them in the list. All 3D models on this site follow the poly theme, which, in my opinion, looks very fun and playful."
+    },
+    {
+        "id": 3,
+        "name": "Codigital",
+        "url": "https://codigital.nl/",
+        "description": "This is a website of a colleague of mine. Personally, I like how they've creatively utilized the mouse tracker, similar to the first one. I also think the dark colors with the purple on top look great. Additionally, some hovers have a cool effect where the text moves up and disappears, then reappears in purple."
+    },
+    {
+        "id": 4,
+        "name": "Valentina Pastushenko",
+        "url": "https://imarketina.com/",
+        "description": "This is a very sleek portfolio in terms of typography. It utilizes a mouse tracker that expands and changes color when you hover over photos. There are plenty of animations as you move your mouse around, making it very interesting."
+    }
+]

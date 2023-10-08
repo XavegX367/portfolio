@@ -9,7 +9,7 @@ function NavItem({closeNavigation, path, name}) {
   }
 
   return (
-    <button onClick={() => navigateTo(path)} className="text-3xl md:text-5xl text-white transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400">{name}</button>
+    <button onClick={() => navigateTo(path)} className="text-3xl md:text-5xl text-white hover:ml-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400">{name}</button>
   )
 }
 
