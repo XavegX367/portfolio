@@ -2,8 +2,11 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import NavItem from './NavItem'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect } from 'react'
+import fragments from './fragments.json'
 
 function Navigation({sideBarToggle, setSideBarToggle}) {
+  console.log(fragments[0].name);
+
   const handleClick = () => {
     setSideBarToggle();
   };
@@ -28,10 +31,15 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
               onClick={handleClick}
             />
         </div>
-        <nav className={`${sideBarToggle ? "" : "hidden"} flex flex-col justify-center items-center`}>
-          <NavItem name={"Home"} path={"/"} closeNavigation={handleClick}/>
-          <NavItem name={"Build up"} path={"/buildup"} closeNavigation={handleClick}/>
-          <NavItem name={"Learning Outcomes"} path={"/learning-outcomes"} closeNavigation={handleClick}/>
+        <nav className={`${sideBarToggle ? "" : "hidden"} flex gap-y-5 flex-col justify-center items-center`}>
+          {
+            fragments.map((fragment) => {
+              return (
+                <NavItem key={fragment.id} name={fragment.name} path={fragment.path} closeNavigation={handleClick}/>
+              )
+            
+            })
+          }
         </nav>
       </div>
     </>

@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import { useState } from 'react'
 import Btn from '../Btn'
 import Navigation from './Navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

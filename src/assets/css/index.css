@@ -36,6 +36,6 @@ body {
     z-index: 10000;
     height: 30px;
     width: 30px;
-    transition: all 50ms ease-out;
+    /* transition: all 50ms ease-out; */
     backdrop-filter: blur(80%);
 }
