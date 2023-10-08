@@ -14,7 +14,7 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
   useEffect(() => {
     const handleEscape = (event) => {
       if (event.key === 'Escape') {
-        setSideBarToggle(false);
+        setSideBarToggle(!sideBarToggle);
       }
     };
     window.addEventListener('keydown', handleEscape);
