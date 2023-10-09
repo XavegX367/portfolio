@@ -6,7 +6,7 @@ function SiteInspiration({id, name, url, img, description}) {
         <h1 className='text-2xl md:ml-4'>{id}. <a className='url' href={url} target='blank'>{name}</a></h1>
         <div className='md:flex flex-col md:flex-row items-center self-center justify-center md:items-center md:align-middle md:gap-x-4 md:mx-10'>
             <img src={img} alt={name} className='w-72 h-42 md:w-1/4 self-center md:mt-2 section_image' />
-            <span className='text-center text-sm md:text-xl italic'>
+            <span className='text-left text-sm md:text-xl italic'>
                 {description}
             </span>
         </div>
