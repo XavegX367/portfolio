@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Interactive media",
+        "description": "You create prototypes of interactive media products for your client by using iterations, user research and examples from the professional field.",
+        "prove": ""
+    },
+    {
+        "id": 2,
+        "name": "Development",
+        "description": "You program and integrate proofs of concepts based on validated requirements and documented with version control tools.",
+        "prove": ""
+    },
+    {
+        "id": 3,
+        "name": "Design",
+        "description": "You craft quality visual designs with a professional toolset.",
+        "prove": ""
+    },
+    {
+        "id": 4,
+        "name": "Research",
+        "description": "Apply exploratory research methods that you have selected from a proposed set",
+        "prove": ""
+    },
+    {
+        "id": 5,
+        "name": "Communication",
+        "description": "You communicate effectively with your stakeholders (text and visuals) about the progress of your project and the motivation of your choices.",
+        "prove": ""
+    },
+    {
+        "id": 6,
+        "name": "Professional identity",
+        "description": "You present your professional identity as a media designer in a portfolio that shows your growth and choices.",
+        "prove": ""
+    }
+]
