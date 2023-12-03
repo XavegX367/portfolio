@@ -6,7 +6,7 @@ function Project({ project }) {
   return (
     <div className="project">
         <div className="flex gap-x-2">
-            <a href={project.url}><span className='header-item md:text-4xl'>{project.name}</span></a>
+            <a href={project.url}><span className='md:header-item md:text-4xl'>{project.name}</span></a>
             <div className="flex overflow-x-auto overflow-y-hidden">
                 {
                     project.tags.map((tag, index) => {
