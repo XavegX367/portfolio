@@ -1,5 +1,5 @@
 import { conference_awwwards, joshuas_world, codigital, imarketina, typography } from '../assets'
-import websites from '../components/Buildup/websites.json'
+import inspirations from '../utils/inspirations'
 import SiteInspiration from '../components/Buildup/SiteInspiration'
 
 
@@ -18,10 +18,10 @@ function BuildUp() {
                 </span>
 
                 <section className='flex flex-col justify-center mt-5 gap-y-5'>
-                    <SiteInspiration id={websites[0].id} name={websites[0].name} url={websites[0].url} img={conference_awwwards} description={websites[0].description} />
-                    <SiteInspiration id={websites[1].id} name={websites[1].name} url={websites[1].url} img={joshuas_world} description={websites[1].description} />
-                    <SiteInspiration id={websites[2].id} name={websites[2].name} url={websites[2].url} img={codigital} description={websites[2].description} />
-                    <SiteInspiration id={websites[3].id} name={websites[3].name} url={websites[3].url} img={imarketina} description={websites[3].description} />
+                    <SiteInspiration id={inspirations[0].id} name={inspirations[0].name} url={inspirations[0].url} img={conference_awwwards} description={inspirations[0].description} />
+                    <SiteInspiration id={inspirations[1].id} name={inspirations[1].name} url={inspirations[1].url} img={joshuas_world} description={inspirations[1].description} />
+                    <SiteInspiration id={inspirations[2].id} name={inspirations[2].name} url={inspirations[2].url} img={codigital} description={inspirations[2].description} />
+                    <SiteInspiration id={inspirations[3].id} name={inspirations[3].name} url={inspirations[3].url} img={imarketina} description={inspirations[3].description} />
                 </section>
 
 

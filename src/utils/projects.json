@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Tict",
+        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
+        "url": "https://tict.joriskorsten.nl",
+        "img": "",
+        "tags": ["development", "design"]
+    },
+    {
+        "name": "Fit-Pal",
+        "description": "",
+        "url": "https://app.fit-pal.com",
+        "img": "",
+        "tags": ["interactive-media", "development", "design", "research", "communication"]
+    }
+]

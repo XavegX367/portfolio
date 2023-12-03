@@ -1,0 +1,26 @@
+{
+    "interactive_media": {
+        "name": "Interactive media",
+        "description": "You create prototypes of interactive media products for your client by using iterations, user research and examples from the professional field."
+    },
+    "development": {
+        "name": "Development",
+        "description": "You program and integrate proofs of concepts based on validated requirements and documented with version control tools."
+    },
+    "design": {
+        "name": "Design",
+        "description": "You craft quality visual designs with a professional toolset"
+    },
+    "research": {
+        "name": "Research",
+        "description": "You apply exploratory research methods, driven by a curious and critical attitude."
+    },
+    "communication": {
+        "name": "Communication",
+        "description": "You communicate effectively with your stakeholders (text and visuals) about the progress of your project and the motivation of your choices."
+    },
+    "professional_identity": {
+        "name": "Professional identity",
+        "description": "You present your professional identity as a media designer in a portfolio that shows your growth and choices."
+    }
+}

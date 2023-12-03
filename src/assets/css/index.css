@@ -51,3 +51,41 @@ h1 {
     /* transition: all 50ms ease-out; */
     backdrop-filter: blur(80%);
 }
+
+.header-item {
+    @apply hover:ml-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400 select-none cursor-pointer
+}
+
+.tag {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    @apply mx-1 md:mx-2 bg-gradient-to-l text-white text-center select-none text-xs md:text-lg content-center align-middle self-center px-1 py-1 md:px-4 break-keep md:py-2 rounded-md w-fit font-bold transition-all duration-500 ease-in-out hover:scale-105
+}
+
+.interactive_media {
+    @apply from-[#6600ff] to-[#8341e6]
+}
+
+.development {
+    @apply from-[#15b04e] to-[#57b67a]
+}
+
+.design {
+    @apply from-[#09a0e6] to-[#62c6f5]
+}
+
+.research {
+    @apply from-[#de4949] to-[#dc6262]
+}
+
+.communication {
+    @apply from-[#f08c0a] to-[#edaa53]
+}
+
+.professional_identity {
+    @apply from-[#e902f5] to-[#e76ded]
+}
+
+.project {
+    @apply mb-4 mt-4 text-2xl mx-2 md:mx-8
+}

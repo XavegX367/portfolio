@@ -3,7 +3,7 @@ import NavItem from './NavItem'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect } from 'react'
 import PropTypes from 'prop-types'
-import fragments from './fragments.json'
+import navigation_items from '../../../utils/navigation_items'
 
 function Navigation({sideBarToggle, setSideBarToggle}) {
   const handleClick = () => {
@@ -32,11 +32,10 @@ function Navigation({sideBarToggle, setSideBarToggle}) {
         </div>
         <nav className={`${sideBarToggle ? "" : "hidden"} flex gap-y-5 flex-col justify-center items-center`}>
           {
-            fragments.map((fragment) => {
+            navigation_items.map((fragment, index) => {
               return (
-                <NavItem key={fragment.id} name={fragment.name} path={fragment.path} closeNavigation={handleClick}/>
+                <NavItem key={index} name={fragment.name} path={fragment.path} closeNavigation={handleClick}/>
               )
-            
             })
           }
         </nav>
