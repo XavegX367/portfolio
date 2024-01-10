@@ -63,27 +63,27 @@ h1 {
 }
 
 .interactive_media {
-    @apply from-[#6600ff] to-[#8341e6]
+    @apply from-[#332e3c] to-[#5c3e88]
 }
 
 .development {
-    @apply from-[#15b04e] to-[#57b67a]
+    @apply from-[#235234] to-[#336847]
 }
 
 .design {
-    @apply from-[#09a0e6] to-[#62c6f5]
+    @apply from-[#2e586c] to-[#496c7c]
 }
 
 .research {
-    @apply from-[#de4949] to-[#dc6262]
+    @apply from-[#562525] to-[#714848]
 }
 
 .communication {
-    @apply from-[#f08c0a] to-[#edaa53]
+    @apply from-[#47361f] to-[#7d6544]
 }
 
 .professional_identity {
-    @apply from-[#e902f5] to-[#e76ded]
+    @apply from-[#452047] to-[#6d4a6f]
 }
 
 .project {

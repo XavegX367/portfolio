@@ -21,7 +21,7 @@ function Project({ project }) {
 
         <div className='flex flex-col md:flex-row text-sm md:text-xl mx-4 md:mx-8 mt-2 md:mt-4 text-gray-300'>
             <a href={project.url}>
-                <img src={project.image} alt={project.name} className='w-full md:w-1/2' />
+                <img src={project.img} alt={project.name} className='w-full md:w-1/2' />
                 {/* <Thumbnail 
                     url={project.url} 
                     // width={200}
@@ -35,7 +35,7 @@ function Project({ project }) {
         </div>
 
         <div className='flex justify-end mr-2 md-mr-4'>
-            <Btn content={"Read more"} link={""} />
+            <Btn internal="true" content={"Read more"} link={project.internal} />
         </div>
     </div>
   )

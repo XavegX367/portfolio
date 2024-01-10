@@ -3,14 +3,28 @@
         "name": "Tict",
         "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
         "url": "https://tict.joriskorsten.nl",
+        "internal": "/projects/1",
         "img": "",
-        "tags": ["development", "design"]
+        "tags": ["development", "design"],
+        "user_tests": [
+        ]
     },
     {
-        "name": "Fit-Pal",
-        "description": "",
-        "url": "https://app.fit-pal.com",
-        "img": "",
-        "tags": ["interactive-media", "development", "design", "research", "communication"]
+        "name": "Gym-Shift",
+        "description": "Your Ultimate Fitness Companion! Elevate your fitness journey with the power of personalized workouts. Unleash the full potential of your workouts as you craft your unique exercise schemes and tailor them to your goals.",
+        "url": "https://app.gym-shift.com",
+        "internal": "/projects/2",
+        "img": "https://staging.gym-shift.com/meta_logo.png",
+        "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
+        "user_tests": [
+            {
+                "name": "Ruben van Oers",
+                "gender": "Male",
+                "age": "21",
+                "job": "Developer",
+                "hobbies": "Gym, Gaming",
+                "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
+            }
+        ]
     }
 ]
