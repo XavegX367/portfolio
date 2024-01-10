@@ -13,7 +13,7 @@ function Landing() {
             <div className="flex justify-center mt-4">
                 <span className="text-center text-sm md:text-xl mx-4 md:mx-48">
                     I am 21 years old, currently residing in Schijndel, The Netherlands. I graduated from MBO Application and Media Developer level 4 in 2022. Currently, 
-                    I am pursuing further studies at Fontys Hogeschool in Eindhoven. In addition to my academic pursuits, I have a job as a junior developer at Apostle in Oss.
+                    I am pursuing further studies at Fontys Hogeschool in Eindhoven. In addition to my academic pursuits, I have a job as a junior developer at Apostle in Geffen.
                 </span>
             </div>
 
