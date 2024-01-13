@@ -5,18 +5,14 @@
         "url": "https://tict.joriskorsten.nl",
         "internal": "/projects/1",
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
-        "tags": ["development", "design"],
+        "tags": ["development", "design", "research", "communication"],
         "design_description": "",
         "designing": [
             {
             
             }
         ],
-        "learned": [
-            {
-                
-            }
-        ],
+        "learned": "",
         "user_tests": []
     },
     {
@@ -33,15 +29,15 @@
                 "img": ""
             },
             {
-                "paragraph": "",
-                "img": ""
-            }
-        ],
-        "learned": [
+                "paragraph": "I immediately got the idea that I might want to make something serious of this, so I also went looking for a domain that was available. Since otherwise it is difficult to come up with a name for the app. After a lot of brainstorming, I came up with 'Gym-Shift'. Which makes me think as if you are in a shift to go to the gym, which I somehow found quite funny. I immediately started thinking of a kind of logo for it, where I thought that shifts alternate, which is why I turned the s and made a kind of switch symbol out of it.",
+                "img": "https://staging.gym-shift.com/meta_logo.png"
+            },
             {
-
+                "paragraph": "First, I started by creating the login screen. Here I didn't want to have too much on the screen, so I really only started to show the necessary things. Once you are logged in, you will be taken directly to the 'workout' screen, where you will receive the message that you have not yet created a schedule and you can create it via the plus sign in the top right. The remaining screens speak for themselves, but the current app has had a few small UI adjustments, because I still didn't find it quite neat.",
+                "img": "https://staging.gym-shift.com/images/design.png"
             }
         ],
+        "learned": "I learned a lot from this project, as I had never made a PWA before. I was also able to further develop my skills in TypeScript, as I had always used plain JavaScript with React.",
         "user_tests": [
             {
                 "name": "Ruben",

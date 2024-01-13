@@ -38,23 +38,23 @@ const Project = () => {
             <div className='flex flex-col justify-start'>
               <h1 className='text-2xl'>Designing Phase</h1>
 
-              <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start md:w-2/5'>
+              <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
                 {project.design_description}
               </p>
 
-              <div className='mt-4'>
+              <div className=''>
                 {
                   (project.designing.length > 0) ?
                   project.designing.map((design, index) => (
-                    <div key={index} className='flex flex-col md:flex-row gap-x-4 gap-y-4 md:pl-2 justify-center md:justify-between'>
+                    <div key={index} className='flex flex-col md:flex-row gap-x-4 pl-2 justify-center md:justify-start'>
                       {
                       (design.img) ?
-                        <>
-                        <p>{design.paragraph}</p>
-                        <img src={design.img} className='w-1/2' />
-                        </>
+                        <div className='mt-4 flex flex-col md:flex-row md:gap-x-8 justify-center md:justify-start'>
+                        <p className='md:w-2/5'>{design.paragraph}</p>
+                        <img src={design.img} className='md:w-96 md:h-auto' />
+                        </div>
                         :
-                        <div className='w-2/5'>
+                        <div className='md:w-2/5 mt-4'>
                           <p>{design.paragraph}</p>
                         </div>
                       }
@@ -67,10 +67,14 @@ const Project = () => {
             </div>
 
 
-            <hr className='mt-4 mb-4'></hr>
+            <hr className='mb-4'></hr>
             {/* What have I learned */}
             <div className='flex flex-col justify-between'>
               <h1 className='text-2xl'>What have I learned</h1>
+
+              <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                {project.learned}
+              </p>
             </div>
 
             <hr className='mt-4 mb-4'></hr>
