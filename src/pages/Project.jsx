@@ -31,12 +31,39 @@ const Project = () => {
               <div className='flex flex-row justify-center md:justify-start gap-x-2'>
                 <span className="text-3xl mx-1 md:text-5xl text-white header-item text-center justify-center md:text-start">{project.name}</span>
               </div>
-              <p className='text-base flex flex-wrap md:pl-2 text-center md:text-start'>{project.description}</p>
+              <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>{project.description}</p>
             </div>
             <hr className='mt-4 mb-4'></hr>
             {/* Designing fase */}
-            <div className='flex flex-col justify-between'>
+            <div className='flex flex-col justify-start'>
               <h1 className='text-2xl'>Designing Phase</h1>
+
+              <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start md:w-2/5'>
+                {project.design_description}
+              </p>
+
+              <div className='mt-4'>
+                {
+                  (project.designing.length > 0) ?
+                  project.designing.map((design, index) => (
+                    <div key={index} className='flex flex-col md:flex-row gap-x-4 gap-y-4 md:pl-2 justify-center md:justify-between'>
+                      {
+                      (design.img) ?
+                        <>
+                        <p>{design.paragraph}</p>
+                        <img src={design.img} className='w-1/2' />
+                        </>
+                        :
+                        <div className='w-2/5'>
+                          <p>{design.paragraph}</p>
+                        </div>
+                      }
+                    </div>
+                  ))
+                  :
+                  <div></div>
+                }
+              </div>
             </div>
 
 

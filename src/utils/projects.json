@@ -9,7 +9,7 @@
         "design_description": "",
         "designing": [
             {
-
+            
             }
         ],
         "learned": [
@@ -26,10 +26,15 @@
         "internal": "/projects/2",
         "img": "https://staging.gym-shift.com/meta_logo.png",
         "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
-        "design_description": "",
+        "design_description": "When I started working out, I was assigned several workout plans via the gym's own app by the trainers at the gym. After using the app for a short time, I quickly started thinking about improvements, until at one point I decided that I wanted to make my own gym app.",
         "designing": [
             {
-
+                "paragraph": "Because I was already using the gym's fitness app, I had a bit of an idea of how I wanted the layout to look; simple and easy to use for anyone who goes to the gym. That's why I chose to go with a Material UI style, which gives you simple icons that immediately make it clear what they do without taking up too much space on the screen.",
+                "img": ""
+            },
+            {
+                "paragraph": "",
+                "img": ""
             }
         ],
         "learned": [
@@ -39,7 +44,7 @@
         ],
         "user_tests": [
             {
-                "name": "Ruben van Oers",
+                "name": "Ruben",
                 "gender": "Male",
                 "age": "21",
                 "job": "Developer",
@@ -47,7 +52,7 @@
                 "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
             },
             {
-                "name": "Charlotte van Zuuk",
+                "name": "Charlotte",
                 "gender": "Female",
                 "age": "20",
                 "job": "Student applied psychology",
