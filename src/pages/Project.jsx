@@ -112,7 +112,7 @@ const Project = () => {
                     ))
                   :
                   <div>
-                    <p className='text-base'>No reviews yet</p>
+                    <p className='text-base'>No available reviews</p>
                   </div>
                 }
               </div>

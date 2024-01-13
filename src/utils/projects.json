@@ -6,13 +6,17 @@
         "internal": "/projects/1",
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
         "tags": ["development", "design", "research", "communication"],
-        "design_description": "",
+        "design_description": "At TICT, we were told that they would prefer if we did not stray too far from the current corporate identity. After a preliminary analysis, we saw the following things: a lot of text and looks boring, not inviting.",
         "designing": [
             {
-            
+                "paragraph": "We created a first design with a lot less text and a more modern and exciting style. Users could still find all the information they needed by clicking a question mark button.",
+                "img": "https://tict.joriskorsten.nl/assets/first-design.png"
+            },
+            {
+                "paragraph": "After this design was made we started thinking about how we could make it more fun and interactive. We came up with the idea of making a kind of game out of it, where you can choose 4 answers per question and sometimes an input field. We also added progression ranks which activates the user's competitive side."
             }
         ],
-        "learned": "",
+        "learned": "I picked up building a plain site again without any frameworks, just html, php and css. Because my project partners were not really experienced in programming. I made significant progress in writing CSS. I actually use TailwindCSS these days, because it helps me to set up designs faster than with vanilla CSS.",
         "user_tests": []
     },
     {
