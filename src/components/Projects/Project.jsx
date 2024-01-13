@@ -19,17 +19,10 @@ function Project({ project }) {
             </div>
         </div>
 
-        <div className='flex flex-col md:flex-row text-sm md:text-xl mx-4 md:mx-8 mt-2 md:mt-4 text-gray-300'>
+        <div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 text-gray-300'>
             <a href={project.url}>
-                <img src={project.img} alt={project.name} className='w-full md:w-1/2' />
-                {/* <Thumbnail 
-                    url={project.url} 
-                    // width={200}
-                    // height={200}
-                    iframeHeight={1920}
-                    iframeWidth={1080}
-                    interactive={true}
-                /> */}
+                {/* TODO: Maak een prima width foto van Tict :) */}
+                <img src={project.img} alt={project.name} className='w-full md:w-1/4 md:h-1/4 h-full' />
                 </a>
             {project.description}
         </div>

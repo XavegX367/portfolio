@@ -34,6 +34,20 @@ const Project = () => {
               <p className='text-base flex flex-wrap md:pl-2 text-center md:text-start'>{project.description}</p>
             </div>
             <hr className='mt-4 mb-4'></hr>
+            {/* Designing fase */}
+            <div className='flex flex-col justify-between'>
+              <h1 className='text-2xl'>Designing Phase</h1>
+            </div>
+
+
+            <hr className='mt-4 mb-4'></hr>
+            {/* What have I learned */}
+            <div className='flex flex-col justify-between'>
+              <h1 className='text-2xl'>What have I learned</h1>
+            </div>
+
+            <hr className='mt-4 mb-4'></hr>
+            {/* User tests */}
             <div className='flex flex-col justify-between'>
               <h1 className='text-2xl'>User Reviews</h1>
               <div className='flex flex-col md:flex-row md:gap-x-4 gap-y-4 md:gap-y-0'>

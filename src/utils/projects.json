@@ -4,10 +4,20 @@
         "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
         "url": "https://tict.joriskorsten.nl",
         "internal": "/projects/1",
-        "img": "",
+        "img": "https://tict.joriskorsten.nl/assets/banner.png",
         "tags": ["development", "design"],
-        "user_tests": [
-        ]
+        "design_description": "",
+        "designing": [
+            {
+
+            }
+        ],
+        "learned": [
+            {
+                
+            }
+        ],
+        "user_tests": []
     },
     {
         "name": "Gym-Shift",
@@ -16,6 +26,17 @@
         "internal": "/projects/2",
         "img": "https://staging.gym-shift.com/meta_logo.png",
         "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
+        "design_description": "",
+        "designing": [
+            {
+
+            }
+        ],
+        "learned": [
+            {
+
+            }
+        ],
         "user_tests": [
             {
                 "name": "Ruben van Oers",
@@ -24,6 +45,14 @@
                 "job": "Developer",
                 "hobbies": "Gym, Gaming",
                 "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
+            },
+            {
+                "name": "Charlotte van Zuuk",
+                "gender": "Female",
+                "age": "20",
+                "job": "Student applied psychology",
+                "hobbies": "Gym, Gaming",
+                "review": "Clear app, the workouts you can choose have an explanation of how to perform them, which is very helpful for beginners. Everything is clearly indicated, and the login screen was also easy to use. Additionally, it would be nice to customize your avatar, add images to the workouts, include information about which muscle groups you are targeting, be able to adjust the number of reps, and add deload sets and warming up."
             }
         ]
     }
