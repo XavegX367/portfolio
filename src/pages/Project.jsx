@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router'
 import projects from "../utils/projects"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import { faGitlab } from '@fortawesome/free-brands-svg-icons'
 
 const Project = () => {
   const [project, setProject] = useState(null)
@@ -24,12 +25,18 @@ const Project = () => {
       {
         project && (
           <div className='p-4'>
-            <button className='cursor-pointer' onClick={() => goBack()}>
-                <FontAwesomeIcon icon={faArrowLeft} className='text-4xl mb-4' />
-            </button>
             <div className='md:w-2/5'>
               <div className='flex flex-row justify-center md:justify-start gap-x-2'>
+                <button className='cursor-pointer mt-2' onClick={() => goBack()}>
+                  <FontAwesomeIcon icon={faArrowLeft} className='text-4xl mb-4' />
+                </button>
                 <span className="text-3xl mx-1 md:text-5xl text-white header-item text-center justify-center md:text-start">{project.name}</span>
+                {
+                  (project.git.length > 1) ?
+                    <a target='blank' href={project.git}><FontAwesomeIcon icon={faGitlab} className='text-3xl mt-2' /></a>
+                    : <></>
+
+                }
               </div>
               <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>{project.description}</p>
             </div>

@@ -1,7 +1,6 @@
 import { header } from "../../assets"
 import BulletinBtn from "../Layout/BulletinBtn"
 import navigation_items from '../../utils/navigation_items'
-import Tag from "../Projects/Tag"
 function Landing() {
     return (
         <div>
@@ -17,9 +16,8 @@ function Landing() {
                 </span>
             </div>
 
-            <div className="flex justify-between mt-72 flex-col md:flex-row md:m-40">
+            <div className="flex justify-center mt-72 flex-col md:flex-row md:m-40">
                 <BulletinBtn name={navigation_items[1].name} path={navigation_items[1].path}/>
-                <BulletinBtn name={navigation_items[2].name} path={navigation_items[2].path}/>
             </div>
         </div>
     )

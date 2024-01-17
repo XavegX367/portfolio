@@ -4,10 +4,6 @@
         "path": "/"
     },
     {
-        "name": "Build Up",
-        "path": "/buildup"
-    },
-    {
         "name": "Projects",
         "path": "/projects"
     }

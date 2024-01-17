@@ -6,7 +6,7 @@ import Btn from '../../components/Layout/Btn'
 function Project({ project }) {
   return (
     <div className="project">
-        <div className="flex gap-x-2">
+        <div className="flex flex-col gap-y-2">
             <a href={project.url}><span className='md:header-item md:text-4xl'>{project.name}</span></a>
             <div className="flex overflow-x-auto overflow-y-hidden">
                 {
@@ -19,15 +19,14 @@ function Project({ project }) {
             </div>
         </div>
 
-        <div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 text-gray-300'>
-            <a href={project.url}>
-                {/* TODO: Maak een prima width foto van Tict :) */}
+        <div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 md:w-3/5 text-gray-300'>
+        <a href={project.url}>
                 <img src={project.img} alt={project.name} className='w-full md:w-1/4 md:h-1/4 h-full' />
-                </a>
+            </a>
             {project.description}
         </div>
 
-        <div className='flex justify-end mr-2 md-mr-4'>
+        <div className='flex justify-end md:w-3/5 mr-2 mt-2 mb-2 md-mr-4'>
             <Btn internal="true" content={"Read more"} link={project.internal} />
         </div>
     </div>

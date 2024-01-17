@@ -1,9 +1,28 @@
 [
     {
+        "name": "Portfolio",
+        "git": "https://git.fhict.nl/I504610/portfolio",
+        "description": "More info about the buildup of my portfolio.",
+        "url": "https://portfolio.joriskorsten.nl",
+        "internal": "/projects/1",
+        "img": "https://tict.joriskorsten.nl/assets/portfolio.png",
+        "tags": ["development", "research", "professional_identity"],
+        "design_description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
+        "designing": [
+            {
+                "paragraph": "",
+                "img": ""
+            }
+        ],
+        "learned": "I learned to be critical when making design decisions. Look for typography, match colors, be aware of users with color blindness, etc.",
+        "user_tests": []
+    },
+    {
         "name": "Tict",
+        "git": "https://git.fhict.nl/I504610/tict",
         "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
         "url": "https://tict.joriskorsten.nl",
-        "internal": "/projects/1",
+        "internal": "/projects/2",
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
         "tags": ["development", "design", "research", "communication"],
         "design_description": "At TICT, we were told that they would prefer if we did not stray too far from the current corporate identity. After a preliminary analysis, we saw the following things: a lot of text and looks boring, not inviting.",
@@ -21,9 +40,10 @@
     },
     {
         "name": "Gym-Shift",
-        "description": "Your Ultimate Fitness Companion! Elevate your fitness journey with the power of personalized workouts. Unleash the full potential of your workouts as you craft your unique exercise schemes and tailor them to your goals.",
+        "git": "https://git.fhict.nl/I504610/gymshift-frontend",
+        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking.",
         "url": "https://app.gym-shift.com",
-        "internal": "/projects/2",
+        "internal": "/projects/3",
         "img": "https://staging.gym-shift.com/meta_logo.png",
         "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
         "design_description": "When I started working out, I was assigned several workout plans via the gym's own app by the trainers at the gym. After using the app for a short time, I quickly started thinking about improvements, until at one point I decided that I wanted to make my own gym app.",
@@ -41,7 +61,7 @@
                 "img": "https://staging.gym-shift.com/images/design.png"
             }
         ],
-        "learned": "I learned a lot from this project, as I had never made a PWA before. I was also able to further develop my skills in TypeScript, as I had always used plain JavaScript with React.",
+        "learned": "I learned a lot from this project, as I had never made a PWA before. I was also able to further develop my skills in TypeScript, as I had always used plain JavaScript with React. For the backend I made a Laravel API",
         "user_tests": [
             {
                 "name": "Ruben",
