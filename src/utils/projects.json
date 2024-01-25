@@ -78,6 +78,14 @@
                 "job": "Student applied psychology",
                 "hobbies": "Gym, Gaming",
                 "review": "Clear app, the workouts you can choose have an explanation of how to perform them, which is very helpful for beginners. Everything is clearly indicated, and the login screen was also easy to use. Additionally, it would be nice to customize your avatar, add videos to the workouts, include information about which muscle groups you are targeting, be able to adjust the number of reps, and add deload sets and warming up."
+            },
+            {
+                "name": "Susan",
+                "gender": "Female",
+                "age": "26",
+                "job": "Front-end developer, was P.E. teacher",
+                "hobbies": "Gym, Gaming, Being with friends",
+                "review": "The appearance of the app is very sleek and fits well with a modern fitness app. The logo is appropriate and beautifully designed, showing careful consideration. Upon entering the app, you immediately have a clear user interface (UI). It's not too busy, and you can easily see where you are in the app through the navigation menu at the bottom. Creating a new workout for yourself is simple and fast. After giving it a name, you can choose exercises to include in your workout. I might suggest adding an option to include a custom exercise with a description. Once again, compliments for the clear UI due to the well-thought-out layout, as well as the buttons with text or images for adding or removing items. If you're unsure about something, there's an information button about each exercise. In that information, it might be helpful to add images or a video of the exercise, so users have a visual reference and can perform the exercise correctly. Finally, something often crucial in fitness exercises is a built-in timer, so you don't have to exit the app to set a timer for each exercise. It would be nice if there's an option in the future to input the weight or increase the reps, allowing users to track their progress. Overall, it's a very handy and fast app for creating fitness workouts and keeping track of and saving them."
             }
         ]
     }
