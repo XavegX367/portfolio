@@ -87,7 +87,7 @@ const Project = () => {
             <hr className='mt-4 mb-4'></hr>
             {/* User tests */}
             <div className='flex flex-col justify-between'>
-              <h1 className='text-2xl'>User Reviews</h1>
+              <h1 className='text-2xl'>Usability Tests</h1>
               <div className='flex flex-col md:flex-row md:gap-x-4 gap-y-4 md:gap-y-0'>
                 {
                   ( project.user_tests.length > 0 ) ?
@@ -119,7 +119,7 @@ const Project = () => {
                     ))
                   :
                   <div>
-                    <p className='text-base'>No available reviews</p>
+                    <p className='text-base'>No available tests</p>
                   </div>
                 }
               </div>
