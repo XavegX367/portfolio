@@ -92,7 +92,7 @@ const Project = () => {
                 {
                   ( project.user_tests.length > 0 ) ?
                     project.user_tests.map((user_test, index) => (
-                      <div key={index} className='flex flex-col px-4 gap-x-4 gap-y-2 mt-4 border rounded-xl p-4 md:w-1/5'>
+                      <div key={index} className='flex flex-col px-4 gap-x-4 gap-y-2 mt-4 border rounded-xl p-4 md:w-2/6'>
                         <span className='text-2xl'>{user_test.name}</span>
                         <div className='pl-2'>
                           <div className='flex flex-row gap-x-4'>
