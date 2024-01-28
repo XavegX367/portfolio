@@ -2,6 +2,7 @@
     {
         "name": "Portfolio",
         "git": "https://git.fhict.nl/I504610/portfolio",
+        "design_url": "",
         "description": "More info about the buildup of my portfolio.",
         "url": "https://portfolio.joriskorsten.nl",
         "internal": "/projects/1",
@@ -14,12 +15,14 @@
                 "img": ""
             }
         ],
+        "used_languages": ["React", "TailwindCSS"],
         "learned": "I learned to be critical when making design decisions. Look for typography, match colors, be aware of users with color blindness, etc.",
         "user_tests": []
     },
     {
         "name": "Tict",
         "git": "https://git.fhict.nl/I504610/tict",
+        "design_url": "https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=Sx5aeUvZowidIUuh-1",
         "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
         "url": "https://tict.joriskorsten.nl",
         "internal": "/projects/2",
@@ -35,11 +38,13 @@
                 "paragraph": "After this design was made we started thinking about how we could make it more fun and interactive. We came up with the idea of making a kind of game out of it, where you can choose 4 answers per question and sometimes an input field. We also added progression ranks which activates the user's competitive side."
             }
         ],
+        "used_languages": ["php", "HTML", "CSS"],
         "learned": "I picked up building a plain site again without any frameworks, just html, php and css. Because my project partners were not really experienced in programming. I made significant progress in writing CSS. I actually use TailwindCSS these days, because it helps me to set up designs faster than with vanilla CSS.",
         "user_tests": []
     },
     {
         "name": "Gym-Shift",
+        "design_url": "https://www.figma.com/file/NDgI9hAqzINjuF7M8gaCjn/FitPal?type=design&node-id=0%3A1&mode=design&t=1PuhrKWoEslro82l-1",
         "git": "https://git.fhict.nl/I504610/gymshift-frontend",
         "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking.",
         "url": "https://app.gym-shift.com",
@@ -61,6 +66,7 @@
                 "img": "https://staging.gym-shift.com/images/design.png"
             }
         ],
+        "used_languages": ["React", "TypeScript", "Laravel", "MySQL", "TailwindCSS", "php"],
         "learned": "I learned a lot from this project, as I had never made a PWA before. I was also able to further develop my skills in TypeScript, as I had always used plain JavaScript with React. For the backend I made a Laravel API",
         "user_tests": [
             {

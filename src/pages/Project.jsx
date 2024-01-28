@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
 import projects from "../utils/projects"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import { faGitlab } from '@fortawesome/free-brands-svg-icons'
+import { faArrowLeft, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faCss3, faFigma, faGitlab, faHtml5, faJs, faLaravel, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const Project = () => {
   const [project, setProject] = useState(null)
@@ -36,6 +36,11 @@ const Project = () => {
                     <a target='blank' href={project.git}><FontAwesomeIcon icon={faGitlab} className='text-3xl mt-2' /></a>
                     : <></>
 
+                }
+                {
+                  (project.design_url.length > 1) ?
+                    <a target='blank' href={project.design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl mt-2'/></a>
+                    : <></>
                 }
               </div>
               <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>{project.description}</p>
@@ -83,6 +88,71 @@ const Project = () => {
                 {project.learned}
               </p>
             </div>
+
+            {
+              (project.used_languages.length > 0) ?
+                <div className='flex flex-col justify-between'>
+                  <div className='flex flex-row flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {
+                      project.used_languages.map((language, index) => (
+                        <div key={index} className='flex flex-col md:flex-row justify-start'>
+                          <div className='flex flex-col justify-center mr-6'>
+                            {/* Check the language name and give the right fontawesome icon */}
+                            {
+                              (language === 'HTML') ?
+                                <FontAwesomeIcon icon={faHtml5} className='text-5xl mt-2' />
+                                : <></>
+                            }
+                            {
+                              (language === 'CSS') ?
+                                <FontAwesomeIcon icon={faCss3} className='text-5xl mt-2' />
+                                : <></>
+                            }
+                            {
+                                (language === 'React') ?
+                                <FontAwesomeIcon icon={faReact} className='text-5xl mt-2' />
+                                : <></>
+                            }
+                            {
+                                (language === 'php') ?
+                                <FontAwesomeIcon icon={faPhp} className='text-5xl mt-2' />
+                                : <></>
+                            }
+                            {
+                                (language === 'JavaScript') ?
+                                <FontAwesomeIcon icon={faJs} className='text-5xl mt-2' />
+                                : <></>
+                            }
+                            {
+                              (language === 'MySQL') ?
+                              <img src='https://cdn.worldvectorlogo.com/logos/mysql-6.svg' className='w-16 h-16 grayscale justify' />
+                              : <></>
+                            }
+                            {
+                              (language === 'TailwindCSS') ?
+                              <img src='https://cdn.worldvectorlogo.com/logos/tailwindcss.svg' className='w-16 h-16 grayscale ml-6' />
+                              : <></>
+                            }
+                            {
+                              (language === 'Laravel') ?
+                              <FontAwesomeIcon icon={faLaravel} className='text-5xl mt-2' />
+                              : <></>
+                            }
+                            {
+                              (language === 'TypeScript') ?
+                              <img src='https://cdn.worldvectorlogo.com/logos/typescript.svg' className='w-16 h-16 mr-4 grayscale ml-4' />
+                              : <></>
+                            }
+                            
+                            <span className='text-lg text-center text-[#848484]'>{language}</span>
+                          </div>
+                        </div>
+                      ))
+                    }
+                  </div>
+                </div>
+                : <></>
+            }
 
             <hr className='mt-4 mb-4'></hr>
             {/* User tests */}
