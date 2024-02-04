@@ -1,9 +1,15 @@
 import Tag from './Tag'
 import PropTypes from 'prop-types';
 import Btn from '../../components/Layout/Btn'
+import { useNavigate } from 'react-router-dom'
 // import Thumbnail from "react-webpage-thumbnail";
 
 function Project({ project }) {
+    const navigate = useNavigate()
+
+    const navigateToDiv = (tag) => {
+        navigate(`${project.internal}#${tag}`)
+    }
   return (
     <div className="project">
         <div className="flex flex-col gap-y-2">
@@ -12,7 +18,9 @@ function Project({ project }) {
                 {
                     project.tags.map((tag, index) => {
                         return (
-                            <Tag key={index} kind={tag} />
+                            <div onClick={() => navigateToDiv(tag)} key={index}>
+                                <Tag kind={tag} />
+                            </div>
                         )
                     })
                 }

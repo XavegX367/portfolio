@@ -1,106 +1,124 @@
 [
     {
         "name": "Portfolio",
-        "git": "https://git.fhict.nl/I504610/portfolio",
-        "design_url": "",
-        "description": "More info about the buildup of my portfolio.",
         "url": "https://portfolio.joriskorsten.nl",
-        "internal": "/projects/1",
+        "git": ["https://git.fhict.nl/I504610/portfolio"],
         "img": "https://tict.joriskorsten.nl/assets/portfolio.png",
-        "tags": ["development", "research", "professional_identity"],
-        "design_description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
-        "designing": [
-            {
-                "paragraph": "First I started gathering inspiration from other portfolio's. After some searching I found a few that I like, one in particular was the portfolio of Valentina Pastushenko. It was a really clean site with a lot of white space and focus on the content. The whole sit was in black and white with cool hover and cursor effetcs.",
-                "img": ""
-            }
-        ],
+        "internal": "/projects/1",
+        "design_urls": [],
         "used_languages": ["React", "TailwindCSS"],
-        "learned": "I learned to be critical when making design decisions. Look for typography, match colors, be aware of users with color blindness, etc.",
-        "user_tests": []
+        "description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
+        "tags": ["development", "research", "professional_identity"],
+        "interactive_media": [],
+        "development": [],
+        "design": [],
+        "research": [],
+        "communication": [],
+        "professional_identity": []
     },
     {
         "name": "Tict",
-        "git": "https://git.fhict.nl/I504610/tict",
-        "design_url": "https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=Sx5aeUvZowidIUuh-1",
-        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
         "url": "https://tict.joriskorsten.nl",
-        "internal": "/projects/2",
+        "git": ["https://git.fhict.nl/I504610/tict"],
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
-        "tags": ["development", "design", "research", "communication"],
-        "design_description": "At TICT, we were told that they would prefer if we did not stray too far from the current corporate identity. After a preliminary analysis, we saw the following things: a lot of text and looks boring, not inviting.",
-        "designing": [
-            {
-                "paragraph": "We created a first design with a lot less text and a more modern and exciting style. Users could still find all the information they needed by clicking a question mark button.",
-                "img": "https://tict.joriskorsten.nl/assets/first-design.png"
-            },
-            {
-                "paragraph": "After this design was made we started thinking about how we could make it more fun and interactive. We came up with the idea of making a kind of game out of it, where you can choose 4 answers per question and sometimes an input field. We also added progression ranks which activates the user's competitive side."
-            }
-        ],
+        "internal": "/projects/2",
+        "design_urls": ["https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=Sx5aeUvZowidIUuh-1"],
         "used_languages": ["php", "HTML", "CSS"],
-        "learned": "I picked up building a plain site again without any frameworks, just html, php and css. Because my project partners were not really experienced in programming. I made significant progress in writing CSS. I actually use TailwindCSS these days, because it helps me to set up designs faster than with vanilla CSS.",
-        "user_tests": []
+        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
+        "tags": ["development", "design", "research", "communication"],
+        "interactive_media": {
+            "text": "In this phase I have done some research about the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. We firstly decided to improve the quickscan, it had way too much text. So I created some designs for it where the others continued on. While I started coding the website, since the others didn't have t hat much experience coding.",
+            "reflection": "It was fun to work on the Tict tool in a group, I learned some more on how to design something together and how to make choices together."
+        },
+        "development": {
+            "text": "As for Development we decided it's best to get me in lead, since I was the only one with coding experience. Since the others didn't have experience I decided to use HTML, CSS and a little bit of php for the website so they would also be able to make changes to the website. I had setup a GitLab Repository where I explained the others how to use branches and how to create Merge Requests which I would review for them.",
+            "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish we could have made more of it."
+        },
+        "design": {},
+        "research": {},
+        "communication": {},
+        "professional_identity": {}
     },
     {
         "name": "Gym-Shift",
-        "design_url": "https://www.figma.com/file/NDgI9hAqzINjuF7M8gaCjn/FitPal?type=design&node-id=0%3A1&mode=design&t=1PuhrKWoEslro82l-1",
-        "git": "https://git.fhict.nl/I504610/gymshift-frontend",
-        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking.",
         "url": "https://app.gym-shift.com",
-        "internal": "/projects/3",
+        "git": ["https://git.fhict.nl/I504610/gymshift-frontend", "https://git.fhict.nl/I504610/gymshift-backend"],
         "img": "https://staging.gym-shift.com/meta_logo.png",
-        "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
-        "design_description": "When I started working out, I was assigned several workout plans via the gym's own app by the trainers at the gym. After using the app for a short time, I quickly started thinking about improvements, until at one point I decided that I wanted to make my own gym app.",
-        "designing": [
-            {
-                "paragraph": "Because I was already using the gym's fitness app, I had a bit of an idea of how I wanted the layout to look; simple and easy to use for anyone who goes to the gym. That's why I chose to go with a Material UI style, which gives you simple icons that immediately make it clear what they do without taking up too much space on the screen.",
-                "img": ""
-            },
-            {
-                "paragraph": "I immediately got the idea that I might want to make something serious of this, so I also went looking for a domain that was available. Since otherwise it is difficult to come up with a name for the app. After a lot of brainstorming, I came up with 'Gym-Shift'. Which makes me think as if you are in a shift to go to the gym, which I somehow found quite funny. I immediately started thinking of a kind of logo for it, where I thought that shifts alternate, which is why I turned the s and made a kind of switch symbol out of it.",
-                "img": "https://staging.gym-shift.com/meta_logo.png"
-            },
-            {
-                "paragraph": "First, I started by creating the login screen. Here I didn't want to have too much on the screen, so I really only started to show the necessary things. Once you are logged in, you will be taken directly to the 'workout' screen, where you will receive the message that you have not yet created a schedule and you can create it via the plus sign in the top right. The remaining screens speak for themselves, but the current app has had a few small UI adjustments, because I still didn't find it quite neat.",
-                "img": "https://staging.gym-shift.com/images/design.png"
-            }
-        ],
+        "internal": "/projects/3",
+        "design_urls": ["https://www.figma.com/file/NDgI9hAqzINjuF7M8gaCjn/FitPal?type=design&node-id=0%3A1&mode=design&t=1PuhrKWoEslro82l-1"],
         "used_languages": ["React", "TypeScript", "Laravel", "MySQL", "TailwindCSS", "php"],
-        "learned": "I learned a lot from this project, as I had never made a PWA before. I was also able to further develop my skills in TypeScript, as I had always used plain JavaScript with React. For the backend I made a Laravel API",
-        "user_tests": [
-            {
-                "name": "Ruben",
-                "gender": "Male",
-                "age": "21",
-                "job": "Developer",
-                "hobbies": "Fitness, Gaming",
-                "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
-            },
-            {
-                "name": "Charlotte",
-                "gender": "Female",
-                "age": "20",
-                "job": "Student applied psychology",
-                "hobbies": "Fitness, Gaming",
-                "review": "Clear app, the workouts you can choose have an explanation of how to perform them, which is very helpful for beginners. Everything is clearly indicated, and the login screen was also easy to use. Additionally, it would be nice to customize your avatar, add videos to the workouts, include information about which muscle groups you are targeting, be able to adjust the number of reps, and add deload sets and warming up."
-            },
-            {
-                "name": "Susan",
-                "gender": "Female",
-                "age": "26",
-                "job": "Front-end developer, was P.E. teacher",
-                "hobbies": "Fitness, Gaming, Being with friends",
-                "review": "The appearance of the app is very sleek and fits well with a modern fitness app. The logo is appropriate and beautifully designed, showing careful consideration. Upon entering the app, you immediately have a clear user interface (UI). It's not too busy, and you can easily see where you are in the app through the navigation menu at the bottom. Creating a new workout for yourself is simple and fast. After giving it a name, you can choose exercises to include in your workout. I might suggest adding an option to include a custom exercise with a description. Once again, compliments for the clear UI due to the well-thought-out layout, as well as the buttons with text or images for adding or removing items. If you're unsure about something, there's an information button about each exercise. In that information, it might be helpful to add images or a video of the exercise, so users have a visual reference and can perform the exercise correctly. Finally, something often crucial in fitness exercises is a built-in timer, so you don't have to exit the app to set a timer for each exercise. It would be nice if there's an option in the future to input the weight or increase the reps, allowing users to track their progress. Overall, it's a very handy and fast app for creating fitness workouts and keeping track of and saving them."
-            },
-            {
-                "name": "Daniel",
-                "gender": "Male",
-                "age": "21",
-                "job": "Marketeer",
-                "hobbies": "Fitness, Music, Cooking",
-                "review": "Handy and well-functioning app. However, there are a few features that I miss in order to keep track of my workouts well. It would be useful to be able to add the weight to the set, for example, and also to be able to view your own history. The app itself works quickly and it is very easy to find your way around. In addition, it would also be useful to have an explanation of the exercises, but perhaps it would be more convenient to show an animation or photo here."
+        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking.",
+        "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
+        "interactive_media": {
+            "text": "After knowing which name I wanted to use I designed a logo and a UI. I then chose how I wanted to create the app, after making a plan since I also want to release this app to the public I decided to create a PWA (Progressive Web App) with React and TypeScript. Once there are enough people that are interested in the app I want to introduce a subscription model. I also want to convert the PWA to a native app that could be downloaded from the AppStore and PlayStore, this could be done by using Capacitor. At the moment I have a working prototype which is open to test for anyone who is interested.",
+            "reflection": "I really enjoyed the full process of thinking about creating an app and then make it a realisation. The app is still far from done, but the fundamentals are there."
+        },
+        "development": {
+            "text": "Since the start of the semester I started going to the gym and I saw that my gym's app was actually a website turned into an app. After some googling I found out this was called a PWA (Progressive Web App). I used React and TypeScript for this. After that I started with the backend. I used Laravel and MySQL for this. I also used TailwindCSS for the styling of the app",
+            "reflection": "Creating a PWA was fun, it didn't take a lot of time to set up. I also grew my knowledge of TypeScript and the connection between frontend and backend with Laravel Passport. I was already a bit familiar with React especially Laravel, but I learned a lot more about it since I never used React in combination with TypeScript and set up a very robust, scalable, secure, maintainable and clean backend with Laravel."
+        },
+        "design": {
+            "text": "Before I could think of designing a logo, I had to think of a name that also had an available .com domain. I came up with the name Gym-Shift. Since my brother works in shifts I immediately thought of some kind of switch because another shift starts when his one ends and vice versa. That's why I decided to add arrow on both endings of the 'S' which makes it look like a continuous loop/switch. I then started with the design of the app, I did this in Figma. I wanted to build a clean UI which made it instantly clear what the user could do. I am a huge fan of dark mode and the cleanness of Apple's designs, so I decided to use pill buttons in a Material UI look. I really like the way blue looks on a dark background, so I decided to use that as the main color which also comes back in the logo.",
+            "reflection": "I really enjoyed designing the logo and the app. I learned a lot about the Material UI look and how to make a clean UI. I also learned a lot about the use of colors and how to make a logo that fits the app. I also learned a lot about the use of Figma and how to make a design that is easy to use and looks good."
+        },
+        "research": {
+            "text": "I have asked some friends who also workout to test my app and share their thoughts about it. I had them to download the app as PWA and go through it and tell me what they think with a real and honest opinion. I also asked them to tell me what they would like to see in the app and what they think is missing.",
+            "user_research": {
+                "problem": "Since I started working out, I noticed that there were no apps to create your own workout schemes and always be able to edit them to your own liking. That's why I decided to make my own app, I want users to be the boss of their own workout schemes. The only apps I have seen and used since working out are apps that are focussed on beginners taking you through premade workouts wtihout being able to customize them yourself, this is something that should be possible for the more advanced user. Therefore I decided to make my own app and dedicate it to them.",
+                "users": [
+                    {
+                        "name": "Ruben",
+                        "gender": "Male",
+                        "age": "21",
+                        "job": "Developer",
+                        "hobbies": "Fitness, Gaming",
+                        "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
+                    },
+                    {
+                        "name": "Charlotte",
+                        "gender": "Female",
+                        "age": "20",
+                        "job": "Student applied psychology",
+                        "hobbies": "Fitness, Gaming",
+                        "review": "Clear app, the workouts you can choose have an explanation of how to perform them, which is very helpful for beginners. Everything is clearly indicated, and the login screen was also easy to use. Additionally, it would be nice to customize your avatar, add videos to the workouts, include information about which muscle groups you are targeting, be able to adjust the number of reps, and add deload sets and warming up."
+                    },
+                    {
+                        "name": "Susan",
+                        "gender": "Female",
+                        "age": "26",
+                        "job": "Front-end developer, was P.E. teacher",
+                        "hobbies": "Fitness, Gaming, Being with friends",
+                        "review": "The appearance of the app is very sleek and fits well with a modern fitness app. The logo is appropriate and beautifully designed, showing careful consideration. Upon entering the app, you immediately have a clear user interface (UI). It's not too busy, and you can easily see where you are in the app through the navigation menu at the bottom. Creating a new workout for yourself is simple and fast. After giving it a name, you can choose exercises to include in your workout. I might suggest adding an option to include a custom exercise with a description. Once again, compliments for the clear UI due to the well-thought-out layout, as well as the buttons with text or images for adding or removing items. If you're unsure about something, there's an information button about each exercise. In that information, it might be helpful to add images or a video of the exercise, so users have a visual reference and can perform the exercise correctly. Finally, something often crucial in fitness exercises is a built-in timer, so you don't have to exit the app to set a timer for each exercise. It would be nice if there's an option in the future to input the weight or increase the reps, allowing users to track their progress. Overall, it's a very handy and fast app for creating fitness workouts and keeping track of and saving them."
+                    },
+                    {
+                        "name": "Daniel",
+                        "gender": "Male",
+                        "age": "21",
+                        "job": "Marketeer",
+                        "hobbies": "Fitness, Music, Cooking",
+                        "review": "Handy and well-functioning app. However, there are a few features that I miss in order to keep track of my workouts well. It would be useful to be able to add the weight to the set, for example, and also to be able to view your own history. The app itself works quickly and it is very easy to find your way around. In addition, it would also be useful to have an explanation of the exercises, but perhaps it would be more convenient to show an animation or photo here."
+                    }
+                ],
+                "outcome": "The app is well received by the users, but there are still some features that are missing. The users would like to see a timer, a way to track their progress, and a way to add the weight to the set. Besides that, the users would like to see an explanation of the exercises, but perhaps it would be more convenient to show an animation or photo here. This will also make the app more useable for beginners while this wasn't actually the target audience."
             }
-        ]
+        },
+        "communication": {
+            "text": "I have asked some friends at first what they thought of my plan before even thinking about creating anything. All of them said they would love to use the app so they don't have to keep their workouts in their notes. When I had a working prototype they could test they were all very excited and gave me feedback.",
+            "reflection": "I really got some great feedback from them and I really enjoyed the process of how it went. It was very useful and I learned a lot from it. I also learned a lot about how to communicate with users and how to ask the right questions."
+        },
+        "professional_identity": {
+            "text": "There are a lot of fitness / workout apps, but all of those are often dedicated to beginners or don't give you the full freedom to become the boss of your own workout schemes. You are only getting options for the strength groups you want to train which gives you a full scheme. A lot of people want to be able to create their own workout schemes and always be able to edit them to their own liking.",
+            "reflection": "After my research and feedback from others I really see potential in the app. If I apply the feedback given I am sure the app can be used across anyone who works out for years but also for beginners.",
+            "links": [
+                {
+                    "name": "MangoFitness (PWA of my local gym)",
+                    "url": "https://mango.opencontrolplus.com/"
+                },
+                {
+                    "name": "Gym Workout App & Fitness Plan",
+                    "url": "https://apps.apple.com/nl/app/gym-workout-app-fitness-plan/id1114387800?l=en-GB"
+                }
+            ]
+        }
     }
 ]

@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
 import projects from "../utils/projects"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowLeft, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faCss3, faFigma, faGitlab, faHtml5, faJs, faLaravel, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
+import UserResearch from '../components/Layout/UserResearch'
+import Btn from '../components/Layout/Btn'
 
 const Project = () => {
   const [project, setProject] = useState(null)
@@ -27,173 +29,261 @@ const Project = () => {
           <div className='p-4'>
             <div className='md:w-2/5'>
               <div className='flex flex-row justify-center md:justify-start gap-x-2'>
-                <button className='cursor-pointer mt-2' onClick={() => goBack()}>
+                <button className='cursor-pointer md:mt-2' onClick={() => goBack()}>
                   <FontAwesomeIcon icon={faArrowLeft} className='text-4xl mb-4' />
                 </button>
                 <span className="text-3xl mx-1 md:text-5xl text-white header-item text-center justify-center md:text-start">{project.name}</span>
-                {
-                  (project.git.length > 1) ?
-                    <a target='blank' href={project.git}><FontAwesomeIcon icon={faGitlab} className='text-3xl mt-2' /></a>
-                    : <></>
-
-                }
-                {
-                  (project.design_url.length > 1) ?
-                    <a target='blank' href={project.design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl mt-2'/></a>
-                    : <></>
-                }
               </div>
               <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>{project.description}</p>
             </div>
-            <hr className='mt-4 mb-4'></hr>
-            {/* Designing fase */}
-            <div className='flex flex-col justify-start'>
-              <h1 className='text-2xl'>Designing Phase</h1>
 
-              <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
-                {project.design_description}
-              </p>
-
-              <div className=''>
-                {
-                  (project.designing.length > 0) ?
-                  project.designing.map((design, index) => (
-                    <div key={index} className='flex flex-col md:flex-row gap-x-4 pl-2 justify-center md:justify-start'>
-                      {
-                      (design.img) ?
-                        <div className='mt-4 flex flex-col md:flex-row md:gap-x-8 justify-center md:justify-start'>
-                        <p className='md:w-2/5'>{design.paragraph}</p>
-                        <img src={design.img} className='md:w-96 md:h-auto' />
-                        </div>
-                        :
-                        <div className='md:w-2/5 mt-4'>
-                          <p>{design.paragraph}</p>
-                        </div>
-                      }
-                    </div>
-                  ))
-                  :
-                  <div></div>
-                }
-              </div>
-            </div>
-
-
-            <hr className='mb-4'></hr>
-            {/* What have I learned */}
-            <div className='flex flex-col justify-between'>
-              <h1 className='text-2xl'>What have I learned</h1>
-
-              <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
-                {project.learned}
-              </p>
-            </div>
-
+            {/* Interactive Media */}
             {
-              (project.used_languages.length > 0) ?
-                <div className='flex flex-col justify-between'>
-                  <div className='flex flex-row flex-wrap pl-2 md:mt-4 md:w-2/5'>
-                    {
-                      project.used_languages.map((language, index) => (
-                        <div key={index} className='flex flex-col md:flex-row justify-start'>
-                          <div className='flex flex-col justify-center mr-6'>
-                            {/* Check the language name and give the right fontawesome icon */}
-                            {
-                              (language === 'HTML') ?
-                                <FontAwesomeIcon icon={faHtml5} className='text-5xl mt-2' />
-                                : <></>
-                            }
-                            {
-                              (language === 'CSS') ?
-                                <FontAwesomeIcon icon={faCss3} className='text-5xl mt-2' />
-                                : <></>
-                            }
-                            {
-                                (language === 'React') ?
-                                <FontAwesomeIcon icon={faReact} className='text-5xl mt-2' />
-                                : <></>
-                            }
-                            {
-                                (language === 'php') ?
-                                <FontAwesomeIcon icon={faPhp} className='text-5xl mt-2' />
-                                : <></>
-                            }
-                            {
-                                (language === 'JavaScript') ?
-                                <FontAwesomeIcon icon={faJs} className='text-5xl mt-2' />
-                                : <></>
-                            }
-                            {
-                              (language === 'MySQL') ?
-                              <img src='https://cdn.worldvectorlogo.com/logos/mysql-6.svg' className='w-16 h-16 grayscale justify' />
-                              : <></>
-                            }
-                            {
-                              (language === 'TailwindCSS') ?
-                              <img src='https://cdn.worldvectorlogo.com/logos/tailwindcss.svg' className='w-16 h-16 grayscale ml-6' />
-                              : <></>
-                            }
-                            {
-                              (language === 'Laravel') ?
-                              <FontAwesomeIcon icon={faLaravel} className='text-5xl mt-2' />
-                              : <></>
-                            }
-                            {
-                              (language === 'TypeScript') ?
-                              <img src='https://cdn.worldvectorlogo.com/logos/typescript.svg' className='w-16 h-16 mr-4 grayscale ml-4' />
-                              : <></>
-                            }
-                            
-                            <span className='text-lg text-center text-[#848484]'>{language}</span>
-                          </div>
-                        </div>
-                      ))
-                    }
-                  </div>
+              (project.interactive_media !== undefined) ?
+                <div id='interactive_media' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <h1 className='text-2xl'>Interactive Media</h1>
+
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.interactive_media.text}
+                  </p>
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    <span className='pl-2'>{project.interactive_media.reflection}</span>
+                  </p>
+
                 </div>
-                : <></>
+              : <></>
             }
 
-            <hr className='mt-4 mb-4'></hr>
-            {/* User tests */}
-            <div className='flex flex-col justify-between'>
-              <h1 className='text-2xl'>Usability Tests</h1>
-              <div className='flex flex-col md:flex-row md:gap-x-4 gap-y-4 md:gap-y-0'>
-                {
-                  ( project.user_tests.length > 0 ) ?
-                    project.user_tests.map((user_test, index) => (
-                      <div key={index} className='flex flex-col px-4 gap-x-4 gap-y-2 mt-4 border rounded-xl p-4 md:w-2/6'>
-                        <span className='text-2xl'>{user_test.name}</span>
-                        <div className='pl-2'>
-                          <div className='flex flex-row gap-x-4'>
-                            <div className='flex flex-col'>
-                              <span>Gender:</span>
-                              <span>Age:</span>
-                              <span>Profession:</span>
-                              <span>Hobbies:</span>
-                            </div>
-                            <div className='flex flex-col'>
-                              <p className='text-base'>{user_test.gender}</p>
-                              <p className='text-base'>{user_test.age}</p>
-                              <p className='text-base'>{user_test.job}</p>
-                              <p className='text-base'>{user_test.hobbies}</p>
-                            </div>
-                          </div>
+            {/* Development */}
+            {
+              (project.development !== undefined) ?
+                <div id='development' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <div className='flex flex-row md:justify-start gap-x-2'>
+                    <h1 className='text-2xl'>Development </h1>
+                    {
+                      (project.git.length > 0) ?
+                        project.git.map((git, index) => (
+                          <a key={index} target='blank' href={git}><FontAwesomeIcon icon={faGitlab} className='text-3xl' /></a>
+                        ))
+                      : <></>
+                    }
+                  </div>
 
-                          <div className='flex flex-col flex-wrap mt-4'>
-                            <h1 className='text-2xl'>Feedback:</h1>
-                            <p className='text-base pl-2'>{user_test.review}</p>
-                          </div>
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.development.text}
+                  </p>
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    <span className='pl-2'>{project.development.reflection}</span>
+                  </p>
+
+                  
+
+                  {
+                    (project.used_languages.length > 0) ?
+                      <div className='flex flex-col justify-between pl-6'>
+                        <h1 className='text-xl mt-2'>Languages and Frameworks</h1>
+                        <div className='flex flex-row flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                          {
+                            project.used_languages.map((language, index) => (
+                              <div key={index} className='flex flex-col md:flex-row justify-start'>
+                                <div className='flex flex-col justify-center mr-6'>
+                                  {/* Check the language name and give the right fontawesome icon */}
+                                  {
+                                    (language === 'HTML') ?
+                                      <FontAwesomeIcon icon={faHtml5} className='text-5xl mt-2' />
+                                      : <></>
+                                  }
+                                  {
+                                    (language === 'CSS') ?
+                                      <FontAwesomeIcon icon={faCss3} className='text-5xl mt-2' />
+                                      : <></>
+                                  }
+                                  {
+                                      (language === 'React') ?
+                                      <FontAwesomeIcon icon={faReact} className='text-5xl mt-2' />
+                                      : <></>
+                                  }
+                                  {
+                                      (language === 'php') ?
+                                      <FontAwesomeIcon icon={faPhp} className='text-5xl mt-2' />
+                                      : <></>
+                                  }
+                                  {
+                                      (language === 'JavaScript') ?
+                                      <FontAwesomeIcon icon={faJs} className='text-5xl mt-2' />
+                                      : <></>
+                                  }
+                                  {
+                                    (language === 'MySQL') ?
+                                    <img src='https://cdn.worldvectorlogo.com/logos/mysql-6.svg' className='w-16 h-16 grayscale justify' />
+                                    : <></>
+                                  }
+                                  {
+                                    (language === 'TailwindCSS') ?
+                                    <img src='https://cdn.worldvectorlogo.com/logos/tailwindcss.svg' className='w-16 h-16 grayscale ml-6' />
+                                    : <></>
+                                  }
+                                  {
+                                    (language === 'Laravel') ?
+                                    <FontAwesomeIcon icon={faLaravel} className='text-5xl mt-2' />
+                                    : <></>
+                                  }
+                                  {
+                                    (language === 'TypeScript') ?
+                                    <img src='https://cdn.worldvectorlogo.com/logos/typescript.svg' className='w-16 h-16 mr-4 grayscale ml-4' />
+                                    : <></>
+                                  }
+                                  
+                                  <span className='text-lg text-center text-[#848484]'>{language}</span>
+                                </div>
+                              </div>
+                            ))
+                          }
                         </div>
                       </div>
-                    ))
-                  :
-                  <div>
-                    <p className='text-base'>No available tests</p>
+                      : <></>
+                  }
+                </div>
+              : <></>
+            }
+
+            {/* Design */}
+            {
+              (project.design !== undefined) ?
+                <div id='design' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <div className='flex flex-row md:justify-start gap-x-2'>
+                    <h1 className='text-2xl'>Design</h1>
+                    {
+                    (project.design_urls.length > 0) ?
+                      project.design_urls.map((design_url, index) => (
+                        <a key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
+                      ))
+                      : <></>
+                    }
                   </div>
-                }
-              </div>
-            </div>
+
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.design.text}
+                  </p>
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    <span className='pl-2'>{project.design.reflection}</span>
+                  </p>
+
+                </div>
+              : <></>
+            }
+
+            {/* Research */}
+            {
+              (project.research !== undefined) ?
+                <div id='research' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <h1 className='text-2xl'>Research</h1>
+
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.research.text}
+                  </p>
+
+                  {
+                    (project.research.user_research !== undefined) ?
+                      <div className='mt-4 pl-4'>
+                        <h1>Problem</h1>
+                        <div className='pl-2 md:w-2/5'>
+                          <span>{project.research.user_research.problem}</span>
+                        </div>
+                        <div className='flex flex-col md:flex-row md:gap-x-4'>
+                          {
+                            project.research.user_research.users.map((user_test, index) => (
+                              <UserResearch key={index} reviewer={user_test} />
+                              ))
+                            }
+                        </div>
+                      </div>
+                    : <></>
+                  }
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    {
+                      (project.research.user_research !== undefined && project.research.user_research.outcome !== undefined) ?
+                        <span className='pl-2'>{project.research.user_research.outcome}</span>
+                        :
+                        <span className='pl-2'>{project.research.reflection}</span>
+                    }
+                  </p>
+
+                </div>
+              : <></>
+            }
+
+            {/* Communication */}
+            {
+              (project.communication !== undefined) ?
+                <div id='communication' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <h1 className='text-2xl'>Communication</h1>
+
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.communication.text}
+                  </p>
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    <span className='pl-2'>{project.communication.reflection}</span>
+                  </p>
+
+                </div>
+              : <></>
+            }
+
+            {/* Professional Identity */}
+            {
+              (project.professional_identity !== undefined) ?
+                <div id='professional_identity' className='flex flex-col justify-start'>
+                  <hr className='mt-4 mb-4'></hr>
+                  <h1 className='text-2xl'>Professional Identity</h1>
+
+                  <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
+                    {project.professional_identity.text}
+                  </p>
+
+
+                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                    <span className='italic'>Reflection:</span>
+                    <span className='pl-2'>{project.professional_identity.reflection}</span>
+                  </p>
+
+                  {
+                    (project.professional_identity.links !== undefined) ?
+                    <div className='flex flex-col md:flex-row gap-y-4 mt-2 gap-x-4'>
+                      {
+                        project.professional_identity.links.map((url, index) => (
+                          // <a className='btn' key={index} target ='blank' href ={url.url}>{url.name}</a>
+                          <Btn key={index} content={url.name} link={url.url} />
+
+                          ))
+                      }
+                    </div>
+                      : <></>
+                  }
+
+                </div>
+              : <></>
+            }
 
           </div>
         )
@@ -203,3 +293,6 @@ const Project = () => {
 }
 
 export default Project
+
+
+{/* <UserResearch key={index} reviewer={user_test} /> */}
