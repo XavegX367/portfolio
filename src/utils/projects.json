@@ -9,16 +9,22 @@
         "design_urls": [],
         "used_languages": ["React", "TailwindCSS"],
         "description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
-        "tags": ["development", "research", "professional_identity"],
-        "interactive_media": [],
-        "development": [],
+        "tags": ["development", "design", "research", "professional_identity"],
+        "development": {
+        "text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
+        "reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
+        },
         "design": {
             "text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
             "reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
         },
-        "research": [],
-        "communication": [],
-        "professional_identity": []
+        "research": {
+            "text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
+            "reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
+        },
+        "professional_identity": {
+            "text": "I have spent some time building this portfolio and I have advanced my skills in React and animation skills with TailwindCSS from it. I found out it really is better to first create a design in Figma before starting to code"
+        }
     },
     {
         "name": "Tict",

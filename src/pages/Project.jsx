@@ -278,11 +278,13 @@ const Project = () => {
                     {project.professional_identity.text}
                   </p>
 
-
-                  <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
+                  {
+                    (project.professional_identity.reflection !== undefined) ?
+                    <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
                     <span className='italic'>Reflection:</span>
                     <span className='pl-2'>{project.professional_identity.reflection}</span>
-                  </p>
+                  </p> : null
+                  }
 
                   {
                     (project.professional_identity.links !== undefined) ?
