@@ -42,7 +42,16 @@ const Project = () => {
               (project.interactive_media !== undefined) ?
                 <div id='interactive_media' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
-                  <h1 className='text-2xl'>Interactive Media</h1>
+                  <div className='flex flex-row md:justify-start gap-x-2'>
+                    <h1 className='text-2xl'>Interactive Media</h1>
+                    {
+                    (project.design_urls.length > 0) ?
+                      project.design_urls.map((design_url, index) => (
+                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
+                      ))
+                      : <></>
+                    }
+                  </div>
 
                   <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
                     {project.interactive_media.text}
@@ -68,7 +77,7 @@ const Project = () => {
                     {
                       (project.git.length > 0) ?
                         project.git.map((git, index) => (
-                          <a key={index} target='blank' href={git}><FontAwesomeIcon icon={faGitlab} className='text-3xl' /></a>
+                          <a className='icon_link' key={index} target='blank' href={git}><FontAwesomeIcon icon={faGitlab} className='text-3xl' /></a>
                         ))
                       : <></>
                     }
@@ -165,7 +174,7 @@ const Project = () => {
                     {
                     (project.design_urls.length > 0) ?
                       project.design_urls.map((design_url, index) => (
-                        <a key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
+                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
                       ))
                       : <></>
                     }
@@ -180,6 +189,14 @@ const Project = () => {
                     <span className='italic'>Reflection:</span>
                     <span className='pl-2'>{project.design.reflection}</span>
                   </p>
+
+                  {
+                    (project.buildup !== undefined && project.buildup === true) ?
+                    <div className='mt-2'>
+                          <Btn content={"Portfolio Buildup"} internal={true} link={"/buildup"} />
+                    </div>
+                    : null
+                  }
 
                 </div>
               : <></>

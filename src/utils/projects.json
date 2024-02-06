@@ -4,6 +4,7 @@
         "url": "https://portfolio.joriskorsten.nl",
         "git": ["https://git.fhict.nl/I504610/portfolio"],
         "img": "https://tict.joriskorsten.nl/assets/portfolio.png",
+        "buildup": true,
         "internal": "/projects/1",
         "design_urls": [],
         "used_languages": ["React", "TailwindCSS"],
@@ -11,7 +12,10 @@
         "tags": ["development", "research", "professional_identity"],
         "interactive_media": [],
         "development": [],
-        "design": [],
+        "design": {
+            "text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
+            "reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
+        },
         "research": [],
         "communication": [],
         "professional_identity": []
