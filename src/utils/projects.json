@@ -22,10 +22,10 @@
         "git": ["https://git.fhict.nl/I504610/tict"],
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
         "internal": "/projects/2",
-        "design_urls": ["https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=Sx5aeUvZowidIUuh-1"],
+        "design_urls": ["https://www.figma.com/file/AA99GXQMJ8sCOlkyQtYI71/Figjam?type=whiteboard&node-id=0%3A1&t=TwztZgpCFTy91j4s-1", "https://www.figma.com/file/gZbdw52vfTBInjZC1fEa30/Quick-Scan?type=design&node-id=0%3A1&mode=design&t=bLNExSGNbKjT809P-1", "https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=hqCQT5KZPgWGnrF0-1"],
         "used_languages": ["php", "HTML", "CSS"],
         "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
-        "tags": ["development", "design", "research", "communication"],
+        "tags": ["interactive_media", "development", "design", "research", "communication"],
         "interactive_media": {
             "text": "In this phase I have done some research about the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. We firstly decided to improve the quickscan, it had way too much text. So I created some designs for it where the others continued on. While I started coding the website, since the others didn't have t hat much experience coding.",
             "reflection": "It was fun to work on the Tict tool in a group, I learned some more on how to design something together and how to make choices together."
@@ -34,7 +34,9 @@
             "text": "As for Development we decided it's best to get me in lead, since I was the only one with coding experience. Since the others didn't have experience I decided to use HTML, CSS and a little bit of php for the website so they would also be able to make changes to the website. I had setup a GitLab Repository where I explained the others how to use branches and how to create Merge Requests which I would review for them.",
             "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish we could have made more of it."
         },
-        "design": {},
+        "design": {
+
+        },
         "research": {},
         "communication": {},
         "professional_identity": {}
@@ -113,10 +115,6 @@
                 {
                     "name": "MangoFitness (PWA of my local gym)",
                     "url": "https://mango.opencontrolplus.com/"
-                },
-                {
-                    "name": "Gym Workout App & Fitness Plan",
-                    "url": "https://apps.apple.com/nl/app/gym-workout-app-fitness-plan/id1114387800?l=en-GB"
                 }
             ]
         }
