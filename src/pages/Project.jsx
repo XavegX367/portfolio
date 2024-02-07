@@ -184,19 +184,10 @@ const Project = () => {
                     {project.design.text}
                   </p>
 
-
                   <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
                     <span className='italic'>Reflection:</span>
                     <span className='pl-2'>{project.design.reflection}</span>
                   </p>
-
-                  {
-                    (project.buildup !== undefined && project.buildup === true) ?
-                    <div className='mt-2'>
-                          <Btn content={"Portfolio Buildup"} internal={true} link={"/buildup"} />
-                    </div>
-                    : null
-                  }
 
                 </div>
               : <></>
@@ -231,7 +222,6 @@ const Project = () => {
                     : <></>
                   }
 
-
                   <p className='text-base flex flex-wrap pl-4 md:mt-4 md:w-2/5'>
                     <span className='italic'>Reflection:</span>
                     {
@@ -241,6 +231,14 @@ const Project = () => {
                         <span className='pl-2'>{project.research.reflection}</span>
                     }
                   </p>
+
+                  {
+                          (project.buildup !== undefined && project.buildup === true) ?
+                          <div className='mt-2'>
+                                <Btn content={"Portfolio Research"} internal={true} link={"/buildup"} />
+                          </div>
+                          : null
+                        }
 
                 </div>
               : <></>
