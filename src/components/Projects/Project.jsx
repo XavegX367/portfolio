@@ -24,7 +24,7 @@ function Project({ project }) {
             </div>
 
             <div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 md:w-3/5 text-gray-300'>
-            <a href={project.url}>
+            <a target='blank' href={project.url}>
                     <img src={project.img} alt={project.name} className='w-full md:w-1/4 md:h-1/4 h-full' />
                 </a>
                 {project.description}
