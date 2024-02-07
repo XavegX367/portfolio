@@ -9,7 +9,7 @@ function Project({ project }) {
     return (
         <div className="project">
             <div className="flex flex-col gap-y-2">
-                <a href={project.url}><span className='md:header-item md:text-4xl'>{project.name}</span></a>
+                <a target='blank' href={project.url}><span className='md:header-item md:text-4xl'>{project.name}</span></a>
                 <div className="flex overflow-x-auto overflow-y-hidden">
                     {
                         project.tags.map((tag, index) => {
