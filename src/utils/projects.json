@@ -45,10 +45,17 @@
             "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish we could have made more of it."
         },
         "design": {
-
+            "text": "Before designing anything we decided to do analyse the website, what did we think of it, what would we do differently and how could we make it better. We've made a list in a figma project (click the first figma icon above). I started to redesign the quick scan. Since it had way too much text, I made a one question per page design, with a better explanation of the question hidden under a button with a question mark. This made the screen a lot more peacefull and easier to keep focus on the question.",
+            "reflection": "I really enjoyed the design phase, I didn't use any other website/design for inspiration. I had already clear in my head what I wanted to make. My project partners liked it and wanted to continue on it. To be fair, I think we would have been better of not overdesigning it, since we didn't have that much time to make it and it looked very clean."
         },
-        "research": {},
-        "communication": {}
+        "research": {
+            "text": "We have done some research on the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. (List and workout of this can be found in the first Figma icon next to Design or Interactive Media).",
+            "reflection": "I think the research phase went okay, we were all kind of on the same line about what we wanted to change. Maybe we thought a little bit too big, since we didn't have that much time to make it."
+        },
+        "communication": {
+            "text": "The communication in the group itself wasn't all to good. Some people didn't really participate in the conversation and really went on the background. Communication with the stakeholder also wasn't all to good, he didn't really understand what we wanted to do with the tool. He did like the community part that we thought of, but not really what we designed for the rest.",
+            "reflection": "Maybe we could have communicated better with the stakeholder, he understood what we wanted to do on the presentation day, but not really before that. I also think we could have communicated better in the group, I think we could have made more of the project if we did."
+        }
     },
     {
         "name": "Gym-Shift",
