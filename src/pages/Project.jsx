@@ -281,7 +281,9 @@ const Project = () => {
               (project.professional_identity !== undefined) ?
                 <div id='professional_identity' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
-                  <h1 className='text-2xl'>Professional Identity</h1>
+                  <div>
+                    <Tag kind={"professional_identity"} />
+                  </div>
 
                   <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
                     {project.professional_identity.text}
