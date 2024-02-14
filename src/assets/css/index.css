@@ -62,7 +62,7 @@ h1 {
 }
 
 .header-item {
-    @apply hover:ml-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400 select-none cursor-pointer
+    @apply hover:pl-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400 select-none cursor-pointer
 }
 
 .tag {
