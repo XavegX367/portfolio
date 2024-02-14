@@ -33,8 +33,9 @@
         "img": "https://tict.joriskorsten.nl/assets/banner.png",
         "internal": "/projects/2",
         "design_urls": ["https://www.figma.com/file/AA99GXQMJ8sCOlkyQtYI71/Figjam?type=whiteboard&node-id=0%3A1&t=TwztZgpCFTy91j4s-1", "https://www.figma.com/file/gZbdw52vfTBInjZC1fEa30/Quick-Scan?type=design&node-id=0%3A1&mode=design&t=bLNExSGNbKjT809P-1", "https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=hqCQT5KZPgWGnrF0-1"],
+        "research_url": "https://www.figma.com/file/AA99GXQMJ8sCOlkyQtYI71/Figjam?type=whiteboard&node-id=0%3A1&t=TwztZgpCFTy91j4s-1",
         "used_languages": ["php", "HTML", "CSS"],
-        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. This tool will not tell you what is right or wrong or better. It will help you think about the impact of a (new) technology by asking the right questions so you can make better decisions.",
+        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. The tool itself is a solid thing, but it could visually use some improvements. Students working with the tool were having a very hard time filling in the forms. It was boring. That's why we decided to improve the tool.",
         "tags": ["interactive_media", "development", "design", "research", "communication"],
         "interactive_media": {
             "text": "In this phase I have done some research about the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. We firstly decided to improve the quickscan, it had way too much text. So I created some designs for it where the others continued on. While I started coding the website, since the others didn't have t hat much experience coding.",
@@ -42,14 +43,14 @@
         },
         "development": {
             "text": "As for Development we decided it's best to get me in lead, since I was the only one with coding experience. Since the others didn't have experience I decided to use HTML, CSS and a little bit of php for the website so they would also be able to make changes to the website. I had setup a GitLab Repository where I explained the others how to use branches and how to create Merge Requests which I would review for them.",
-            "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish we could have made more of it."
+            "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish I could have made more of it."
         },
         "design": {
-            "text": "Before designing anything we decided to do analyse the website, what did we think of it, what would we do differently and how could we make it better. We've made a list in a figma project (click the first figma icon above). I started to redesign the quick scan. Since it had way too much text, I made a one question per page design, with a better explanation of the question hidden under a button with a question mark. This made the screen a lot more peacefull and easier to keep focus on the question.",
+            "text": "Before designing anything I decided to do analyse the website, what did I think of it, what would I do differently and how could I make it better. We've made a list in a figma project (click the first figma icon above). I started to redesign the quick scan. Since it had way too much text, I made a one question per page design, with a better explanation of the question hidden under a button with a question mark. This made the screen a lot more peacefull and easier to keep focus on the question.",
             "reflection": "I really enjoyed the design phase, I didn't use any other website/design for inspiration. I had already clear in my head what I wanted to make. My project partners liked it and wanted to continue on it. To be fair, I think we would have been better of not overdesigning it, since we didn't have that much time to make it and it looked very clean."
         },
         "research": {
-            "text": "We have done some research on the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. (List and workout of this can be found in the first Figma icon next to Design or Interactive Media).",
+            "text": "I have done some research on the current Tict tool and how it could be improved. I have put those things into a Figma board together with my project mates and discussed which things we wanted to improve. (List and workout of this can be found in the first Figma icon next to 'Research').",
             "reflection": "I think the research phase went okay, we were all kind of on the same line about what we wanted to change. Maybe we thought a little bit too big, since we didn't have that much time to make it."
         },
         "communication": {
@@ -65,7 +66,7 @@
         "internal": "/projects/3",
         "design_urls": ["https://www.figma.com/file/NDgI9hAqzINjuF7M8gaCjn/FitPal?type=design&node-id=0%3A1&mode=design&t=1PuhrKWoEslro82l-1"],
         "used_languages": ["React", "TypeScript", "Laravel", "MySQL", "TailwindCSS", "php"],
-        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking.",
+        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking. For future development I would like the app to keep track of progress, add some functionalities during workouts and maybe also add a social aspect to it so you can help others get the best out of their workouts.",
         "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
         "interactive_media": {
             "text": "After knowing which name I wanted to use I designed a logo and a UI. I then chose how I wanted to create the app, after making a plan since I also want to release this app to the public I decided to create a PWA (Progressive Web App) with React and TypeScript. Once there are enough people that are interested in the app I want to introduce a subscription model. I also want to convert the PWA to a native app that could be downloaded from the AppStore and PlayStore, this could be done by using Capacitor. At the moment I have a working prototype which is open to test for anyone who is interested.",

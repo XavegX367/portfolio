@@ -6,6 +6,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faCss3, faFigma, faGitlab, faHtml5, faJs, faLaravel, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
 import UserResearch from '../components/Layout/UserResearch'
 import Btn from '../components/Layout/Btn'
+import Tag from '../components/Projects/Tag'
 
 const Project = () => {
   const [project, setProject] = useState(null)
@@ -32,7 +33,7 @@ const Project = () => {
                 <button className='cursor-pointer md:mt-2' onClick={() => goBack()}>
                   <FontAwesomeIcon icon={faArrowLeft} className='text-4xl mb-4' />
                 </button>
-                <span className="text-3xl mx-1 md:text-5xl text-white header-item text-center justify-center md:text-start">{project.name}</span>
+                <span onClick={() => goBack()} className="text-3xl mx-1 md:text-5xl text-white header-item text-center justify-center md:text-start">{project.name}</span>
               </div>
               <p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>{project.description}</p>
             </div>
@@ -43,11 +44,11 @@ const Project = () => {
                 <div id='interactive_media' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
                   <div className='flex flex-row md:justify-start gap-x-2'>
-                    <h1 className='text-2xl'>Interactive Media</h1>
+                    <Tag kind={"interactive_media"} />
                     {
                     (project.design_urls.length > 0) ?
                       project.design_urls.map((design_url, index) => (
-                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
+                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl mt-2'/></a>
                       ))
                       : <></>
                     }
@@ -73,11 +74,11 @@ const Project = () => {
                 <div id='development' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
                   <div className='flex flex-row md:justify-start gap-x-2'>
-                    <h1 className='text-2xl'>Development </h1>
+                  <Tag kind={"development"} />
                     {
                       (project.git.length > 0) ?
                         project.git.map((git, index) => (
-                          <a className='icon_link' key={index} target='blank' href={git}><FontAwesomeIcon icon={faGitlab} className='text-3xl' /></a>
+                          <a className='icon_link' key={index} target='blank' href={git}><FontAwesomeIcon icon={faGitlab} className='text-3xl mt-2' /></a>
                         ))
                       : <></>
                     }
@@ -170,11 +171,11 @@ const Project = () => {
                 <div id='design' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
                   <div className='flex flex-row md:justify-start gap-x-2'>
-                    <h1 className='text-2xl'>Design</h1>
+                    <Tag kind={"design"} />
                     {
                     (project.design_urls.length > 0) ?
                       project.design_urls.map((design_url, index) => (
-                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl'/></a>
+                        <a className='icon_link' key={index} target='blank' href={design_url}><FontAwesomeIcon icon={faFigma} className='text-3xl mt-2'/></a>
                       ))
                       : <></>
                     }
@@ -198,7 +199,14 @@ const Project = () => {
               (project.research !== undefined) ?
                 <div id='research' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
-                  <h1 className='text-2xl'>Research</h1>
+                  <div className='flex flex-row md:justify-start gap-x-2'>
+                    <Tag kind={"research"} />
+                      {
+                      (project.research_url) ?
+                          <a className='icon_link' target='blank' href={project.research_url}><FontAwesomeIcon icon={faFigma} className='text-3xl mt-2'/></a>
+                        : <></>
+                      }
+                  </div>
 
                   <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
                     {project.research.text}
@@ -249,7 +257,10 @@ const Project = () => {
               (project.communication !== undefined) ?
                 <div id='communication' className='flex flex-col justify-start'>
                   <hr className='mt-4 mb-4'></hr>
-                  <h1 className='text-2xl'>Communication</h1>
+                  {/* <h1 className='text-2xl'>Communication</h1> */}
+                  <div>
+                    <Tag kind={"communication"} />
+                  </div>
 
                   <p className='text-base flex flex-wrap pl-2 md:mt-4 md:w-2/5'>
                     {project.communication.text}

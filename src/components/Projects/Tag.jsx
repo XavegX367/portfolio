@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 function Tag({kind}) {
     const tag = learning_outcomes[kind];
-
   return <>
     {
         (tag === undefined || tag === null) ?
