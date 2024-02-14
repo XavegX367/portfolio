@@ -1,12 +1,13 @@
-import { header } from "../../assets"
+import { header, portrait } from "../../assets"
 import BulletinBtn from "../Layout/BulletinBtn"
 import navigation_items from '../../utils/navigation_items'
 function Landing() {
     return (
         <div>
             {/* Add row with LinkedIn button */}
-            <div className="flex justify-center">
+            <div className="flex justify-center group transition-all duration-300 ease-in-out relative">
                 <img src={header} alt="header" className="w-full pl-4 md:pl-20 md:mr-4 select-none" draggable="false" />
+                <img src={portrait} alt="header" className="w-3/5 md:w-1/5 select-none hidden group-hover:block absolute transform transition duration-300 ease-in-out" draggable="false" />
             </div>
 
             <div className="flex justify-center mt-4">

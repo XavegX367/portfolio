@@ -4,6 +4,7 @@ import conference_awwwards from './images/conference_awwwards.png';
 import imarketina from './images/imarketina.png';
 import joshuas_world from './images/joshuas_world.png';
 import typography from './images/typography.png';
+import portrait from './images/portrait.jpeg';
 
 export {
     header,
@@ -11,5 +12,6 @@ export {
     conference_awwwards,
     imarketina,
     joshuas_world,
-    typography
+    typography,
+    portrait
 }
