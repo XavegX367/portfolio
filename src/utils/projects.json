@@ -1,157 +1,53 @@
 [
-    {
-        "name": "Portfolio",
-        "url": "https://portfolio.joriskorsten.nl",
-        "git": ["https://git.fhict.nl/I504610/portfolio"],
-        "img": "https://tict.joriskorsten.nl/assets/portfolio.png",
-        "buildup": true,
-        "internal": "/projects/1",
-        "design_urls": [],
-        "used_languages": ["React", "TailwindCSS"],
-        "description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
-        "tags": ["development", "design", "research", "professional_identity"],
-        "development": {
-        "text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
-        "reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
-        },
-        "design": {
-            "text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
-            "reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
-        },
-        "research": {
-            "text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
-            "reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
-        },
-        "professional_identity": {
-            "text": "I have spent some time building this portfolio and I have advanced my skills in React and animation skills with TailwindCSS from it. I found out it really is better to first create a design in Figma before starting to code"
-        }
-    },
-    {
-        "name": "Tict",
-        "url": "https://tict.joriskorsten.nl",
-        "git": ["https://git.fhict.nl/I504610/tict"],
-        "img": "https://tict.joriskorsten.nl/assets/banner.png",
-        "internal": "/projects/2",
-        "design_urls": ["https://www.figma.com/file/AA99GXQMJ8sCOlkyQtYI71/Figjam?type=whiteboard&node-id=0%3A1&t=TwztZgpCFTy91j4s-1", "https://www.figma.com/file/gZbdw52vfTBInjZC1fEa30/Quick-Scan?type=design&node-id=0%3A1&mode=design&t=bLNExSGNbKjT809P-1", "https://www.figma.com/file/KPmz32U7RY7PTw67zcBan2/End-project?type=design&node-id=0%3A1&mode=design&t=hqCQT5KZPgWGnrF0-1"],
-        "research_url": "https://www.figma.com/file/AA99GXQMJ8sCOlkyQtYI71/Figjam?type=whiteboard&node-id=0%3A1&t=TwztZgpCFTy91j4s-1",
-        "used_languages": ["php", "HTML", "CSS"],
-        "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! This tool does that by asking questions. By answering the questions you will gain insight into a lot of facets that are involved in determining the impact of technology. The tool itself is a solid thing, but it could visually use some improvements. Students working with the tool were having a very hard time filling in the forms. It was boring. That's why we decided to improve the tool.",
-        "tags": ["interactive_media", "development", "design", "research", "communication"],
-        "interactive_media": {
-            "text": "In this phase I have done some research about the current Tict tool and how it could be improved. We have put those things into a Figma board and discussed which things we wanted to improve. We firstly decided to improve the quickscan, it had way too much text. So I created some designs for it where the others continued on. While I started coding the website, since the others didn't have t hat much experience coding.",
-            "reflection": "It was fun to work on the Tict tool in a group, I learned some more on how to design something together and how to make choices together."
-        },
-        "development": {
-            "text": "As for Development we decided it's best to get me in lead, since I was the only one with coding experience. Since the others didn't have experience I decided to use HTML, CSS and a little bit of php for the website so they would also be able to make changes to the website. I had setup a GitLab Repository where I explained the others how to use branches and how to create Merge Requests which I would review for them.",
-            "reflection": "The development process was a 1 way thing. Allmost all code was written by me, which isn't a bad thing ofcourse. I only wish I could have made more of it."
-        },
-        "design": {
-            "text": "Before designing anything I decided to do analyse the website, what did I think of it, what would I do differently and how could I make it better. We've made a list in a figma project (click the first figma icon above). I started to redesign the quick scan. Since it had way too much text, I made a one question per page design, with a better explanation of the question hidden under a button with a question mark. This made the screen a lot more peacefull and easier to keep focus on the question.",
-            "reflection": "I really enjoyed the design phase, I didn't use any other website/design for inspiration. I had already clear in my head what I wanted to make. My project partners liked it and wanted to continue on it. To be fair, I think we would have been better of not overdesigning it, since we didn't have that much time to make it and it looked very clean."
-        },
-        "research": {
-            "text": "I have done some research on the current Tict tool and how it could be improved. I have put those things into a Figma board together with my project mates and discussed which things we wanted to improve. (List and workout of this can be found in the first Figma icon next to 'Research').",
-            "reflection": "I think the research phase went okay, we were all kind of on the same line about what we wanted to change. Maybe we thought a little bit too big, since we didn't have that much time to make it."
-        },
-        "communication": {
-            "text": "The communication in the group itself wasn't all to good. Some people didn't really participate in the conversation and really went on the background. Communication with the stakeholder also wasn't all to good, he didn't really understand what we wanted to do with the tool. He did like the community part that we thought of, but not really what we designed for the rest.",
-            "reflection": "Maybe we could have communicated better with the stakeholder, he understood what we wanted to do on the presentation day, but not really before that. I also think we could have communicated better in the group, I think we could have made more of the project if we did."
-        }
-    },
-    {
-        "name": "Gym-Shift",
-        "url": "https://app.gym-shift.com",
-        "git": ["https://git.fhict.nl/I504610/gymshift-frontend", "https://git.fhict.nl/I504610/gymshift-backend"],
-        "img": "https://staging.gym-shift.com/meta_logo.png",
-        "internal": "/projects/3",
-        "design_urls": ["https://www.figma.com/file/NDgI9hAqzINjuF7M8gaCjn/FitPal?type=design&node-id=0%3A1&mode=design&t=1PuhrKWoEslro82l-1"],
-        "used_languages": ["React", "TypeScript", "Laravel", "MySQL", "TailwindCSS", "php"],
-        "description": "This app was made because I wanted to have my own fitness app where I am free to create my own workout schemes and always be able to edit them to my own liking. For future development I would like the app to keep track of progress, add some functionalities during workouts and maybe also add a social aspect to it so you can help others get the best out of their workouts.",
-        "tags": ["interactive_media", "development", "design", "research", "communication", "professional_identity"],
-        "interactive_media": {
-            "text": "After knowing which name I wanted to use I designed a logo and a UI. I then chose how I wanted to create the app, after making a plan since I also want to release this app to the public I decided to create a PWA (Progressive Web App) with React and TypeScript. Once there are enough people that are interested in the app I want to introduce a subscription model. I also want to convert the PWA to a native app that could be downloaded from the AppStore and PlayStore, this could be done by using Capacitor. At the moment I have a working prototype which is open to test for anyone who is interested.",
-            "reflection": "I really enjoyed the full process of thinking about creating an app and then make it a realisation. The app is still far from done, but the fundamentals are there."
-        },
-        "development": {
-            "text": "Since the start of the semester I started going to the gym and I saw that my gym's app was actually a website turned into an app. After some googling I found out this was called a PWA (Progressive Web App). I used React and TypeScript for this. After that I started with the backend. I used Laravel and MySQL for this. I also used TailwindCSS for the styling of the app",
-            "reflection": "Creating a PWA was fun, it didn't take a lot of time to set up. I also grew my knowledge of TypeScript and the connection between frontend and backend with Laravel Passport. I was already a bit familiar with React especially Laravel, but I learned a lot more about it since I never used React in combination with TypeScript and set up a very robust, scalable, secure, maintainable and clean backend with Laravel."
-        },
-        "design": {
-            "text": "Before I could think of designing a logo, I had to think of a name that also had an available .com domain. I came up with the name Gym-Shift. Since my brother works in shifts I immediately thought of some kind of switch because another shift starts when his one ends and vice versa. That's why I decided to add arrow on both endings of the 'S' which makes it look like a continuous loop/switch. I then started with the design of the app, I did this in Figma. I wanted to build a clean UI which made it instantly clear what the user could do. I am a huge fan of dark mode and the cleanness of Apple's designs, so I decided to use pill buttons in a Material UI look. I really like the way blue looks on a dark background, so I decided to use that as the main color which also comes back in the logo.",
-            "reflection": "I really enjoyed designing the logo and the app. I learned a lot about the Material UI look and how to make a clean UI. I also learned a lot about the use of colors and how to make a logo that fits the app. I also learned a lot about the use of Figma and how to make a design that is easy to use and looks good."
-        },
-        "research": {
-            "text": "I have asked some friends who also workout to test my app and share their thoughts about it. I had them to download the app as PWA and go through it and tell me what they think with a real and honest opinion. I also asked them to tell me what they would like to see in the app and what they think is missing.",
-            "user_research": {
-                "problem": "Since I started working out, I noticed that there were no apps to create your own workout schemes and always be able to edit them to your own liking. That's why I decided to make my own app, I want users to be the boss of their own workout schemes. The only apps I have seen and used since working out are apps that are focussed on beginners taking you through premade workouts wtihout being able to customize them yourself, this is something that should be possible for the more advanced user. Therefore I decided to make my own app and dedicate it to them.",
-                "users": [
-                    {
-                        "name": "Ruben",
-                        "gender": "Male",
-                        "age": "21",
-                        "job": "Developer",
-                        "hobbies": "Fitness, Gaming",
-                        "review": "When you try to add an exercise to a workout, the scroll bar is in the buttons with the plus sign. The list of exercises doesn't fully show, so some buttons are not completely visible on my screen. Besides that, I haven't noticed anything else – it's really well done, works easily and quickly."
-                    },
-                    {
-                        "name": "Charlotte",
-                        "gender": "Female",
-                        "age": "20",
-                        "job": "Student applied psychology",
-                        "hobbies": "Fitness, Gaming",
-                        "review": "Clear app, the workouts you can choose have an explanation of how to perform them, which is very helpful for beginners. Everything is clearly indicated, and the login screen was also easy to use. Additionally, it would be nice to customize your avatar, add videos to the workouts, include information about which muscle groups you are targeting, be able to adjust the number of reps, and add deload sets and warming up."
-                    },
-                    {
-                        "name": "Susan",
-                        "gender": "Female",
-                        "age": "26",
-                        "job": "Front-end developer, was P.E. teacher",
-                        "hobbies": "Fitness, Gaming, Being with friends",
-                        "review": "The appearance of the app is very sleek and fits well with a modern fitness app. The logo is appropriate and beautifully designed, showing careful consideration. Upon entering the app, you immediately have a clear user interface (UI). It's not too busy, and you can easily see where you are in the app through the navigation menu at the bottom. Creating a new workout for yourself is simple and fast. After giving it a name, you can choose exercises to include in your workout. I might suggest adding an option to include a custom exercise with a description. Once again, compliments for the clear UI due to the well-thought-out layout, as well as the buttons with text or images for adding or removing items. If you're unsure about something, there's an information button about each exercise. In that information, it might be helpful to add images or a video of the exercise, so users have a visual reference and can perform the exercise correctly. Finally, something often crucial in fitness exercises is a built-in timer, so you don't have to exit the app to set a timer for each exercise. It would be nice if there's an option in the future to input the weight or increase the reps, allowing users to track their progress. Overall, it's a very handy and fast app for creating fitness workouts and keeping track of and saving them."
-                    },
-                    {
-                        "name": "Daniel",
-                        "gender": "Male",
-                        "age": "21",
-                        "job": "Marketeer",
-                        "hobbies": "Fitness, Music, Cooking",
-                        "review": "Handy and well-functioning app. However, there are a few features that I miss in order to keep track of my workouts well. It would be useful to be able to add the weight to the set, for example, and also to be able to view your own history. The app itself works quickly and it is very easy to find your way around. In addition, it would also be useful to have an explanation of the exercises, but perhaps it would be more convenient to show an animation or photo here."
-                    }
-                ],
-                "outcome": "The app is well received by the users, but there are still some features that are missing. The users would like to see a timer, a way to track their progress, and a way to add the weight to the set. Besides that, the users would like to see an explanation of the exercises, but perhaps it would be more convenient to show an animation or photo here. This will also make the app more useable for beginners while this wasn't actually the target audience."
-            }
-        },
-        "communication": {
-            "text": "I have asked some friends at first what they thought of my plan before even thinking about creating anything. All of them said they would love to use the app so they don't have to keep their workouts in their notes. When I had a working prototype they could test they were all very excited and gave me feedback.",
-            "reflection": "I really got some great feedback from them and I really enjoyed the process of how it went. It was very useful and I learned a lot from it. I also learned a lot about how to communicate with users and how to ask the right questions."
-        },
-        "professional_identity": {
-            "text": "There are a lot of fitness / workout apps, but all of those are often dedicated to beginners or don't give you the full freedom to become the boss of your own workout schemes. You are only getting options for the strength groups you want to train which gives you a full scheme. A lot of people want to be able to create their own workout schemes and always be able to edit them to their own liking.",
-            "reflection": "After my research and feedback from others I really see potential in the app. If I apply the feedback given I am sure the app can be used across anyone who works out for years but also for beginners.",
-            "links": [
-                {
-                    "name": "MangoFitness (PWA of my local gym)",
-                    "url": "https://mango.opencontrolplus.com/"
-                }
-            ]
-        }
-    },
-    {
-        "name": "Daily UI #001",
-        "url": "https://dribbble.com/shots/23663961-Daily-UI-001-Login-Screen?utm_source=Clipboard_Shot&utm_campaign=XavegX&utm_content=Daily%20UI%20%23001%20Login%20Screen&utm_medium=Social_Share",
-        "img": "https://tict.joriskorsten.nl/assets/desktop.png",
-        "internal": "/projects/4",
-        "design_urls": ["https://www.figma.com/file/kJYAWijoGaSnyGwHb5xQNm/Daily-UI-%23001?type=design&node-id=0%3A1&mode=design&t=xPENxxlIzV3v1Waw-1"],
-        "used_languages": ["Figma"],
-        "description": "This is a design I made for the first Daily UI challenge. The challenge was to make a login screen. Whilst designing I saw an opportunity to make a new design for the Gym-Shift app. I made this design just to gain experience in designing.",
-        "tags": ["design", "professional_identity"],
-        "design": {
-            "text": "I have made this design to gain experience in designing. I have used Figma for this. I started thinking about how I could create a login screen less boring than the ones I have seen before / I did create myself. That's why I decided to create some waves in the background. I used some different tints of blue in the waves so they pop more. After adding login fields I wanted to add a logo to it. So I decided to add my Gym-Shift logo with the colors shifted to the colors of the waves.",
-            "reflection": "I think  the login screen turned out very nice. After adding the Gym-Shift logo and changing up the colors I must say that I am thinking about changing the full layout of the Gym-Shift app and implement this design for the login screen."
-        },
-        "professional_identity": {
-            "text": "Daily UI is a design challenge where you get a new design challenge every day and you have to design something based on that challenge. So I have decided to participate with the first challenge and design a login screen.",
-        "reflection": "I really liked the challenge because I actually did spent time on designing a login screen. The fun about DailyUI is that you get something comepletely different every day. I think it's a good way to keep your design skills up to date."
-        }
-    }
+	{
+		"name": "Portfolio",
+		"url": "https://portfolio.joriskorsten.nl",
+		"git": ["https://git.fhict.nl/I504610/portfolio"],
+		"img": "https://portfolio.joriskorsten.nl/assets/portfolio.png",
+		"buildup": true,
+		"internal": "/projects/1",
+		"design_urls": [],
+		"used_languages": ["React", "TailwindCSS"],
+		"description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
+		"tags": ["development", "design", "research", "professional_identity"],
+		"development": {
+			"text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
+			"reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
+		},
+		"design": {
+			"text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
+			"reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
+		},
+		"research": {
+			"text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
+			"reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
+		},
+		"professional_identity": {
+			"text": "I have spent some time building this portfolio and I have advanced my skills in React and animation skills with TailwindCSS from it. I found out it really is better to first create a design in Figma before starting to code"
+		}
+	},
+	{
+		"name": "Casekeeper",
+		"url": "https://casekeeper.nl",
+		"git": ["https://git.fhict.nl/I504610/casekeeper"],
+		"img": "https://portfolio.joriskorsten.nl/assets/casekeeper.png",
+		"buildup": true,
+		"internal": "/projects/2",
+		"design_urls": [],
+		"used_languages": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
+		"description": "Casekeeper is a project that I have made for a client. The client wanted a website where he could keep track of his cases.",
+		"tags": ["development", "design", "research", "professional_identity"],
+		"development": {
+			"text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
+			"reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
+		},
+		"design": {
+			"text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
+			"reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
+		},
+		"research": {
+			"text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
+			"reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
+		}
+	}
 ]

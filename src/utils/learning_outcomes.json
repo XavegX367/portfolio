@@ -1,26 +1,30 @@
 {
-    "interactive_media": {
-        "name": "Interactive media",
-        "description": "You create prototypes of interactive media products for your client by using iterations, user research and examples from the professional field."
-    },
-    "development": {
-        "name": "Development",
-        "description": "You program and integrate proofs of concepts based on validated requirements and documented with version control tools."
-    },
-    "design": {
-        "name": "Design",
-        "description": "You craft quality visual designs with a professional toolset"
-    },
-    "research": {
-        "name": "Research",
-        "description": "You apply exploratory research methods, driven by a curious and critical attitude."
-    },
-    "communication": {
-        "name": "Communication",
-        "description": "You communicate effectively with your stakeholders (text and visuals) about the progress of your project and the motivation of your choices."
-    },
-    "professional_identity": {
-        "name": "Professional identity",
-        "description": "You present your professional identity as a media designer in a portfolio that shows your growth and choices."
-    }
+	"concept": {
+		"name": "Concept",
+		"description": "Je definieert een concept voor een interactief mediaproduct als antwoord op het probleem van de klant."
+	},
+	"interaction_design": {
+		"name": "Interaction design",
+		"description": "Je ontwerpt een interactief mediaproduct dat aansluit bij de behoeften en kenmerken van de eindgebruikers op basis van aangereikte interaction design principes en een of meer prototypes."
+	},
+	"interactief_mediaproduct": {
+		"name": "Interactief mediaproduct",
+		"description": "Je realiseert een interactief mediaproduct door hardware en software te combineren, op basis van functionele eisen, verkregen uit user stories."
+	},
+	"overdraagbare_code": {
+		"name": "Overdraagbare code",
+		"description": "Je ontwikkelt efficiënte, goed georganiseerde en werkende code die overdraagbaar is via documentatie en versiebeheer in teamverband."
+	},
+	"professionele_iteraties": {
+		"name": "Professionele iteraties",
+		"description": "Je presenteert de samenhang tussen opeenvolgende iteraties in je methodische handelingen, iteratief ontwerp- en ontwikkelingsproces op een professionele manier."
+	},
+	"advies_aan_stakeholders": {
+		"name": "Advies aan stakeholders",
+		"description": "Je adviseert een of meer stakeholders over de doeltreffendheid en technische haalbaarheid van het door jou gerealiseerde product. "
+	},
+	"persoonlijke_professionele_focus": {
+		"name": "Persoonlijke professionele focus",
+		"description": "Je onderzoekt verder het door jou gekozen functieprofiel, hoe jij je onderscheidt van anderen in hetzelfde functieprofiel en toont dit aan in een product. "
+	}
 }
