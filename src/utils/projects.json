@@ -1,53 +1,557 @@
 [
 	{
-		"name": "Portfolio",
-		"url": "https://portfolio.joriskorsten.nl",
-		"git": ["https://git.fhict.nl/I504610/portfolio"],
-		"img": "https://portfolio.joriskorsten.nl/assets/portfolio.png",
-		"buildup": true,
-		"internal": "/projects/1",
-		"design_urls": [],
-		"used_languages": ["React", "TailwindCSS"],
-		"description": "This portfolio was made as a refreshment of my old portfolio. Besides that we got the assignment to make ourselve a professional identity.",
-		"tags": ["development", "design", "research", "professional_identity"],
-		"development": {
-			"text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
-			"reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
-		},
-		"design": {
-			"text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
-			"reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
-		},
-		"research": {
-			"text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
-			"reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
-		},
-		"professional_identity": {
-			"text": "I have spent some time building this portfolio and I have advanced my skills in React and animation skills with TailwindCSS from it. I found out it really is better to first create a design in Figma before starting to code"
-		}
+		"name": "Portfolio V2",
+		"domain": "portfolio_v2",
+		"used_languages": ["React", "CSS", "JavaScript"],
+		"learning_outcomes": []
 	},
 	{
 		"name": "Casekeeper",
-		"url": "https://casekeeper.nl",
-		"git": ["https://git.fhict.nl/I504610/casekeeper"],
-		"img": "https://portfolio.joriskorsten.nl/assets/casekeeper.png",
-		"buildup": true,
-		"internal": "/projects/2",
-		"design_urls": [],
-		"used_languages": ["React", "TailwindCSS", "NodeJS", "Express", "MongoDB"],
-		"description": "Casekeeper is a project that I have made for a client. The client wanted a website where he could keep track of his cases.",
-		"tags": ["development", "design", "research", "professional_identity"],
-		"development": {
-			"text": "I have used React and TailwindCSS for this portfolio. I have used React because I am familiar with it and I like the way it works. I have used TailwindCSS because I have been using it for a while now and I wanted to have the layout of my portfolio to be ready as soon as possible. ",
-			"reflection": "I enjoyed building this portfolio I have learned somethings about tracking the mouse and became more advanced in loading in data with Json files."
-		},
-		"design": {
-			"text": "The portfolio's design itself is based on the portfolio of Valentina Pastushenko. After looking at various websites I found her portfolio to be the most appealing to me. I really liked the way she used the colors, a very dark theme with some small colors on events, the filters and the mouse tracker.",
-			"reflection": "I thought it was a good idea to just copy parts of her portfolio and change some things a little bit without creating a Figma design. After creating this portfolio I can tell that this really wasn't the way to go. I have refactored the pages a lot of times and I still think it isn't there. I would have been better of creating a Figma design at first."
-		},
-		"research": {
-			"text": "Before building the portfolio I have done some research on what kind of style I would like to use. I have looked at various award winning websites and also a website of an colleague of mine. I noticed how allmost all sites make use of a mousetracker and a lot of them use cool hovering effects. I have also looked at the portfolio of Valentina Pastushenko and decided to use her portfolio as a base for my portfolio.",
-			"reflection": "I think the research phase went pretty well, since I already kind of knew what direction I wanted to go in. I have learned a lot about the use of colors and how to make a portfolio that is appealing to the eye."
-		}
+		"domain": "casekeeper",
+		"used_languages": ["React", "CSS", "JavaScript"],
+		"learning_outcomes": [
+			{
+				"id": 1,
+				"title": "Concept",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "De klant, Bruns, ontwerpt op maat gemaakte vitrines voor tentoonstellingen en collecties. Om kwetsbare objecten in deze vitrines optimaal te beschermen, wil Bruns een systeem ontwikkelen waarmee omgevingsfactoren zoals temperatuur en luchtvochtigheid gemonitord kunnen worden. Bruns wil hiermee niet alleen vitrines leveren, maar ook een extra service aanbieden, waarmee ze zich kunnen onderscheiden van de concurrentie."
+							}
+						]
+					},
+					{
+						"title": "Procesbeschrijving",
+						"steps": [
+							{
+								"title": "Brainstormsessie",
+								"content": [
+									{
+										"type": "text",
+										"content": "Tijdens de brainstormsessie hebben we verschillende mogelijke oplossingen besproken, zoals mobiele apps, desktopsoftware en weboplossingen."
+									},
+									{
+										"type": "list",
+										"content": [
+											"Toegankelijkheid: Het systeem moet gebruikt kunnen worden door zowel technici als managers.",
+											"Schaalbaarheid: Het moet mogelijk zijn om nieuwe functionaliteiten en gebruikers toe te voegen.",
+											"Gebruiksvriendelijkheid: Het platform moet eenvoudig te begrijpen zijn, zonder uitgebreide training."
+										]
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/MCczqtkzCEQQMaoLAsNPB8qLcxKjOAyu6XGxpwcb.jpg"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/cUZcihBI1q3xeTOvOSuwseqn3NUvHvrP0teW2Sif.jpg"
+									}
+								]
+							},
+							{
+								"title": "Competitor Analysis",
+								"content": [
+									{
+										"type": "text",
+										"content": "De enige concurrent van Bruns biedt enkel de service van het monitoren van omgevingsdata, zonder vitrines te leveren."
+									}
+								]
+							},
+							{
+								"title": "Klant Analysis",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"Medewerkers van Bruns: Zij hebben behoefte aan een overzichtelijk beheersysteem waarmee ze vitrines per klant of project kunnen monitoren.",
+											"Museummedewerkers en beheerders: Zij willen snel toegang hebben tot omgevingsgegevens van vitrines om hun collecties te beschermen."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Overwogen ideeën",
+						"ideas": [
+							{
+								"title": "Mobiele app",
+								"description": "Het idee van een mobiele app kwam naar voren vanwege de behoefte aan flexibiliteit voor technici die onderweg zijn.",
+								"reflection": "Hoewel een mobiele app handig is voor technici, sluit het niet goed aan bij de behoeften van managers of medewerkers die liever op een desktop werken."
+							},
+							{
+								"title": "Progressive Web App (PWA)",
+								"description": "Een PWA combineert de voordelen van een mobiele app en een webportal.",
+								"reflection": "Hoewel een PWA aantrekkelijk klinkt, is offline functionaliteit niet noodzakelijk voor dit systeem."
+							},
+							{
+								"title": "Desktop-executable",
+								"description": "Een lokaal geïnstalleerd programma zou een robuust dashboard bieden met uitgebreide beheermogelijkheden.",
+								"reflection": "Een desktop-executable is te beperkt qua toegankelijkheid."
+							},
+							{
+								"title": "Webportal",
+								"description": "Een webportal biedt maximale toegankelijkheid en gebruiksvriendelijkheid.",
+								"reflection": "De webportal werkt op elk apparaat met een browser en sluit goed aan bij de diverse gebruikersbehoeften."
+							}
+						]
+					},
+					{
+						"title": "Conclusie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Na een zorgvuldige analyse van de verschillende opties hebben we gekozen voor een webportal. Deze keuze is gebaseerd op de toegankelijkheid, schaalbaarheid, en het gebruiksgemak voor verschillende gebruikersgroepen."
+							},
+							{
+								"type": "image",
+								"src": "https://files.joriskorsten.nl/storage/folders/5/NfwzYDjbMjVYFa0A8Obb9n0SxN70AbqjqHBminHy.jpg"
+							},
+							{
+								"type": "image",
+								"src": "https://files.joriskorsten.nl/storage/folders/5/3NoKD5P2YQwC1Us0DmI93X8U8R7wG8jgeaSS7YBf.jpg"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "interaction_design",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Het interactieve mediaproduct moest gebruiksvriendelijk, efficiënt en schaalbaar zijn. Het ontwerp moest voldoen aan de behoeften van medewerkers van Bruns en museummedewerkers, met een duidelijke focus op het snel en intuïtief presenteren van relevante informatie."
+							}
+						]
+					},
+					{
+						"title": "Inspiratie en onderzoek",
+						"content": [
+							{
+								"type": "text",
+								"content": "Om een solide basis te leggen voor het ontwerp, heb ik inspiratie opgedaan uit bestaande webportalen. Dit onderzoek was gericht op:"
+							},
+							{
+								"type": "list",
+								"content": [
+									"Loginpagina’s: Hoe zorgen bestaande ontwerpen voor een eenvoudige, professionele en intuïtieve ervaring bij de eerste interactie?",
+									"Dashboards: Welke elementen zijn essentieel om in één oogopslag nuttige informatie te tonen?",
+									"Grafieken en datavisualisaties: Welke stijlen zorgen voor overzichtelijkheid en interpreteerbaarheid van complexe data?"
+								]
+							},
+							{
+								"type": "text",
+								"content": "In mijn <a className='link' target='_blank' href='https://www.figma.com/design/umD1GfHRFkBSdb0GJi1Dr3/Vitrine-webplatform?node-id=371-713&t=3b7EHJmWjAGIa6bC-1'>Figma-bestand</a> heb ik een aparte pagina aangemaakt met visuele referenties van loginpagina’s, dashboards en grafieken. Dit diende als inspiratiebron om moderne en herkenbare designpatronen in mijn wireframes te integreren. Het hielp ook bij het bepalen van kleuren, typografie en layoutstructuren die bijdragen aan een professionele uitstraling."
+							}
+						]
+					},
+					{
+						"title": "Prototypeontwikkeling",
+						"steps": [
+							{
+								"title": "Eerste wireframe prototype: Showcase-gedreven flow",
+								"content": [
+									{
+										"type": "title",
+										"content": "Uitwerking:"
+									},
+									{
+										"type": "text",
+										"content": "Gebaseerd op de projectdoelstellingen en visuele inspiratie heb ik een wireframe ontwikkeld met een flow waarin gebruikers starten bij <span className='bold'>Showcase → Sensoren inzien</span>. Dit prototype had een eenvoudige opzet met standaard dashboard-elementen en een basis loginpagina. Ook zit hierbij de functie om een afspraak te maken vanwege onderhoud."
+									},
+									{
+										"type": "title",
+										"content": "Feedback:"
+									},
+									{
+										"type": "text",
+										"content": "Projectgenoten en andere die hiernaar hebben gekeken zagen graag wat andere dingen bij het plannen van een afspraak, denk aan een stepper bovenin in plaats van verschillende cards die je open kan klikken. Ook zijn er aanpassingen gemaakt in de projecten table. Om het allemaal wat overzichtelijker te maken."
+									}
+								]
+							},
+							{
+								"title": "Tweede wireframe prototype",
+								"content": [
+									{
+										"type": "title",
+										"content": "Uitwerking:"
+									},
+									{
+										"type": "text",
+										"content": "Door eerdere feedback heb ik het plan scherm aangepast, hier zit nu de stepper in verwerkt. Verder heb ik in de table een oogje toegevoegt om de grafieken in te zien, als je nu op het pijltje links van de projectnaam klikt krijg je een overzichtje met vitrines binnen het project te zien."
+									},
+									{
+										"type": "title",
+										"content": "Feedback:"
+									},
+									{
+										"type": "text",
+										"content": "De klant zag graag wat wijzigingen, denk aan het plan scherm aan bijvoorbeeld sneller filtering van vitrines mocht je er een stuk of 100 in een project hebben zitten en default options als reden voor onderhoud. Ook vond de klant de flow van het platform niet handig. Hij ziet het liever als volgt: <span className='bold'>Klanten -> Projecten/locaties -> Showcases -> Sensoren inzien</span>. Ook heb ik de klant hier zelf door het platform laten klikken en werd al snel duidelijk dat hij verwachtte op bepaalde plekken te kunnen klikken die ik mijzelf anders voorzag, zoals bijvoorbeld op de naam van het project in plaats van op het oogje."
+									}
+								]
+							},
+							{
+								"title": "Derde wireframe prototype: Klantgerichte hiërarchie",
+								"content": [
+									{
+										"type": "title",
+										"content": "Uitwerking:"
+									},
+									{
+										"type": "text",
+										"content": "Na de feedback werd een nieuwe flow ontwikkeld: <span className='bold'>Klanten → Projecten/locaties → Showcases → Sensoren inzien</span>. Dit prototype was completer en meer gericht op de behoeften van de gebruikers."
+									},
+									{
+										"type": "title",
+										"content": "Aanpassingen:"
+									},
+									{
+										"type": "text",
+										"content": "Het ontwerp werd voorzien van de logische flow, met de mogelijkheid om op namen van de klanten etc te klikken (of natuurlijk op het oogje). Verder heb ik de afspraak planner even gelaten voor wat het is aangezien dit minder prio heeft dan makkelijk en snel de juiste gegevens in te kunnen zien."
+									}
+								]
+							},
+							{
+								"title": "Definitief ontwerp: Verbterde klantentabel",
+								"content": [
+									{
+										"type": "title",
+										"content": "Uitwerking:"
+									},
+									{
+										"type": "text",
+										"content": "Op basis van verdere feedback is de klantentabel aangepast om direct kritieke informatie te tonen, zoals afwijkende sensordata. Op ieder scherm staan nu vinkjes of kruisjes, zo weet je direct of er iets aan de hand is, zodra je de vitrine open klikt zie je waar het mis ging met de zelf ingestelde drempelwaardes. "
+									},
+									{
+										"type": "title",
+										"content": "Validatie:"
+									},
+									{
+										"type": "text",
+										"content": "De klant was tevreden met deze versie, die een efficiënte en gebruiksvriendelijke oplossing biedt."
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Het verzamelen van visuele inspiratie heeft mij enorm geholpen bij het ontwerpen van een professioneel en intuïtief mediaproduct. Door bestaande webportalen te bestuderen en elementen zoals grafieken en dashboards te analyseren, kon ik een ontwerp maken dat niet alleen functioneel, maar ook visueel aantrekkelijk en herkenbaar is."
+							},
+							{
+								"type": "text",
+								"content": "Wat ik heb geleerd:"
+							},
+							{
+								"type": "list",
+								"content": [
+									"<span className='bold'>Belang van visuele inspiratie:</span> Door onderzoek naar bestaande designs werd ik bewuster van best practices in webportalen en datavisualisatie. Dit gaf een stevige basis voor mijn eigen ontwerp.",
+									"<span className='bold'>Design op basis van behoeften:</span> Het combineren van inspiratie met de specifieke behoeften van de klant heeft geleid tot een ontwerp dat zowel modern als praktisch is."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "interactief_mediaproduct",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Op basis van de bovenstaande user stories is het interactieve mediaproduct gerealiseerd door de juiste combinatie van hardware (de sensoren) en software (de webportal en de backend). Hieronder een overzicht van de belangrijkste componenten die aan deze eisen voldoen"
+							}
+						]
+					},
+					{
+						"steps": [
+							{
+								"title": "Hardware (sensoren):",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"De sensoren meten de omgevingsfactoren zoals temperatuur en luchtvochtigheid in de vitrines. De data wordt in real-time verzameld en doorgestuurd naar de backend van de applicatie."
+										]
+									}
+								]
+							},
+							{
+								"title": "Software (Webportal):",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"<span className='bold'>Frontend (Gebruikersinterface):</span><br/> De webportal biedt een intuïtieve interface waarmee admins de benodigde gegevens kunnen inzien, thresholds kunnen instellen en meldingen kunnen ontvangen. De interface is volledig responsive en toegankelijk op elk apparaat met een browser.",
+											"<span className='bold'>Backend:</span><br/> De backend beheert de communicatie met de sensoren, verwerkt de data en zorgt ervoor dat de juiste functionaliteiten beschikbaar zijn voor admins. Omdat de gebruikersrol op dit moment alleen is toegewezen aan admins, zijn er geen verschillende views voor members of uitgebreide gebruikersbeheerfunctionaliteiten.",
+											"<span className='bold'>Data-visualisatie:</span><br/> Het platform biedt grafieken en visualisaties die de veranderingen in temperatuur en luchtvochtigheid in de vitrines over tijd weergeven. Dit helpt de gebruikers (in dit geval de admins) trends en afwijkingen te monitoren. De visualisatie maakt het eenvoudig om te begrijpen wanneer omgevingsfactoren buiten de gestelde thresholds vallen."
+										]
+									}
+								]
+							},
+							{
+								"title": "Notificaties en Waarschuwingssysteem:",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"Het systeem is geconfigureerd om notificaties te sturen wanneer sensoren buiten de ingestelde thresholds vallen. Deze waarschuwingen helpen admins snel in te grijpen en te zorgen voor een optimale conditie van de vitrines."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Door deze user stories goed te analyseren en om te zetten naar functionele eisen, hebben we een mediaproduct gerealiseerd dat de admin een gebruiksvriendelijke manier biedt om de omgevingsdata van vitrines te monitoren en snel te reageren op afwijkingen. De samenwerking tussen hardware en software zorgt ervoor dat het systeem effectief de omgevingsfactoren monitort en waarschuwingen afgeeft wanneer nodig. De data-visualisatie stelt admins in staat om trends en afwijkingen gemakkelijk te begrijpen."
+							},
+							{
+								"type": "text",
+								"content": "Wat ik heb geleerd:"
+							},
+							{
+								"type": "list",
+								"content": [
+									"<span className='bold'>Het belang van gedetailleerde user stories:</span> Ze waren cruciaal voor het bepalen van de prioriteiten in de ontwikkeling van het platform.",
+									"<span className='bold'>De integratie van hardware en software:</span> Het combineren van sensoren met de webapplicatie was een technische uitdaging, maar door een duidelijke structuur en goede samenwerking is het systeem goed geslaagd.",
+									"<span className='bold'>Scopebeperkingen:</span> Sommige functionaliteiten, zoals uitgebreide rapportages, userbeheer (voor verschillende rollen) en meerdere views voor members, werden als nice to have of zelfs als een should beschouwd en vielen buiten de scope van dit project of was gewoon simpelweg te weinig tijd voor. Dit heeft me geleerd om prioriteiten te stellen en me te concentreren op de meest cruciale functionaliteiten binnen de tijdslimiet."
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 4,
+				"title": "overdraagbare_code",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Voor dit project ben ik verantwoordelijk voor de ontwikkeling van de frontend, die is gebouwd met React. Het was belangrijk dat de code niet alleen efficiënt en goed georganiseerd was, maar ook overdraagbaar voor andere teamleden. Dit heb ik gerealiseerd door het toepassen van best practices voor versiebeheer, documentatie en codeorganisatie."
+							}
+						]
+					},
+					{
+						"steps": [
+							{
+								"title": "Versiebeheer:",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"Het project is gehost in de GitHub repository van onze organisatie. Hierdoor is het voor alle teamleden gemakkelijk om de code op te halen, bij te dragen en samen te werken. Ik heb gebruikgemaakt van duidelijke commitberichten om veranderingen goed te documenteren en het versiebeheer overzichtelijk te houden.",
+											"De repository is goed gestructureerd, met duidelijke mappen voor componenten, styling, en andere noodzakelijke onderdelen van de frontend."
+										]
+									}
+								]
+							},
+							{
+								"title": "Codeorganisatie en Efficiëntie:",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"De code is gestructureerd op een manier die de leesbaarheid en onderhoudbaarheid bevordert. React-componenten zijn modulair en herbruikbaar opgebouwd, wat de ontwikkeling versnelt en zorgt voor een overzichtelijke structuur.",
+											"Alle logica voor statebeheer is centraal georganiseerd met behulp van React hooks en context, wat zorgt voor een schone en efficiënte datastroom door de applicatie."
+										]
+									}
+								]
+							},
+							{
+								"title": "Documentatie:",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"Een <span className='bold'>README</span> bestand is toegevoegd aan de repository. Hierin staat gedetailleerde informatie over hoe het project is opgezet, hoe je het kunt draaien, en welke dependencies nodig zijn om te werken met het project. Dit maakt het voor nieuwe ontwikkelaars eenvoudig om het project snel op te starten en in te stappen.",
+											"In de code zelf heb ik <span className='bold'>comments</span> toegevoegd bij complexere of belangrijkere stukken code. Dit zorgt ervoor dat een andere gebruiker (of een teamlid) begrijpt waarom bepaalde keuzes zijn gemaakt, wat de code doet, en hoe deze in de bredere context van de applicatie past."
+										]
+									}
+								]
+							},
+							{
+								"title": "Toegankelijkheid en Overdraagbaarheid:",
+								"content": [
+									{
+										"type": "list",
+										"content": [
+											"Door gebruik te maken van duidelijke code-indeling, gedocumenteerde functies, en logische mappenstructuren, heb ik ervoor gezorgd dat andere teamleden eenvoudig met de code kunnen werken, zelfs als ze niet direct bij de ontwikkeling van de frontend betrokken waren.",
+											"De projectopzet is dusdanig dat andere ontwikkelaars snel nieuwe features kunnen toevoegen of de code kunnen aanpassen zonder dat ze veel tijd hoeven te besteden aan het begrijpen van de basisstructuur."
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Door de focus te leggen op duidelijke documentatie, goed versiebeheer en een efficiënte codeorganisatie, heb ik ervoor gezorgd dat de code overdraagbaar is voor andere teamleden en makkelijk kan worden onderhouden. Dit is niet alleen handig voor het huidige project, maar ook voor toekomstige iteraties en uitbreidingen. Als ik terugkijk, zou ik in een volgend project nog meer tijd besteden aan het verbeteren van de documentatie, vooral door bijvoorbeeld meer uitleg te geven bij complexere componenten en de interacties tussen verschillende delen van de applicatie."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 5,
+				"title": "professionele_iteraties",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "In dit project heb ik gewerkt met een iteratief ontwerp- en ontwikkelingsproces om de frontend van het interactieve mediaproduct te realiseren. Dit proces bestond uit meerdere fasen waarin we continu feedback verzamelden van het team en de klant, wat leidde tot verschillende verbeteringen en aanpassingen aan de interface en functionaliteiten."
+							}
+						]
+					},
+					{
+						"title": "Iteraties in het Ontwikkelingsproces",
+						"steps": [
+							{
+								"title": "Eerste iteratie - Basis wireframes en functionele indeling",
+								"content": [
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 1:</span> De eerste iteratie begon met een eenvoudig wireframe waarin de basisfunctionaliteiten van het platform werden weergegeven. Dit wireframe bevatte een login-scherm, een projecttabel, enkele grafieken, en de mogelijkheid om een afspraak te plannen. Het doel was om de belangrijkste flows te visualiseren en te zorgen dat het platform een duidelijke structuur had."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/t8P51vkRTnYpIBLkSslztYySgmX3YOnG5BruVAlD.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/DTzKPWqPKCcWWZD9xRDSA2fnD7jUIjVZJkInGAiz.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/UnUVgFCeZqBeqgE8yFZ1fhrZX41q1UfQRQ9yIv59.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/tFBM1Sg94KR5qFgXSZ51RhUyJoZWQfHEMXB2ErGN.png"
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 2:</span> Tijdens de feedbacksessie met een andere developer/designer werd de suggestie gedaan om het plannen van een afspraak via een 'stepper' te laten verlopen in plaats van de huidige cards die openvouwden. Dit zou de gebruikerservaring verbeteren door het proces van het plannen van een afspraak meer stapsgewijs en overzichtelijker te maken."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/dl7CbJVFlWKnV7RjxMSCFnxBkv617bAVNEzouDe2.png"
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 3:</span> Daarnaast kwam de feedback van projectpartners dat de grafieken niet direct zichtbaar moesten zijn. In plaats daarvan werd voorgesteld om een oog-icoon naast de 'plan' knop te plaatsen. Dit zou gebruikers in staat stellen om de grafieken pas te openen als ze erop klikten. Ook werd de structuur van de navigatie aangepast: de chevron naar een andere pagina zou leiden naar een overzicht van de vitrines binnen het geselecteerde project."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/4FsgdehDiXfGgMvwhfCg6xr8lzzwvx4VmEDgCcJK.png"
+									}
+								]
+							},
+							{
+								"title": "Tweede iteratie - Verbeteringen op basis van feedaback",
+								"content": [
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 1:</span> Op basis van de feedback werd in de tweede iteratie het platform aangepast. Het plannen van afspraken werd nu via een stepper geïmplementeerd. Ook werd de wijziging doorgevoerd om grafieken alleen zichtbaar te maken door op een oog-icoon te klikken, wat de interface overzichtelijker maakte. De navigatie werd aangepast naar de gewenste structuur."
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 2:</span> Dit prototype werd gedeeld met de klant, die feedback gaf dat het plannen van een afspraak eenvoudiger zou kunnen worden door standaardopties (zoals reden van onderhoud) toe te voegen en het makkelijker te maken om vitrines te selecteren die onderhoud nodig hebben. Dit zou vooral handig zijn wanneer er bijvoorbeeld 100 vitrines in de lijst staan."
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 3:</span> Tijdens deze fase werden ook ideeën gepresenteerd die buiten de scope van het project vielen, zoals de integratie van het platform met een ticketingsysteem voor onderhoudsaanvragen. Dit idee werd niet verder uitgewerkt omdat het niet binnen de gestelde tijdslijn en doelen viel."
+									}
+								]
+							},
+							{
+								"title": "Derde iteratie - Gedetailleerd Design en Nieuwe Feedback",
+								"content": [
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 1:</span> In de derde iteratie werd het platform verder uitgewerkt met een gedetailleerd design. Hoewel niet alle functionaliteiten waren geïmplementeerd, bevatte het ontwerp de basis van het platform, met de herstructurering van de flow en enkele visuele verbeteringen."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/SttDSPSyX4rkaFjgJusw5aWs2oSsAVkfmSjsU28B.png"
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 2:</span> De klant gaf feedback dat de hiërarchie van de weergave niet klopte. De klant wilde de structuur als volgt zien: <span className='bold'>Klanten -> Projecten/locaties -> Showcases -> Sensoren</span>, met de mogelijkheid om vanaf de klantweergave direct te zien of er problemen waren met de waarden, door middel van drempelinstellingen voor elke vitrine. Dit zou gebruikers in staat stellen om snel te zien waar acties nodig zijn."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/ckk2RkhKMsY6o4MFDTqgXyduBGSOYeG7UP5xpHl0.png"
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>Stap 3:</span> Op basis van deze feedback heb ik snel een schets gemaakt van hoe we de nieuwe structuur konden implementeren. Deze schets werd uitgewerkt naar een nieuw prototype, dat opnieuw naar de klant werd gestuurd voor goedkeuring. De klant kwam met verdere ideeën, zoals een plattegrond van de vitrines, maar dit was te uitgebreid voor de huidige scope en viel buiten het projectplan."
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Samenhang tussen iteraties en methodisch werken",
+						"content": [
+							{
+								"type": "text",
+								"content": "Het iteratieve proces in dit project heeft gezorgd voor voortdurende verbetering van de gebruikersinterface en -ervaring. Elke iteratie werd uitgevoerd met de input van het projectteam en de klant, wat ervoor zorgde dat we het platform steeds dichter bij de uiteindelijke klantwensen konden brengen. Door op elke iteratie te reflecteren en snel aanpassingen door te voeren, konden we een product afleveren dat zowel functioneel als gebruiksvriendelijk is."
+							},
+							{
+								"type": "title",
+								"content": "Gebruik van feedback en iteraties:"
+							},
+							{
+								"type": "list",
+								"content": [
+									"<span className='bold'>Feedback uit iteratie 1:</span> Dit resulteerde in de beslissing om het plannen van afspraken via een stepper te doen en de grafieken pas zichtbaar te maken wanneer de gebruiker erop klikt.",
+									"<span className='bold'>Feedback uit iteratie 2:</span> Dit leidde tot de toevoeging van standaardopties voor het plannen van afspraken en verbeteringen in de selectie van vitrines die onderhoud nodig hadden.",
+									"<span className='bold'>Feedback uit iteratie 3:</span> Deze fase leidde tot een herstructurering van de hiërarchie van het platform en de toevoeging van de mogelijkheid om vanaf de klantweergave direct problemen te identificeren."
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Dit iteratieve proces heeft me geholpen om te begrijpen hoe belangrijk het is om feedback snel te verzamelen en toe te passen. Het werkte als een feedbackloop die leidde tot een steeds beter product. In toekomstige projecten zou ik proberen nog meer tijd te reserveren voor de initiële ontwerp- en feedbackfase, zodat we in latere iteraties minder fundamentele wijzigingen hoeven door te voeren. Het snelle itereren en aanpassen heeft echter bewezen een zeer effectieve manier te zijn om een product te ontwikkelen dat echt aansluit bij de behoeften van de klant."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 6,
+				"title": "advies_aan_stakeholders",
+				"sections": []
+			},
+			{
+				"id": 7,
+				"title": "persoonlijke_professionele_focus",
+				"sections": []
+			}
+		]
 	}
 ]

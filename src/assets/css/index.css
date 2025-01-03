@@ -3,98 +3,127 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'lunchtype22';
-    src: url('../fonts/lunchtype22-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'lunchtype22';
+	src: url('../fonts/lunchtype22-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'gentiumbookbasic';
-    src: url('../fonts/GenBkBasR.ttf');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'lunchtype22';
+	src: url('../fonts/lunchtype22-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gentiumbookbasic';
+	src: url('../fonts/GenBkBasR.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gentiumbookbasic';
+	src: url('../fonts/GenBkBasI.ttf');
+	font-weight: normal;
+	font-style: italic;
+}
+
+* {
+	font-family: 'lunchtype22', sans-serif;
 }
 
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
-    background: #20262E;
-    min-height: 300px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background: #20262e;
+	min-height: 300px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    @apply font-serif
+	@apply font-serif;
 }
 
 .icon_link {
-    @apply text-purple-700 hover:text-purple-800 transition-all duration-300 ease-in-out
-
+	@apply text-purple-700 hover:text-purple-800 transition-all duration-300 ease-in-out;
 }
 
 .section_image {
-    @apply transition-all duration-500 ease-in-out transform hover:scale-110 shadow-lg shadow-zinc-700
+	@apply transition-all duration-500 ease-in-out transform hover:scale-110 shadow-lg shadow-zinc-700;
 }
 
 .url {
-    @apply text-blue-500 hover:text-blue-600 underline
+	@apply text-blue-500 hover:text-blue-600 underline;
 }
 
 .cursor {
-    position: fixed;
-    border-radius: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    pointer-events: none;
-    left: -100px;
-    top: 50%;
-    mix-blend-mode: difference;
-    background-color: rgb(200, 0, 255);
-    z-index: 10000;
-    height: 30px;
-    width: 30px;
-    /* transition: all 50ms ease-out; */
-    backdrop-filter: blur(80%);
+	position: fixed;
+	border-radius: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	pointer-events: none;
+	left: -100px;
+	top: 50%;
+	mix-blend-mode: difference;
+	background-color: rgb(200, 0, 255);
+	z-index: 10000;
+	height: 30px;
+	width: 30px;
+	/* transition: all 50ms ease-out; */
+	backdrop-filter: blur(80%);
 }
 
 .header-item {
-    @apply hover:pl-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400 select-none cursor-pointer
+	@apply hover:pl-5 transition-all ease-in-out duration-150 hover:font-serif hover:text-gray-400 select-none cursor-pointer;
 }
 
 .tag {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    @apply mx-1 md:mx-2 bg-gradient-to-l text-white text-center select-none text-xs md:text-lg content-center align-middle self-center px-1 py-1 md:px-4 break-keep md:py-2 rounded-md w-fit font-bold transition-all duration-500 ease-in-out hover:scale-105
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	@apply mx-1 md:mx-2 bg-gradient-to-l text-white text-center select-none text-xs md:text-lg content-center align-middle self-center px-1 py-1 md:px-4 break-keep md:py-2 rounded-md w-fit font-bold transition-all duration-500 ease-in-out hover:scale-105;
 }
 
-.interactive_media {
-    @apply from-[#332e3c] to-[#5c3e88]
+.bold {
+	font-weight: 900;
 }
 
-.development {
-    @apply from-[#235234] to-[#336847]
+.link {
+	@apply text-primary hover:text-secondary transition-all duration-150;
 }
 
-.design {
-    @apply from-[#2e586c] to-[#496c7c]
+.concept {
+	@apply from-[#332e3c] to-[#5c3e88];
 }
 
-.research {
-    @apply from-[#562525] to-[#714848]
+.interaction_design {
+	@apply from-[#235234] to-[#336847];
 }
 
-.communication {
-    @apply from-[#47361f] to-[#7d6544]
+.interactief_mediaproduct {
+	@apply from-[#2e586c] to-[#496c7c];
 }
 
-.professional_identity {
-    @apply from-[#452047] to-[#6d4a6f]
+.overdraagbare_code {
+	@apply from-[#562525] to-[#714848];
+}
+
+.professionele_iteraties {
+	@apply from-[#47361f] to-[#7d6544];
+}
+
+.advies_aan_stakeholders {
+	@apply from-[#452047] to-[#6d4a6f];
+}
+
+.persoonlijke_professionele_focus {
+	@apply from-[#2e386c] to-[#49527c];
 }
 
 .project {
-    @apply mb-4 mt-4 text-2xl mx-2 md:mx-8
+	@apply mb-4 mt-4 text-2xl mx-2 md:mx-8;
 }
