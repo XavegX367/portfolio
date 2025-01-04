@@ -545,12 +545,121 @@
 			{
 				"id": 6,
 				"title": "advies_aan_stakeholders",
-				"sections": []
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "In mijn rol binnen dit project heb ik regelmatig advies gegeven aan zowel interne stakeholders (zoals het projectteam) als externe stakeholders (zoals de klant, Bruns). Dit advies richtte zich vooral op de doeltreffendheid en technische haalbaarheid van het ontwikkelde product, waarbij ik altijd rekening hield met de eisen, wensen en beperkingen van de stakeholders."
+							}
+						]
+					},
+					{
+						"title": "Advies aan het projectteam en de klant",
+						"steps": [
+							{
+								"content": [
+									{
+										"type": "text",
+										"content": "<span className='bold'>1. Advies over functionaliteit en scope</span></br> Gedurende het project heb ik de klant regelmatig geadviseerd over de functionele haalbaarheid van bepaalde wensen en functionaliteiten. Bijvoorbeeld, er werden verzoeken gedaan om integraties met externe systemen (zoals ticketingsystemen voor onderhoud) toe te voegen. Na overleg met het team heb ik geadviseerd om deze functionaliteiten buiten de scope van het project te houden, gezien de tijdslimieten en de prioriteiten van de klant. Dit advies was gericht op het behouden van focus op de kernfunctionaliteiten, zodat we het product binnen de afgesproken tijd konden opleveren zonder concessies te doen aan de kwaliteit van de basisfunctionaliteiten."
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>2. Technisch advies over de keuze van de technologie</span></br> Tijdens de ontwikkeling van het frontend heb ik het team en de klant geadviseerd over de technische haalbaarheid van de gekozen technologieën. We kozen voor React omdat het een krachtige en flexibele tool is voor het ontwikkelen van dynamische webapplicaties, wat goed aansluit bij de eisen van de klant. React maakt het eenvoudig om componenten te hergebruiken, wat de ontwikkelsnelheid verhoogt en zorgt voor een schaalbare oplossing voor de toekomst. Dit advies was gebaseerd op mijn ervaring met React en de noodzaak voor een robuuste en onderhoudbare frontend."
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>3. Advies over gebruiksvriendelijkheid en interface</span></br> Ik heb ook advies gegeven over de gebruikerservaring en de interface van het platform. De klant wilde bijvoorbeeld een plattegrond van vitrines toevoegen, maar dit bleek een complexe en tijdrovende functie die buiten de scope van het project viel. Ik heb geadviseerd om eerst de huidige navigatie en functionaliteiten te optimaliseren voordat er extra complexiteit werd toegevoegd. Daarnaast heb ik geadviseerd om de gebruikersinterface intuïtief en gebruiksvriendelijk te houden, zodat het platform toegankelijk is voor zowel admin-gebruikers als andere medewerkers zonder uitgebreide technische kennis."
+									},
+									{
+										"type": "text",
+										"content": "<span className='bold'>4. Advies over feedback en iteraties</span></br> Gedurende het project heb ik regelmatig feedback van de klant verzameld en hen geadviseerd over hoe we het platform konden verbeteren op basis van deze input. De klant, Bruns, gaf bijvoorbeeld feedback over de gebruiksvriendelijkheid van de interface, zoals het verbeteren van de manier waarop vitrines geselecteerd konden worden. Door deze feedback op te nemen en het ontwerp iteratief aan te passen, zorgden we ervoor dat het platform goed aansloot bij de wensen van de klant. Dit iteratieve proces hielp ons om tijdig te ontdekken waar de gebruikerservaring verbeterd kon worden en waar de functionaliteiten niet goed werkten."
+									}
+								]
+							}
+						]
+					},
+					{
+						"title": "Doeltreffendheid en technische haalbaarheid",
+						"content": [
+							{
+								"type": "text",
+								"content": "De keuzes die we maakten, waren allemaal gericht op het leveren van een doeltreffend product dat zowel technisch haalbaar als schaalbaar was. Door de feedback van stakeholders te verwerken, hebben we ervoor gezorgd dat het product zowel aan de eisen van de klant voldeed als technisch gezien efficiënt en onderhoudbaar bleef."
+							},
+							{
+								"type": "list",
+								"content": [
+									"<span className='bold'>Doeltreffendheid:</span> Door een eenvoudig webportal te ontwikkelen, konden we een platform bieden dat door alle gebruikers (admin, medewerkers en klanten) gemakkelijk toegankelijk was, ongeacht het apparaat. Dit maakte het product veel effectiever voor de eindgebruikers, omdat het hen de mogelijkheid gaf om de omgevingsdata op elk moment te monitoren, zonder dat ze specifieke software of hardware hoefden te installeren.",
+									"<span className='bold'>Technische haalbaarheid:</span> Door gebruik te maken van React voor de frontend, hebben we een solide technische basis gelegd die toekomstbestendig is. Het platform is schaalbaar, wat betekent dat we het in de toekomst kunnen uitbreiden met extra functionaliteiten zonder dat de codebasis te complex of moeilijk te onderhouden wordt. Dit was van cruciaal belang voor de klant, omdat zij in de toekomst mogelijk nieuwe functies willen toevoegen."
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Dit project heeft mij geleerd hoe belangrijk het is om niet alleen technisch advies te geven, maar ook het grotere plaatje te begrijpen. Stakeholders, vooral klanten, hebben vaak ideeën die technisch haalbaar zijn, maar soms buiten de scope vallen van wat redelijk is binnen de gestelde tijd en middelen. In zulke gevallen is het essentieel om goed te kunnen communiceren waarom bepaalde keuzes wel of niet gemaakt kunnen worden, en alternatieven voor te stellen die beter aansluiten bij de wensen van de klant zonder de technische haalbaarheid in gevaar te brengen."
+							},
+							{
+								"type": "image",
+								"src": "https://files.joriskorsten.nl/storage/folders/5/ATFmeQ9JAXnLA3bQ0ACzIo7gLwqXNH8V81KMRpVD.jpg",
+								"alt": "Op bezoek bij de klant"
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": 7,
 				"title": "persoonlijke_professionele_focus",
-				"sections": []
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Als frontend developer heb ik mij gericht op het verder ontwikkelen van mijn vaardigheden in moderne webtechnologieën en ontwerpprincipes. Mijn focus ligt op het efficiënt omzetten van designs naar functionele en interactieve interfaces die niet alleen technisch robuust zijn, maar ook gebruiksvriendelijk en visueel aantrekkelijk. Tijdens dit project heb ik mijn vaardigheden als frontend developer verder kunnen aanscherpen door zowel het ontwerp als de technische uitvoering van het platform te verzorgen."
+							}
+						]
+					},
+					{
+						"title": "Kennis en vaardigheden als Frontend Developer",
+						"content": [
+							{
+								"type": "text",
+								"content": "Mijn kennis als frontend developer gaat verder dan het simpelweg schrijven van code. Ik ben in staat om designs snel en efficiënt om te zetten in werkende, interactieve webapplicaties. Dit zie je terug in het project, waar ik gebruik heb gemaakt van moderne technologieën zoals React voor de ontwikkeling van het platform. React stelt me in staat om componenten herbruikbaar te maken, wat de ontwikkeling versnelt en de code onderhoudbaar houdt. Daarnaast heb ik uitgebreide ervaring met state management en API-integratie, wat de efficiëntie van de frontend verhoogt."
+							}
+						]
+					},
+					{
+						"title": "Differentiatie in mijn rol als Frontend Developer",
+						"content": [
+							{
+								"type": "text",
+								"content": "Wat mij onderscheidt als frontend developer is mijn vermogen om zowel het ontwerp als de technische aspecten van een product te begrijpen en te combineren. Veel frontend developers zijn sterk in één van deze aspecten, maar ik ben in staat om beide elementen effectief samen te brengen. Ik heb ervaring in het werken met design-systemen en prototyping-tools zoals Figma, waarmee ik ontwerpen niet alleen kan implementeren, maar ook proactief kan meedenken in de ontwerpfase. Dit stelt mij in staat om ontwerpen te optimaliseren voor gebruikerservaring en functionaliteit."
+							}
+						]
+					},
+					{
+						"title": "Aantonen van mijn vaardigheden",
+						"content": [
+							{
+								"type": "text",
+								"content": "In dit project heb ik deze vaardigheden kunnen aantonen door het creëren van een interactief webplatform met een moderne gebruikersinterface. Door gebruik te maken van state-of-the-art technieken zoals React, CSS-modules en responsive design, heb ik het ontwerp van de klant omgezet naar een werkend product dat zowel op desktop- als mobiele apparaten goed functioneert. Dit proces omvatte onder andere het implementeren van data-visualisatie, het creëren van dynamische componenten voor gebruikersinteractie en het integreren van een backend via API’s. Mijn vermogen om design en techniek te combineren heeft ervoor gezorgd dat het uiteindelijke product een soepel werkende gebruikerservaring biedt. Als frontend developer kan ik snel schakelen tussen design en code, wat betekent dat ik minder tijd kwijt ben aan het vertalen van ontwerp naar realiteit en de klant sneller kan voorzien van werkende functionaliteiten."
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Door mijn ervaring met het omzetten van designs naar realiteit heb ik een beter inzicht gekregen in de uitdagingen en mogelijkheden die zich voordoen bij het ontwikkelen van frontend webapplicaties. Dit project heeft me geholpen mijn technische vaardigheden te verfijnen, maar ook mijn vermogen om visueel aantrekkelijke en functionele gebruikersinterfaces te creëren die naadloos aansluiten bij de wensen van de klant. In de toekomst wil ik mijn kennis verder uitbreiden op het gebied van performance optimalisatie en toegankelijkheid, zodat ik nog beter in staat ben om interactieve mediaproducten te ontwikkelen die voor alle gebruikers optimaal functioneren."
+							}
+						]
+					}
+				]
 			}
 		]
 	}
