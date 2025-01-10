@@ -18,11 +18,11 @@ function Outcome({ tag, outcome }) {
 				{outcome.sections.map((section, index) => (
 					<div
 						key={index}
-						className='mb-4'
+						className='mb-4 max-w-[850px]'
 					>
 						{/* Section Title */}
 						{section.title && (
-							<h3 className='text-lg font-bold mb-2'>{section.title}</h3>
+							<h3 className='text-2xl font-bold mb-2'>{section.title}</h3>
 						)}
 
 						{/* Render section content */}
@@ -39,7 +39,7 @@ function Outcome({ tag, outcome }) {
 									className='mt-4'
 								>
 									{step.title && (
-										<h4 className='text-md font-semibold'>{step.title}</h4>
+										<h4 className='text-xl font-semibold'>{step.title}</h4>
 									)}
 									{step.content &&
 										step.content.map((item, contentIndex) =>
@@ -56,7 +56,7 @@ function Outcome({ tag, outcome }) {
 									className='mt-4'
 								>
 									{idea.title && (
-										<h4 className='text-md font-semibold'>{idea.title}</h4>
+										<h4 className='text-xl font-semibold'>{idea.title}</h4>
 									)}
 									{idea.description && (
 										<p className='mt-2'>{idea.description}</p>
@@ -82,7 +82,7 @@ function renderContent(item, contentIndex) {
 			return (
 				<h4
 					key={contentIndex}
-					className='text-md font-semibold mt-2'
+					className='text-xl font-semibold mt-2'
 				>
 					{parse(item.content)}
 				</h4>
@@ -91,7 +91,7 @@ function renderContent(item, contentIndex) {
 			return (
 				<p
 					key={contentIndex}
-					className='text-base mt-2'
+					className='text-lg mt-2'
 				>
 					{parse(item.content)}
 				</p>
@@ -103,7 +103,12 @@ function renderContent(item, contentIndex) {
 					className='list-disc pl-6 mt-2'
 				>
 					{item.content.map((listItem, listIndex) => (
-						<li key={listIndex}>{parse(listItem)}</li>
+						<li
+							key={listIndex}
+							className='text-lg'
+						>
+							{parse(listItem)}
+						</li>
 					))}
 				</ul>
 			)
@@ -114,7 +119,12 @@ function renderContent(item, contentIndex) {
 					className='list-decimal pl-6 mt-2'
 				>
 					{item.content.map((listItem, listIndex) => (
-						<li key={listIndex}>{listItem}</li>
+						<li
+							key={listIndex}
+							className='text-lg'
+						>
+							{listItem}
+						</li>
 					))}
 				</ol>
 			)

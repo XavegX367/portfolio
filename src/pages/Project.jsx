@@ -8,6 +8,7 @@ import Outcome from '../components/Projects/Outcome'
 import Languages from '../components/Projects/Languages'
 import Documents from '../components/Projects/Documents'
 import Links from '../components/Projects/Links'
+import { Link } from 'react-router-dom'
 
 const Project = () => {
 	const [project, setProject] = useState(null)
@@ -47,9 +48,6 @@ const Project = () => {
 									{project.name}
 								</span>
 							</div>
-							<p className='text-base flex flex-wrap md:pl-2 md:mt-4 text-center md:text-start'>
-								{project.description}
-							</p>
 						</div>
 
 						{/* Render outcomes */}

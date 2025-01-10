@@ -14,7 +14,7 @@ function Project({ project }) {
 				>
 					<span className='md:header-item md:text-4xl'>{project.name}</span>
 				</a>
-				<div className='flex overflow-x-auto overflow-y-hidden'>
+				<div className='flex overflow-x-auto overflow-y-hidden max-w-[1050px] custom-scroll pb-1'>
 					{project.learning_outcomes &&
 						project.learning_outcomes.map((outcome, index) => {
 							return (
@@ -29,18 +29,20 @@ function Project({ project }) {
 				</div>
 			</div>
 
-			<div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 md:w-3/5 text-gray-300'>
+			<div className='flex flex-col justify-center gap-y-4 text-sm md:text-xl mt-2 md:mt-4 md:w-3/5 text-gray-300 max-w-[850px]'>
 				<a
 					target='blank'
 					href={project.url}
 				>
-					<img
-						src={project.img}
-						alt={project.name}
-						className='w-full md:w-1/4 md:h-1/4 h-full'
-					/>
+					{project.img && (
+						<img
+							src={project.img}
+							alt={project.name}
+							className='w-full md:w-1/4 md:h-1/4 h-full'
+						/>
+					)}
 				</a>
-				{project.description}
+				<span>{project.description}</span>
 			</div>
 
 			<div className='flex justify-end md:w-3/5 mr-2 mt-2 mb-2 md-mr-4'>

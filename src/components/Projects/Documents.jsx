@@ -1,3 +1,5 @@
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PropTypes from 'prop-types'
 
 function Documents({ documents }) {
@@ -8,12 +10,18 @@ function Documents({ documents }) {
 					<h1 className='text-xl mt-2'>Documenten</h1>
 					<div className='flex flex-col flex-wrap pl-2 md:mt-4'>
 						{documents.map((link, index) => (
-							<div
+							<a
 								key={index}
-								className='flex flex-col md:flex-row justify-start'
+								className='flex flex-row md:flex-row justify-start link mb-3'
+								href={link.url}
 							>
-								<span>{link}</span>
-							</div>
+								<span className='text-zinc-300'>{index + 1}.</span>
+								<span className='ml-2'>{link.name}</span>
+								<FontAwesomeIcon
+									icon={faDownload}
+									className='ml-2'
+								/>
+							</a>
 						))}
 					</div>
 				</div>

@@ -16,14 +16,15 @@ function Links({ links }) {
 							>
 								<a
 									target='_blank'
-									className='text-purple-500 hover:text-purple-400 transition-all duration-200 underline flex flex-row hover:pl-2'
+									className='link flex flex-row items-center'
 									href={link.url}
 									rel='noreferrer'
 								>
-									<div className='mr-2 text-lg pt-2'>
+									<span className='mr-2 text-zinc-300'>{index + 1}.</span>
+									{link.name}
+									<div className='ml-2 text-lg pt-2'>
 										<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
 									</div>
-									{link.name}
 								</a>
 							</div>
 						))}

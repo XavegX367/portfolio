@@ -3,12 +3,46 @@
 		"name": "Portfolio V2",
 		"domain": "portfolio_v2",
 		"used_languages": ["React", "CSS", "JavaScript"],
+		"url": "https://portfolio.joriskorsten.nl",
+		"img": "https://files.joriskorsten.nl/storage/folders/8/CbZYRJdoJnu7Yfa2yAEiMi5cQx4WOHswUfeg4kT3.png",
+		"description": "Dit is de vernieuwde versie van mijn portfolio voor semester 3, deze versie bevat verschillende veranderingen die ik heb doorgevoerd op basis van feedback van medestudenten en docenten. De website is gebouwd met React en Tailwind CSS.",
 		"learning_outcomes": []
 	},
 	{
 		"name": "Casekeeper",
 		"domain": "casekeeper",
+		"url": "https://casekeeper.nl",
+		"img": "https://files.joriskorsten.nl/storage/folders/8/E1OTW3cQxuBJAvqlGwBxJDNPoMRgroIzvsfn8J2a.png",
+		"description": "De klant, Bruns, ontwerpt op maat gemaakte vitrines voor tentoonstellingen en collecties. Om kwetsbare objecten in deze vitrines optimaal te beschermen, wil Bruns een systeem ontwikkelen waarmee omgevingsfactoren zoals temperatuur en luchtvochtigheid gemonitord kunnen worden. Bruns wil hiermee niet alleen vitrines leveren, maar ook een extra service aanbieden, waarmee ze zich kunnen onderscheiden van de concurrentie.",
 		"used_languages": ["React", "CSS", "JavaScript"],
+		"documents": [
+			{
+				"name": "Design inspiratie",
+				"url": "https://files.joriskorsten.nl/download?file_id=25"
+			},
+			{
+				"name": "Persona's",
+				"url": "https://files.joriskorsten.nl/download?file_id=30"
+			},
+			{
+				"name": "Competitor Analysis",
+				"url": "https://files.joriskorsten.nl/download?file_id=28"
+			},
+			{
+				"name": "Wat heb ik gedaan",
+				"url": "https://files.joriskorsten.nl/download?file_id=31"
+			}
+		],
+		"links": [
+			{
+				"name": "Casekeeper",
+				"url": "https://casekeeper.nl"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/design/umD1GfHRFkBSdb0GJi1Dr3/Vitrine-webplatform?node-id=371-713&t=3b7EHJmWjAGIa6bC-1"
+			}
+		],
 		"learning_outcomes": [
 			{
 				"id": 1,
