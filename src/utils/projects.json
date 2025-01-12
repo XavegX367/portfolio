@@ -86,7 +86,7 @@
 										"content": [
 											"Toegankelijkheid: Het systeem moet gebruikt kunnen worden door zowel technici als managers.",
 											"Schaalbaarheid: Het moet mogelijk zijn om nieuwe functionaliteiten en gebruikers toe te voegen.",
-											"Gebruiksvriendelijkheid: Het platform moet eenvoudig te begrijpen zijn, zonder uitgebreide training."
+											"Gebruiksvriendelijkheid: Het platform moet eenvoudig te begrijpen zijn, zonder uitgebreide training. Op sommige plekken maken we gebruik van buttons met icons, dus zonder tekst. Deze zijn duidelijker gemaakt met tooltips, hierdoor krijg je een tekstje te zien als je er met je muis overheen gaat."
 										]
 									},
 									{
