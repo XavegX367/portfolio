@@ -8,7 +8,6 @@ import Outcome from '../components/Projects/Outcome'
 import Languages from '../components/Projects/Languages'
 import Documents from '../components/Projects/Documents'
 import Links from '../components/Projects/Links'
-import { Link } from 'react-router-dom'
 
 const Project = () => {
 	const [project, setProject] = useState(null)
@@ -31,7 +30,7 @@ const Project = () => {
 				<div className='flex flex-col md:flex-row justify-between p-4'>
 					<div className='md:w-3/4'>
 						<div>
-							<div className='flex flex-row justify-center md:justify-start gap-x-2'>
+							<div className='flex flex-row items-center justify-center md:justify-start gap-x-2'>
 								<button
 									className='cursor-pointer md:mt-2'
 									onClick={() => goBack()}

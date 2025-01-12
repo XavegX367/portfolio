@@ -6,7 +6,22 @@
 		"url": "https://portfolio.joriskorsten.nl",
 		"img": "https://files.joriskorsten.nl/storage/folders/8/CbZYRJdoJnu7Yfa2yAEiMi5cQx4WOHswUfeg4kT3.png",
 		"description": "Dit is de vernieuwde versie van mijn portfolio voor semester 3, deze versie bevat verschillende veranderingen die ik heb doorgevoerd op basis van feedback van medestudenten en docenten. De website is gebouwd met React en Tailwind CSS.",
-		"learning_outcomes": []
+		"learning_outcomes": [
+			{
+				"id": 1,
+				"title": "Concept",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Als student in semester 3 heb ik behoefte aan een centraal platform waar ik de projecten die ik dit semester heb uitgevoerd, overzichtelijk en aantrekkelijk kan presenteren. Dit platform moet niet alleen dienen als een reflectietool voor mijzelf, maar ook als een showcase voor docenten, medestudenten en potentiële opdrachtgevers. Het huidige probleem is het gebrek aan een gestructureerd en visueel aantrekkelijk middel om mijn werk te tonen."
+							}
+						]
+					}
+				]
+			}
+		]
 	},
 	{
 		"name": "Casekeeper",
@@ -30,7 +45,7 @@
 			},
 			{
 				"name": "Wat heb ik gedaan",
-				"url": "https://files.joriskorsten.nl/download?file_id=31"
+				"url": "https://files.joriskorsten.nl/download?file_id=34"
 			}
 		],
 		"links": [

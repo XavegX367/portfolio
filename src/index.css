@@ -4,34 +4,36 @@
 
 @font-face {
 	font-family: 'lunchtype22';
-	src: url('../fonts/lunchtype22-Regular.ttf');
-	font-weight: normal;
+	src: url('./src/assets/fonts/Lunchtype22-.ttf') format('truetype');
+	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'lunchtype22';
-	src: url('../fonts/lunchtype22-Bold.ttf');
-	font-weight: bold;
+	src: url('./assets/fonts/Lunchtype22-Medium.ttf') format('truetype');
+	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'gentiumbookbasic';
-	src: url('../fonts/GenBkBasR.ttf');
+	src: url('./assets/fonts/GenBkBasR.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'gentiumbookbasic';
-	src: url('../fonts/GenBkBasI.ttf');
-	font-weight: normal;
+	src: url('./assets/fonts/GenBkBasI.ttf') format('truetype');
+	font-weight: 400;
 	font-style: italic;
 }
 
 * {
-	font-family: 'lunchtype22', sans-serif;
+	font-family: 'lunchtype22', Arial, sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
 html {
@@ -43,11 +45,11 @@ body {
 	margin: 0;
 	background: #20262e;
 	min-height: 300px;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-	@apply font-serif text-zinc-100;
+	@apply text-zinc-100;
+	font-weight: 500;
 }
 
 .icon_link {
