@@ -33,19 +33,19 @@
 		"documents": [
 			{
 				"name": "Design inspiratie",
-				"url": "https://files.joriskorsten.nl/download?file_id=25"
+				"url": "https://files.joriskorsten.nl/storage/folders/10/VBiOnjQvhHkuk0nc31kZfElJn6qF2KHsx5SFKtrZ.pdf"
 			},
 			{
 				"name": "Persona's",
-				"url": "https://files.joriskorsten.nl/download?file_id=30"
+				"url": "https://files.joriskorsten.nl/storage/folders/10/z0cmb7TsGvOhFtkIBUIjWrqP20BWirGqMbweoJLq.pdf"
 			},
 			{
 				"name": "Competitor Analysis",
-				"url": "https://files.joriskorsten.nl/download?file_id=28"
+				"url": "https://files.joriskorsten.nl/storage/folders/10/pZZU29yz8kFB6SLgQQQkmmqAJKMLUrRv3iu00OO7.pdf"
 			},
 			{
 				"name": "Wat heb ik gedaan",
-				"url": "https://files.joriskorsten.nl/download?file_id=34"
+				"url": "https://files.joriskorsten.nl/storage/folders/10/9Gv770yb1SdoBNeqlymvzjzKKmz6EuVm7lWfpxJU.pdf"
 			}
 		],
 		"links": [
@@ -224,6 +224,18 @@
 									{
 										"type": "text",
 										"content": "Projectgenoten en andere die hiernaar hebben gekeken zagen graag wat andere dingen bij het plannen van een afspraak, denk aan een stepper bovenin in plaats van verschillende cards die je open kan klikken. Ook zijn er aanpassingen gemaakt in de projecten table. Om het allemaal wat overzichtelijker te maken."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/4ea72YUvnxRB0dbwpCI3hL3s1EuxCRt5OpMYJE0s.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/dRYn1vj7jKMU2Sb3zmBxLxmtVBZLKfUvtKKe6n2G.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/Adk6GRrZXhOPSywofdvLmHNQfLPOuKuhrCgvDvip.png"
 									}
 								]
 							},
@@ -245,11 +257,35 @@
 									{
 										"type": "text",
 										"content": "De klant zag graag wat wijzigingen, denk aan het plan scherm aan bijvoorbeeld sneller filtering van vitrines mocht je er een stuk of 100 in een project hebben zitten en default options als reden voor onderhoud. Ook vond de klant de flow van het platform niet handig. Hij ziet het liever als volgt: <span className='bold'>Klanten -> Projecten/locaties -> Showcases -> Sensoren inzien</span>. Ook heb ik de klant hier zelf door het platform laten klikken en werd al snel duidelijk dat hij verwachtte op bepaalde plekken te kunnen klikken die ik mijzelf anders voorzag, zoals bijvoorbeld op de naam van het project in plaats van op het oogje."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/E5WfikM8sUnZgahg8C20BP0RlFNr40MzcGP6W5j2.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/VbwOXekoHjafvT8Xb9bT7L5JPn5mdHCdbT65HOQt.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/2IxDmW8xQvb9QBsjrGdHBRGNIX9tG4mW54X9b3op.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/efiOzztzfCmzQ2N6nO6jpipPawRRCLiORs95oYAj.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/XfSAVc4LT1LxEEUhLvdSZdMzSIjUsfTr0wdiJrae.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/h8ghNJ2vC9mb3uE4uXgNb6F2RAfUCAO1ugcZOdvX.png"
 									}
 								]
 							},
 							{
-								"title": "Derde wireframe prototype: Klantgerichte hiërarchie",
+								"title": "Derde prototype: Klantgerichte hiërarchie",
 								"content": [
 									{
 										"type": "title",
@@ -266,6 +302,22 @@
 									{
 										"type": "text",
 										"content": "Het ontwerp werd voorzien van de logische flow, met de mogelijkheid om op namen van de klanten etc te klikken (of natuurlijk op het oogje). Verder heb ik de afspraak planner even gelaten voor wat het is aangezien dit minder prio heeft dan makkelijk en snel de juiste gegevens in te kunnen zien."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/ZPg3cGjfC8TKm1RKLbKUiQXF68KCEjk7NZE4qiQZ.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/rtUeCZhu8GZO3PcbpWRb66MMx1tpSeFDNDYAvsGG.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/S6LjMd8hqkxlRSacTSrbnUZIGVYhFeroIfAib9OL.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/9/B87oLMqeLsvHli2gJCAsaOzBWcZ7XQCeeiSpyU4X.png"
 									}
 								]
 							},
@@ -458,6 +510,10 @@
 							{
 								"type": "text",
 								"content": "Door de focus te leggen op duidelijke documentatie, goed versiebeheer en een efficiënte codeorganisatie, heb ik ervoor gezorgd dat de code overdraagbaar is voor andere teamleden en makkelijk kan worden onderhouden. Dit is niet alleen handig voor het huidige project, maar ook voor toekomstige iteraties en uitbreidingen. Als ik terugkijk, zou ik in een volgend project nog meer tijd besteden aan het verbeteren van de documentatie, vooral door bijvoorbeeld meer uitleg te geven bij complexere componenten en de interacties tussen verschillende delen van de applicatie."
+							},
+							{
+								"type": "text",
+								"content": "Bekijk de code op <a className='link' target='_blank' href='https://git.fhict.nl/I504610/frontend'>Gitlab</a>"
 							}
 						]
 					}
@@ -558,6 +614,31 @@
 									{
 										"type": "text",
 										"content": "<span className='bold'>Stap 3:</span> Op basis van deze feedback heb ik snel een schets gemaakt van hoe we de nieuwe structuur konden implementeren. Deze schets werd uitgewerkt naar een nieuw prototype, dat opnieuw naar de klant werd gestuurd voor goedkeuring. De klant kwam met verdere ideeën, zoals een plattegrond van de vitrines, maar dit was te uitgebreid voor de huidige scope en viel buiten het projectplan."
+									}
+								]
+							},
+							{
+								"title": "Vierde iteratie - Showcase weergave en Feedback",
+								"content": [
+									{
+										"type": "text",
+										"content": "Verder heb ik na feedback de manier waarop showcases worden getoond veranderd van een datatable naar verschillende tiles. Dit maakt het overzichtelijker en makkelijker om te zien welke showcases er zijn."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/Au5GAMxjgF18T3VtlOQvr6FwoebMXPn1wSQ6wZ1q.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/wzVd8hcB4W0j2sxF4uoHoWxZ5s55CMUnRo0zAtA0.png"
+									},
+									{
+										"type": "text",
+										"content": "Hierna heb ik wat feedback van mijn docent gehad die graag had dat ik de showcases die buiten de thresholds vallen nog duidelijker zou maken, denk aan een border om de tile, en in de datatables voordat je bij de showcases komt heb ik een vinkje of een kruisje. Als je hier overheen hovert krijg je de status te zien met aantal cases met problemen etc."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/5/ZJlJMChUyHuk1IZfP1wU5ZcIH4SULj3NfjP4MHdE.png"
 									}
 								]
 							}
@@ -707,12 +788,24 @@
 						"title": "Reflectie",
 						"content": [
 							{
+								"type": "subheader",
+								"content": "Verbtering van documentatievaardigheden"
+							},
+							{
 								"type": "text",
 								"content": "Het semester verliep niet altijd zonder hobbels, maar ik heb er hard voor gewerkt om uiteindelijk succes te behalen. Een duidelijk voorbeeld hiervan is mijn vooruitgang op het gebied van documentatie. In vergelijking met mijn eerste pogingen, is mijn documentatievaardigheid aanzienlijk verbeterd. Ik heb nu een beter begrip van het belang van gedetailleerde en gestructureerde documentatie, en ik heb ervoor gezorgd dat mijn werk beter wordt vastgelegd en gemakkelijker te volgen is voor mijn teamleden."
 							},
 							{
+								"type": "subheader",
+								"content": "Lessen in projectplanning en teamcoördinatie"
+							},
+							{
 								"type": "text",
 								"content": "Wat betreft projectplanning reflecteerde ik tijdens ons laatste gesprek op het feit dat ik soms te lang heb gewacht op de voortgang van mijn teamleden. Dit had als gevolg dat bepaalde onderdelen van het project vertraging opliepen, wat uiteindelijk de algehele voortgang van het project beïnvloedde. Ik realiseer me dat het belangrijk is om proactiever te zijn in het volgen van deadlines en regelmatig in te checken bij teamleden om te zorgen dat iedereen op schema ligt. Om dit te verhelpen, heb ik geprobeerd om meer sturing te geven en duidelijker te communiceren over de verwachtingen en deadlines, zodat we als team efficiënter konden werken. In de toekomst wil ik mijn projectmanagementvaardigheden verder verbeteren door een meer gestructureerde aanpak te hanteren en eerder in te grijpen wanneer er vertraging dreigt."
+							},
+							{
+								"type": "subheader",
+								"content": "Groei als allround professional"
 							},
 							{
 								"type": "text",
