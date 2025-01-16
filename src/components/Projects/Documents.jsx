@@ -1,4 +1,4 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PropTypes from 'prop-types'
 
@@ -18,7 +18,7 @@ function Documents({ documents }) {
 								<span className='text-zinc-300'>{index + 1}.</span>
 								<span className='ml-2'>{link.name}</span>
 								<FontAwesomeIcon
-									icon={faDownload}
+									icon={faArrowUpRightFromSquare}
 									className='ml-2'
 								/>
 							</a>
