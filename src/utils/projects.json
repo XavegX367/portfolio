@@ -817,5 +817,37 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "Semester 3",
+		"domain": "semster3",
+		"description": "Reflectie semester 3 inclusief alle retrospectives",
+		"used_languages": [],
+		"documents": [
+			{
+				"name": "Reflectie semester 3",
+				"url": "https://files.joriskorsten.nl/storage/folders/11/89rRM0PLZSl9Wz3gwsHC0dnPcMMpcJcWl6IMN83f.pdf"
+			},
+			{
+				"name": "Retrospectives",
+				"url": "https://files.joriskorsten.nl/storage/folders/11/Ozh8dq0wfxBuWiPE20BqwFpJu797bCU7he3zZjYS.pdf"
+			}
+		],
+		"learning_outcomes": [
+			{
+				"id": 1,
+				"title": "Concept",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Dit is een pagina waar ik mijn reflecties van semester 3 kan delen. Hieronder/naast vind je de links naar de PDF van mijn reflectie van semester 3 en een PDF van mijn retrospectives."
+							}
+						]
+					}
+				]
+			}
+		]
 	}
 ]

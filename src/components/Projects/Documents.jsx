@@ -13,6 +13,8 @@ function Documents({ documents }) {
 							<a
 								key={index}
 								className='flex flex-row md:flex-row justify-start link mb-3'
+								target='_blank'
+								rel='noreferrer'
 								href={link.url}
 							>
 								<span className='text-zinc-300'>{index + 1}.</span>
