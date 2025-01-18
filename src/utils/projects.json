@@ -3,6 +3,7 @@
 		"name": "Portfolio V2",
 		"domain": "portfolio_v2",
 		"used_languages": ["React", "CSS", "JavaScript"],
+		"buildup": true,
 		"url": "https://portfolio.joriskorsten.nl",
 		"img": "https://files.joriskorsten.nl/storage/folders/8/CbZYRJdoJnu7Yfa2yAEiMi5cQx4WOHswUfeg4kT3.png",
 		"description": "Dit is de vernieuwde versie van mijn portfolio voor semester 3, deze versie bevat verschillende veranderingen die ik heb doorgevoerd op basis van feedback van medestudenten en docenten. De website is gebouwd met React en Tailwind CSS.",
@@ -10,6 +11,10 @@
 			{
 				"name": "GitLab",
 				"url": "https://git.fhict.nl/I504610/portfolio-sem3"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/design/eDGU1C6G7UAPB7clHCpHK0/Portfolio2?node-id=0-1&t=PI5GSRJvLRCsPgoN-1"
 			}
 		],
 		"learning_outcomes": [
@@ -22,6 +27,57 @@
 							{
 								"type": "text",
 								"content": "Als student in semester 3 heb ik behoefte aan een centraal platform waar ik de projecten die ik dit semester heb uitgevoerd, overzichtelijk en aantrekkelijk kan presenteren. Dit platform moet niet alleen dienen als een reflectietool voor mijzelf, maar ook als een showcase voor docenten, medestudenten en potentiële opdrachtgevers. Het huidige probleem is het gebrek aan een gestructureerd en visueel aantrekkelijk middel om mijn werk te tonen."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "overdraagbare_code",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Deze code is ook op <a href='https://git.fhict.nl/I504610/portfolio-sem3' className='link' target='_blank'>GitLab</a> te vinden. De code is opgebouwd met React en Tailwind CSS. De code is goed gestructureerd en georganiseerd, zodat het voor andere ontwikkelaars eenvoudig is om de code te begrijpen en aan te passen."
+							}
+						]
+					},
+					{
+						"title": "Aanpassingen in dit portfolio vergeleken met semester 2",
+						"steps": [
+							{
+								"title": "Opzet",
+								"content": [
+									{
+										"type": "text",
+										"content": "De manier waarop projecten gestructureerd zijn, is helemaal op de schop gegaan. Voorheen was het bijvoorbeeld niet mogelijk om custom images etc per leerdoel toe te voegen. De JSON van de projecten is nu zo gestructureerd dat ze volledig dynamisch zijn. Hierdoor kan ik zoveel items, teksten, images etc per leerdoerl toevoegen als ik wil."
+									}
+								]
+							},
+							{
+								"title": "Layout",
+								"content": [
+									{
+										"type": "text",
+										"content": "Naast de JSON is ook de layout van de projecten op de schop gegaan, zo staan nu de algemene dingen als 'talen en frameworks', 'links' en 'documenten' rechts in het scherm. Hierdoor zijn deze altijd makkelijk er bij te pakken."
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "interaction_design",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Het design van het project is opgezet in semester 2, dit portfolio is daarom ook niet erg aangepast en de Figma zelf is erg minimaal, wel kan je met de knop hieronder mijn inspiratie inzien. Ook hier een linkje naar het <a href='https://www.figma.com/design/eDGU1C6G7UAPB7clHCpHK0/Portfolio2?node-id=0-1&t=PI5GSRJvLRCsPgoN-1' className='link' target='_blank'>Figma bestand</a> (ook al is hier niet veel te zien)"
 							}
 						]
 					}
@@ -881,7 +937,7 @@
 		]
 	},
 	{
-		"name": "Semester 3",
+		"name": "Semester 3 (Algemene documenten)",
 		"domain": "semster3",
 		"description": "Reflectie semester 3 inclusief alle retrospectives",
 		"used_languages": [],
@@ -908,7 +964,7 @@
 						"content": [
 							{
 								"type": "text",
-								"content": "Dit is een pagina waar ik mijn reflecties van semester 3 kan delen. Hieronder/naast vind je de links naar de PDF van mijn reflectie van semester 3 en een PDF van mijn retrospectives."
+								"content": "Dit is een pagina waar ik mijn reflecties van semester 3 kan delen. Hieronder/naast vind je de links naar de PDF van mijn reflectie van semester 3, een PDF van mijn retrospectives en een PDF naar de peer reviews van mijn projectgenoten over mij."
 							}
 						]
 					}

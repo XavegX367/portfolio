@@ -24,6 +24,10 @@ function App() {
 					path='/projects/:domain'
 					element={<Project />}
 				/>
+				<Route
+					path='/inspiration'
+					element={<BuildUp />}
+				/>
 			</Routes>
 		</div>
 	)
