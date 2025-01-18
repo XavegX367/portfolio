@@ -646,6 +646,62 @@
 									{
 										"type": "image",
 										"src": "https://files.joriskorsten.nl/storage/folders/5/ZJlJMChUyHuk1IZfP1wU5ZcIH4SULj3NfjP4MHdE.png"
+									},
+									{
+										"type": "text",
+										"content": "Om de grafiek te laten voldoen aan de wensen van de klant is er gevraagd om alle sensoren in 1 grafiek te tonen, daarbij wilde ze graag een daterange kunnen instellen en een excel export kunnen maken van de data."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/FCCV844WRzP1gnysSkdQBoqqzHuIB6V5rMVCAJT9.jpg"
+									},
+									{
+										"type": "text",
+										"content": "Verder wilde de klant graag snel en makkelijk in 1 oog opslag zien welke showcases sensoren hebben die buiten de drempelwaardes vallen, dit heb ik opgelost door in de datatables een status te tonen waar je met een hover ziet hoeveel sensoren er buiten de waardes vallen. Daarbij heb ik bovenin ook een notificatie belletje toegevoegd die direct een aantal in een bolletje laat zien en als je hem openklikt zie je direct de waardes. Ook zie je aan de kleur hoe groot de overschrijding in % is."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/mcgoRPeJLSfIz2x16lJoYO9YttTICsA5EP3nUc2i.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/paCzaHV39cKrNcB7lcdudWU4Efqg25O7IurBytKe.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/TddP5irjVXANilNR5fiGIPYgJeObj7Xn9WHsjW5X.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/hDvJ2yigWnW6JDZRmZToF5SwEKHHI1ob56H4lv01.png"
+									},
+									{
+										"type": "text",
+										"content": "Verder zag de klant graag dat ze basis thresholds voor een heel project kunnen instellen. Hierbij heb ik de optie toegevoegd om al gezette thresholds te overschrijden of allen de default waardes."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/Xx4F3Imymy6L3p5JdUrM25AT41aciCV1BizRrAbY.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/0IIiCG2PKgJJkZqFtLcmJeaDyMjeZBOriwPTM1Wo.png"
+									},
+									{
+										"type": "text",
+										"content": "Als laatst moest het nog nodig zijn om een afspraak te kunnen plannen voor projecten, dit is ingevoegd en werkt als volgt: Je kan in het eerste scherm de showcases selecteren die onderhoud nodig hebben, dan kan je in het 2e scherm per showcase aangeven wat er aan moet gebeuren met checkboxes en een input veld. In stap 3 kan je per showcase instellen wanneer en hoe laat dit moet gebeuren."
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/nqZDcLWY3LTTrbfeSaCh41Ra4folezPBLdt152gG.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/RKflN15YmymM2JFC5NT0T6Yte4U95L0XgFW18zLj.png"
+									},
+									{
+										"type": "image",
+										"src": "https://files.joriskorsten.nl/storage/folders/12/IjKiabrXrCZ5k61adWTZ9GxpCePrMFt3QuLlkCpX.png"
 									}
 								]
 							}
@@ -837,6 +893,10 @@
 			{
 				"name": "Retrospectives",
 				"url": "https://files.joriskorsten.nl/storage/folders/11/Ozh8dq0wfxBuWiPE20BqwFpJu797bCU7he3zZjYS.pdf"
+			},
+			{
+				"name": "Peer reviews",
+				"url": "https://files.joriskorsten.nl/storage/folders/11/befcZAlUyDN6C13VfDXQ7xxFKtoZlcrs2YIfvDuk.pdf"
 			}
 		],
 		"learning_outcomes": [
