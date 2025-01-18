@@ -96,7 +96,7 @@
 										"content": [
 											"Toegankelijkheid: Het systeem moet gebruikt kunnen worden door zowel technici als managers.",
 											"Schaalbaarheid: Het moet mogelijk zijn om nieuwe functionaliteiten en gebruikers toe te voegen.",
-											"Gebruiksvriendelijkheid: Het platform moet eenvoudig te begrijpen zijn, zonder uitgebreide training. Op sommige plekken maken we gebruik van buttons met icons, dus zonder tekst. Deze zijn duidelijker gemaakt met tooltips, hierdoor krijg je een tekstje te zien als je er met je muis overheen gaat."
+											"Gebruiksvriendelijkheid: Het platform moet eenvoudig te begrijpen zijn, zonder uitgebreide training. Op sommige plekken maken we gebruik van buttons met icons, dus zonder tekst. Deze zijn duidelijker gemaakt met tooltips, hierdoor krijg je een tekstje te zien als je er met je muis overheen gaat. Verder heb ik bij lange selects een zoekbalk toegevoegd zodat je makkelijker kan zoeken naar de juiste optie."
 										]
 									},
 									{
@@ -126,7 +126,7 @@
 										"content": [
 											"Medewerkers van Bruns: Zij hebben behoefte aan een overzichtelijk beheersysteem waarmee ze vitrines per klant of project kunnen monitoren.",
 											"Museummedewerkers en beheerders: Zij willen snel toegang hebben tot omgevingsgegevens van vitrines om hun collecties te beschermen.",
-											"Deze info hebben we verkregen via <a href='https://files.joriskorsten.nl/storage/folders/10/z0cmb7TsGvOhFtkIBUIjWrqP20BWirGqMbweoJLq.pdf' className='link'>persona's</a> en interviews."
+											"Deze info hebben we verkregen via <a target='_blank' href='https://files.joriskorsten.nl/storage/folders/10/z0cmb7TsGvOhFtkIBUIjWrqP20BWirGqMbweoJLq.pdf' className='link'>persona's</a> en interviews."
 										]
 									}
 								]
@@ -194,7 +194,7 @@
 						"content": [
 							{
 								"type": "text",
-								"content": "Om een solide basis te leggen voor het ontwerp, heb ik inspiratie opgedaan uit bestaande webportalen. Dit onderzoek was gericht op:"
+								"content": "Om een solide basis te leggen voor het ontwerp, heb ik inspiratie opgedaan uit bestaande webportalen (Zie <a target='_blank' href='https://files.joriskorsten.nl/storage/folders/10/VBiOnjQvhHkuk0nc31kZfElJn6qF2KHsx5SFKtrZ.pdf' className='link'>designinspiratie</a>). Dit onderzoek was gericht op:"
 							},
 							{
 								"type": "list",
