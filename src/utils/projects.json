@@ -90,7 +90,7 @@
 		"domain": "casekeeper",
 		"url": "https://casekeeper.nl",
 		"img": "https://files.joriskorsten.nl/storage/folders/8/E1OTW3cQxuBJAvqlGwBxJDNPoMRgroIzvsfn8J2a.png",
-		"description": "De klant, Bruns, ontwerpt op maat gemaakte vitrines voor tentoonstellingen en collecties. Om kwetsbare objecten in deze vitrines optimaal te beschermen, wil Bruns een systeem ontwikkelen waarmee omgevingsfactoren zoals temperatuur en luchtvochtigheid gemonitord kunnen worden. Bruns wil hiermee niet alleen vitrines leveren, maar ook een extra service aanbieden, waarmee ze zich kunnen onderscheiden van de concurrentie.",
+		"description": "De klant, Bruns, ontwerpt op maat gemaakte vitrines voor tentoonstellingen en collecties. Om kwetsbare objecten in deze vitrines optimaal te beschermen, wil Bruns een systeem ontwikkelen waarmee omgevingsfactoren zoals temperatuur en luchtvochtigheid gemonitord kunnen worden. Bruns wil hiermee niet alleen vitrines leveren, maar ook een extra service aanbieden, waarmee ze zich kunnen onderscheiden van de concurrentie. <a href='https://casekeeper.nl' target='_blank' className='link'>inloggen kan met username: admin wachtwoord: admin123</a>",
 		"used_languages": ["React", "CSS", "JavaScript"],
 		"documents": [
 			{

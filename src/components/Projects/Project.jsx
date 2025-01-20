@@ -2,6 +2,8 @@ import Tag from './Tag'
 import PropTypes from 'prop-types'
 import Btn from '../../components/Layout/Btn'
 import { HashLink } from 'react-router-hash-link'
+import parse from 'html-react-parser'
+
 // import Thumbnail from "react-webpage-thumbnail";
 
 function Project({ project }) {
@@ -42,7 +44,7 @@ function Project({ project }) {
 						/>
 					)}
 				</a>
-				<span>{project.description}</span>
+				<span>{parse(project.description)}</span>
 			</div>
 
 			<div className='flex justify-end md:w-3/5 mr-2 mt-2 mb-2 md-mr-4'>

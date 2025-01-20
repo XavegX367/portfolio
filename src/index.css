@@ -98,6 +98,10 @@ h1 {
 	@apply text-primary hover:text-secondary transition-all duration-150;
 }
 
+.highlight {
+	@apply text-primary;
+}
+
 .concept {
 	@apply from-[#332e3c] to-[#5c3e88];
 }
