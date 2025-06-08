@@ -1,6 +1,206 @@
 [
 	{
-		"name": "Portfolio V2",
+		"name": "Apostle mediaforge - Semester 4",
+		"domain": "mediaforge",
+		"url": "https://dev.apostle.social",
+		"img": "https://files.joriskorsten.nl/storage/folders/16/KmxxY3mwz8tPQKusLg3fNfUjO8H8m5cvkbwUXXxL.png",
+		"description": "Apostle, biedt een platform voor gestructureerde socialmediamarketing via ambassadeurs. Vanuit de praktijk bleek dat klanten veel gebruik maken van Canva voor het ontwerpen van hun visuals. Om dit proces te verbeteren en gebruiksvriendelijker te maken, wilde Apostle een directe integratie met Canva realiseren. Hierdoor kunnen gebruikers sneller en efficiënter afbeeldingen bewerken en inzetten, zonder omslachtig te hoeven downloaden en uploaden. Met deze toevoeging biedt Apostle een waardevolle uitbreiding van hun platform en vergroot het hun meerwaarde richting klanten.",
+		"used_languages": ["Vue", "CSS", "JavaScript", "PHP", "Laravel", "MySQL"],
+		"documents": [
+			{
+				"name": "Projectplan",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf"
+			},
+			{
+				"name": "Userstories",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/JHfkqNQF8Waf8tjmkFeHflZQt0kw5pKuSoctN1Sx.pdf"
+			},
+			{
+				"name": "Tool research",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/yPpo7V6Twlkfmi34YUlVeZQanEBT2iqZelTDVPL6.pdf"
+			},
+			{
+				"name": "Aanvulling Project",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/uK8l4WvLLaKMfCN5BxDZ6tRTKABNfXnG1KqRwufH.pdf"
+			},
+			{
+				"name": "Code screenshots",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/yrHIWMZFhWofNNs1Woc4CENxz7pqoD4DkRbo3eNI.pdf"
+			},
+			{
+				"name": "GitHub screenshots",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf"
+			},
+			{
+				"name": "Slackgesprek",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/DFEPA7YYBm84ndJd0hTPM9dgvl0kEXf39jUcJg41.pdf"
+			},
+			{
+				"name": "Beoordeling begeleider",
+				"url": "https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf"
+			}
+		],
+		"links": [
+			{
+				"name": "Apostle",
+				"url": "https://apostlesocial.com"
+			},
+			{
+				"name": "Figma",
+				"url": "https://www.figma.com/design/KANtJuDIBRQ7kTyPlcw4XZ/Canva-integratie?node-id=1-2&t=7qO9hRGqZ7TV8tLg-1"
+			},
+			{
+				"name": "Demo video",
+				"url": "https://youtu.be/p4Rt62vjI3k"
+			}
+		],
+		"learning_outcomes": [
+			{
+				"id": 1,
+				"title": "kennis_en_vaardigheden",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Bij dit project heb ik mijn technische kennis en ervaring ingezet om zelfstandig een volledige API-integratie te realiseren. Van het analyseren van de klantvraag tot het ontwikkelen van een werkend prototype: ik was verantwoordelijk voor zowel backend als frontend en wist met behulp van duidelijke user stories een robuuste oplossing neer te zetten."
+							}
+						]
+					},
+					{
+						"title": "Proces",
+						"content": [
+							{
+								"type": "text",
+								"content": "Tijdens mijn stage bij Apostle heb ik het volledige traject van een softwareproject doorlopen. Ik begon met het analyseren van klantbehoeften door gesprekken met het Customer Success-team en vertaalde deze naar concrete user stories en requirements. Hieruit bleek een duidelijke behoefte aan integratie met Canva, wat leidde tot een toolvergelijking waarin ik de keuze voor Canva onderbouwde. Ik heb zelfstandig de backend gebouwd, inclusief OAuth-authenticatie, API-integratie, het verzenden en ophalen van bestanden via Canva en de verwerking binnen het Apostle-platform. Het frontend prototype heb ik klikbaar ontworpen in Figma en getest op basis van de user stories."
+							}
+						]
+					},
+					{
+						"title": "Bewijslast",
+						"content": [
+							{
+								"type": "list",
+								"content": [
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf'>Projectplan</a> - analyse, aanpak en structuur</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/JHfkqNQF8Waf8tjmkFeHflZQt0kw5pKuSoctN1Sx.pdf'>Userstories</a> - functionele eisen</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/yPpo7V6Twlkfmi34YUlVeZQanEBT2iqZelTDVPL6.pdf'>Tool research</a> - toolkeuze en motivatie</span>",
+									"<span><a className='link' target='_blank' href='https://www.figma.com/design/KANtJuDIBRQ7kTyPlcw4XZ/Canva-integratie?node-id=1-2&t=7qO9hRGqZ7TV8tLg-1'>Figma</a> - Klikbaar UI-prototype</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/yrHIWMZFhWofNNs1Woc4CENxz7pqoD4DkRbo3eNI.pdf'>Code screenshots</a> - Screenshots van code die gebruikt zijn voor deze integratie</span>",
+									"<span><a className='link' target='_blank' href='https://youtu.be/p4Rt62vjI3k'>Demo video</a> - werkende oplossing binnen Apostle </span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>"
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "In dit traject heb ik laten zien dat ik zelfstandig complexe technische integraties kan realiseren. Het was waardevol om al in een vroege fase met het backend-deel te starten. Deze aanpak gaf mij rust en overzicht, ondanks het ontbreken van definitieve designs. Het opstellen van user stories hielp me om gestructureerd te werken. Ik heb veel geleerd over het werken met API's, OAuth-authenticatie en het integreren van externe tools. Ook heb ik mijn vaardigheden in Figma verder ontwikkeld door een klikbaar prototype te maken dat aansluit bij de wensen van de klant. Deze ervaring heeft me niet alleen technische kennis bijgebracht, maar ook inzicht in het belang van goede communicatie en samenwerking binnen een team."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "professional_standard",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Gedurende dit project heb ik gewerkt volgens professionele standaarden zoals die binnen developmentteams gebruikelijk zijn. Ik betrok stakeholders, valideerde het concept met eindgebruikers en stuurde bij op basis van feedback. Door gebruikersonderzoek en iteratief werken zorgde ik voor een oplossing die daadwerkelijk aansluit bij de praktijk."
+							}
+						]
+					},
+					{
+						"title": "Proces",
+						"content": [
+							{
+								"type": "text",
+								"content": "Ik heb zelfstandig doelen opgesteld, stakeholders betrokken en het project iteratief ontwikkeld. Ik sprak met collega’s van Customer Success om inzicht te krijgen in klantbehoeften. Het prototype is getest door klanten via een Google Forms test en de feedback heb ik direct verwerkt in de applicatie. Denk aan het toevoegen van een bewerkknop op een logische plek en de mogelijkheid om Canva-bestanden op te halen in Apostle."
+							}
+						]
+					},
+					{
+						"title": "Bewijslast",
+						"content": [
+							{
+								"type": "list",
+								"content": [
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/uK8l4WvLLaKMfCN5BxDZ6tRTKABNfXnG1KqRwufH.pdf'>Aanvulling project</a> - Google Forms feedback op prototype met screenshots</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/DFEPA7YYBm84ndJd0hTPM9dgvl0kEXf39jUcJg41.pdf'>Slackgesprek met Stefan</a> - stakeholderinbreng</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf'>Beoordeling werkbegeleider (Lars)</a> - Bevestigt professionele aanpak</span>",
+									"<span><span className='link'>Quote Stefan</span>: Ik hoor van meerdere klanten dat ze al hun visuals in Canva maken, een directe koppeling zou voor hen echt tijd besparen</span>",
+									"<span><span className='link'>Quote Mick</span>: Klanten vragen steeds vaker of ze hun Canva-designs makkelijk kunnen gebruiken binnen ons platform.</span>",
+									"<span><span className='link'>Quote Thijs</span>: Bij de laatste klantdemo werd specifiek gevraagd of we al iets met Canva-integratie doen, ze werken daar namelijk volledig in</span>"
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Het actief ophalen en verwerken van feedback was een waardevol leerproces. Door direct met klanten te testen, wist ik zeker dat de oplossing aansloot bij hun wensen. Ik vond het prettig om zelf de regie te nemen en stakeholders te betrekken zoals ik dat ook binnen een professioneel team zou doen. Dit project heeft me geleerd hoe belangrijk het is om niet alleen vanuit mijn eigen perspectief te werken, maar ook de eindgebruiker centraal te stellen. Het was een goede oefening in het toepassen van professionele standaarden en het werken met echte klantbehoeften."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": 3,
+				"title": "personal_leadership",
+				"sections": [
+					{
+						"content": [
+							{
+								"type": "text",
+								"content": "Vanaf het begin heb ik het voortouw genomen in dit project. Ik nam verantwoordelijkheid voor keuzes, communiceerde proactief met collega’s en bewaakte de voortgang. Ondanks druk vanuit andere projecten wist ik prioriteiten te stellen en mijn leerdoelen te blijven ontwikkelen, met name op het gebied van documentatie en persoonlijke groei."
+							}
+						]
+					},
+					{
+						"title": "Proces",
+						"content": [
+							{
+								"type": "text",
+								"content": "Ik nam direct eigenaarschap over het project. Ondanks dat ik ook betrokken was bij andere interne projecten, koos ik ervoor alvast te beginnen met het backendgedeelte. Zo kon ik later eenvoudiger aansluiten bij het frontend design. Ook heb ik mezelf bewust verbeterd op het gebied van documentatie en structuur, mede door feedback te vragen en samen te werken met collega's."
+							}
+						]
+					},
+					{
+						"title": "Bewijslast",
+						"content": [
+							{
+								"type": "list",
+								"content": [
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf'>Projectplan</a> - Reflectie, zelfinzicht</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf'>Beoordeling werkbegeleider (Lars)</a> - bevestiging leiderschap en eigenaarschap</span>"
+								]
+							}
+						]
+					},
+					{
+						"title": "Reflectie",
+						"content": [
+							{
+								"type": "text",
+								"content": "Ik merkte dat ik goed functioneer als ik de ruimte krijg om zelf keuzes te maken en verantwoordelijkheid te nemen. De combinatie van mijn technische ervaring en leerhouding heeft ervoor gezorgd dat dit project soepel verliep. Mijn verbeterde aanpak op het gebied van documentatie geeft me vertrouwen voor toekomstige projecten. Ik heb geleerd dat het belangrijk is om niet alleen te focussen op de technische aspecten, maar ook op hoe je jezelf kunt verbeteren en ontwikkelen. Dit project heeft me geholpen om mijn persoonlijke leiderschapskwaliteiten verder te ontwikkelen en me voor te bereiden op toekomstige uitdagingen in mijn carrière."
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Portfolio V2 - Semester 3",
 		"domain": "portfolio_v2",
 		"used_languages": ["React", "CSS", "JavaScript"],
 		"buildup": true,
@@ -86,7 +286,7 @@
 		]
 	},
 	{
-		"name": "Casekeeper",
+		"name": "Casekeeper - Semester 3",
 		"domain": "casekeeper",
 		"url": "https://casekeeper.nl",
 		"img": "https://files.joriskorsten.nl/storage/folders/8/E1OTW3cQxuBJAvqlGwBxJDNPoMRgroIzvsfn8J2a.png",

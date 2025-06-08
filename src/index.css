@@ -130,6 +130,18 @@ h1 {
 	@apply from-[#2e386c] to-[#49527c];
 }
 
+.kennis_en_vaardigheden {
+	@apply from-[#7c7a59] to-[#aaa439];
+}
+
+.professional_standard {
+	@apply from-[#2e3c6c] to-[#48527c];
+}
+
+.personal_leadership {
+	@apply from-[#5b835e] to-[#378932];
+}
+
 .project {
 	@apply mb-4 mt-4 text-2xl mx-2 md:mx-8;
 }

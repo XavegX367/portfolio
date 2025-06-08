@@ -26,5 +26,17 @@
 	"persoonlijke_professionele_focus": {
 		"name": "Persoonlijke professionele focus",
 		"description": "Je onderzoekt verder het door jou gekozen functieprofiel, hoe jij je onderscheidt van anderen in hetzelfde functieprofiel en toont dit aan in een product. "
+	},
+	"kennis_en_vaardigheden": {
+		"name": "Kennis en vaardigheden",
+		"description": ""
+	},
+	"professional_standard": {
+		"name": "Professional standard",
+		"description": ""
+	},
+	"personal_leadership": {
+		"name": "Personal leadership",
+		"description": ""
 	}
 }
