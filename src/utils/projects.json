@@ -5,7 +5,7 @@
 		"url": "https://dev.apostle.social",
 		"img": "https://files.joriskorsten.nl/storage/folders/16/KmxxY3mwz8tPQKusLg3fNfUjO8H8m5cvkbwUXXxL.png",
 		"description": "Apostle, biedt een platform voor gestructureerde socialmediamarketing via ambassadeurs. Vanuit de praktijk bleek dat klanten veel gebruik maken van Canva voor het ontwerpen van hun visuals. Om dit proces te verbeteren en gebruiksvriendelijker te maken, wilde Apostle een directe integratie met Canva realiseren. Hierdoor kunnen gebruikers sneller en efficiënter afbeeldingen bewerken en inzetten, zonder omslachtig te hoeven downloaden en uploaden. Met deze toevoeging biedt Apostle een waardevolle uitbreiding van hun platform en vergroot het hun meerwaarde richting klanten.",
-		"used_languages": ["Vue", "CSS", "JavaScript", "PHP", "Laravel", "MySQL"],
+		"used_languages": ["Vue.js", "CSS", "JavaScript", "php", "Laravel", "MySQL"],
 		"documents": [
 			{
 				"name": "Projectplan",

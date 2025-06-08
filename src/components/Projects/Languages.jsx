@@ -5,6 +5,7 @@ import {
 	faLaravel,
 	faPhp,
 	faReact,
+	faVuejs,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PropTypes from 'prop-types'
@@ -72,6 +73,14 @@ function Languages({ languages }) {
 										<div className='text-white hover:text-[#f05340] duration-300 transition-all'>
 											<FontAwesomeIcon
 												icon={faLaravel}
+												className='text-5xl mt-2'
+											/>
+										</div>
+									)}
+									{language === 'Vue.js' && (
+										<div className='text-white hover:text-[#41b883] duration-300 transition-all'>
+											<FontAwesomeIcon
+												icon={faVuejs}
 												className='text-5xl mt-2'
 											/>
 										</div>
