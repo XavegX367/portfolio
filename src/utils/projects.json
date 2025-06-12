@@ -12,8 +12,8 @@
 				"url": "https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf"
 			},
 			{
-				"name": "Userstories",
-				"url": "https://files.joriskorsten.nl/storage/folders/15/JHfkqNQF8Waf8tjmkFeHflZQt0kw5pKuSoctN1Sx.pdf"
+				"name": "User stories",
+				"url": "https://files.joriskorsten.nl/storage/folders/17/HV0qaZlRkDo5tuVZXbxmKZ6YMMCvkmCYMMuHwRh4.pdf"
 			},
 			{
 				"name": "Tool research",
@@ -25,15 +25,15 @@
 			},
 			{
 				"name": "Code screenshots",
-				"url": "https://files.joriskorsten.nl/storage/folders/15/yrHIWMZFhWofNNs1Woc4CENxz7pqoD4DkRbo3eNI.pdf"
+				"url": "https://files.joriskorsten.nl/storage/folders/17/pG6Q6OmsmuzCllr4s7egjMjconDE7pob6IssuRFE.pdf"
 			},
 			{
 				"name": "GitHub screenshots",
-				"url": "https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf"
+				"url": "https://files.joriskorsten.nl/storage/folders/17/o5hdIF3YZjWJsPZdRrBLvLEVJnvPikz3vRKpffWI.pdf"
 			},
 			{
 				"name": "Slackgesprek",
-				"url": "https://files.joriskorsten.nl/storage/folders/15/DFEPA7YYBm84ndJd0hTPM9dgvl0kEXf39jUcJg41.pdf"
+				"url": "https://files.joriskorsten.nl/storage/folders/17/e5hAz3AVSIflK0iIc67bm9OPhIZIaEQkWZapvuFo.pdf"
 			},
 			{
 				"name": "Beoordeling begeleider",
@@ -52,6 +52,56 @@
 			{
 				"name": "Demo video",
 				"url": "https://youtu.be/p4Rt62vjI3k"
+			}
+		],
+		"reading_guide": [
+			{
+				"content": [
+					{
+						"type": "text",
+						"content": "Tijdens mijn stage bij Apostle, een platform voor gestructureerde socialmediamarketing via merkambassadeurs, kreeg ik de opdracht om een integratie met Canva te realiseren. Vanuit het bedrijf leefde al het idee dat Canva een waardevolle toevoeging zou zijn, maar om dit goed te onderbouwen ben ik begonnen met een <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/yPpo7V6Twlkfmi34YUlVeZQanEBT2iqZelTDVPL6.pdf'>toolonderzoek</a> naar alternatieve designplatforms. Ik heb meerdere tools vergeleken op basis van integratiemogelijkheden, API-functionaliteit, gebruiksgemak en klantvoorkeuren. Op basis van dit onderzoek heb ik het onderbouwde advies gegeven om voor Canva te kiezen. Iets wat goed aansloot op de initiële verwachtingen, maar nu met duidelijke argumentatie werd ondersteund."
+					}
+				]
+			},
+			{
+				"content": [
+					{
+						"type": "text",
+						"content": "In samenwerking met het Customer Success-team ben ik daarna verder gegaan met het ophalen van klantwensen. Dit heb ik vertaald naar concrete <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/HV0qaZlRkDo5tuVZXbxmKZ6YMMCvkmCYMMuHwRh4.pdf'>user stories</a> waarin de frustraties en behoeften rondom het bewerken van visuals centraal stonden. Hieruit bleek dat veel klanten hun afbeeldingen ontwerpen in Canva, maar het proces van downloaden, uploaden en schakelen tussen beide platforms als omslachtig en tijdrovend ervaren."
+					}
+				]
+			},
+			{
+				"content": [
+					{
+						"type": "text",
+						"content": "Vanwege de beperkte tijd en de overige verantwoordelijkheden die ik had tijdens mijn stage, hebben we ervoor gekozen om te focussen op de meest gevraagde functionaliteiten. Op basis van de <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/HV0qaZlRkDo5tuVZXbxmKZ6YMMCvkmCYMMuHwRh4.pdf'>user stories</a> heb ik een klikbaar prototype gemaakt in <a className='link' target='_blank' href='https://www.figma.com/design/KANtJuDIBRQ7kTyPlcw4XZ/Canva-integratie?node-id=1-2&t=7qO9hRGqZ7TV8tLg-1'>Figma</a> waarmee ik de gebruikerservaring kon visualiseren en laten testen door klanten. De feedback die hieruit voortkwam, zoals een duidelijkere bewerkknop en de mogelijkheid om Canva-designs ook terug op te halen heb ik direct doorvertaald in het technische ontwerp."
+					}
+				]
+			},
+						{
+				"content": [
+					{
+						"type": "text",
+						"content": "Ik ben vervolgens gestart met de <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/pG6Q6OmsmuzCllr4s7egjMjconDE7pob6IssuRFE.pdf'>backendontwikkeling</a>, waarbij ik verantwoordelijk was voor het opzetten van de koppeling met Canva via OAuth-authenticatie. Ik heb API-functies gebouwd waarmee gebruikers Canva-designs kunnen openen, bewerken en opslaan. Daarna heb ik de feedback van <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/uK8l4WvLLaKMfCN5BxDZ6tRTKABNfXnG1KqRwufH.pdf'>Google Forms</a> verwerkt en heb ik met de des betreffende aanpassingen de <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/pG6Q6OmsmuzCllr4s7egjMjconDE7pob6IssuRFE.pdf'>frontend</a> opgezet en gekoppeld met als doel een gebruiksvriendelijke integratie."
+					}
+				]
+			},
+						{
+				"content": [
+					{
+						"type": "text",
+						"content": "Het resultaat is een <a className='link' target='_blank' href='https://www.youtube.com/watch?v=p4Rt62vjI3k'>functionele Canva-integratie</a> waarmee gebruikers direct vanuit Apostle een bestaande afbeelding kunnen aanpassen. Zodra een design is opgeslagen, wordt deze automatisch teruggeplaatst in je Apostle team. Dit bespaart tijd, voorkomt foutgevoelig handmatig werk en sluit aan op de bestaande workflows van onze klanten."
+					}
+				]
+			},
+						{
+				"content": [
+					{
+						"type": "text",
+						"content": "Op deze pagina vind je de verschillende onderdelen van het project, waaronder de <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf'>projectdocumentatie</a>, het <a className='link' target='_blank' href='https://www.figma.com/design/KANtJuDIBRQ7kTyPlcw4XZ/Canva-integratie?node-id=1-2&t=7qO9hRGqZ7TV8tLg-1'>klikbare prototype</a>, <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/pG6Q6OmsmuzCllr4s7egjMjconDE7pob6IssuRFE.pdf'>codevoorbeelden</a>, <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/o5hdIF3YZjWJsPZdRrBLvLEVJnvPikz3vRKpffWI.pdf'>Versiebeheer</a>, <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/uK8l4WvLLaKMfCN5BxDZ6tRTKABNfXnG1KqRwufH.pdf'>feedback van klanten</a>, <a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf'>beoordeling begeleider op werk</a> en een <a className='link' target='_blank' href='https://www.youtube.com/watch?v=p4Rt62vjI3k'>demo</a> van de werkende integratie."
+					}
+				]
 			}
 		],
 		"learning_outcomes": [
@@ -83,12 +133,12 @@
 								"type": "list",
 								"content": [
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf'>Projectplan</a> - analyse, aanpak en structuur</span>",
-									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/JHfkqNQF8Waf8tjmkFeHflZQt0kw5pKuSoctN1Sx.pdf'>Userstories</a> - functionele eisen</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/HV0qaZlRkDo5tuVZXbxmKZ6YMMCvkmCYMMuHwRh4.pdf'>Userstories</a> - functionele eisen</span>",
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/yPpo7V6Twlkfmi34YUlVeZQanEBT2iqZelTDVPL6.pdf'>Tool research</a> - toolkeuze en motivatie</span>",
 									"<span><a className='link' target='_blank' href='https://www.figma.com/design/KANtJuDIBRQ7kTyPlcw4XZ/Canva-integratie?node-id=1-2&t=7qO9hRGqZ7TV8tLg-1'>Figma</a> - Klikbaar UI-prototype</span>",
-									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/yrHIWMZFhWofNNs1Woc4CENxz7pqoD4DkRbo3eNI.pdf'>Code screenshots</a> - Screenshots van code die gebruikt zijn voor deze integratie</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/pG6Q6OmsmuzCllr4s7egjMjconDE7pob6IssuRFE.pdf'>Code screenshots</a> - Screenshots van code die gebruikt zijn voor deze integratie</span>",
 									"<span><a className='link' target='_blank' href='https://youtu.be/p4Rt62vjI3k'>Demo video</a> - werkende oplossing binnen Apostle </span>",
-									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>"
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/o5hdIF3YZjWJsPZdRrBLvLEVJnvPikz3vRKpffWI.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>"
 								]
 							}
 						]
@@ -132,7 +182,7 @@
 								"type": "list",
 								"content": [
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/uK8l4WvLLaKMfCN5BxDZ6tRTKABNfXnG1KqRwufH.pdf'>Aanvulling project</a> - Google Forms feedback op prototype met screenshots</span>",
-									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/DFEPA7YYBm84ndJd0hTPM9dgvl0kEXf39jUcJg41.pdf'>Slackgesprek met Stefan</a> - stakeholderinbreng</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/e5hAz3AVSIflK0iIc67bm9OPhIZIaEQkWZapvuFo.pdf'>Slackgesprek met Stefan</a> - stakeholderinbreng</span>",
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf'>Beoordeling werkbegeleider (Lars)</a> - Bevestigt professionele aanpak</span>",
 									"<span><span className='link'>Quote Stefan</span>: Ik hoor van meerdere klanten dat ze al hun visuals in Canva maken, een directe koppeling zou voor hen echt tijd besparen</span>",
 									"<span><span className='link'>Quote Mick</span>: Klanten vragen steeds vaker of ze hun Canva-designs makkelijk kunnen gebruiken binnen ons platform.</span>",
@@ -180,7 +230,7 @@
 								"type": "list",
 								"content": [
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/x6R7ZAVRpEjyWj7F2Uyqhj8rUuSWpqCcx4MdkdXE.pdf'>Projectplan</a> - Reflectie, zelfinzicht</span>",
-									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/5KdcDCu1d6iHBwDJmoK2oF9hniwiceEMbZWzMEuH.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>",
+									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/17/o5hdIF3YZjWJsPZdRrBLvLEVJnvPikz3vRKpffWI.pdf'>GitHub</a> - Screenshots repositories + commits (private repositories)</span>",
 									"<span><a className='link' target='_blank' href='https://files.joriskorsten.nl/storage/folders/15/RSDRFcgpBNZXTkLKW9jG2vNgAxaweJ2MxYAFfcDT.pdf'>Beoordeling werkbegeleider (Lars)</a> - bevestiging leiderschap en eigenaarschap</span>"
 								]
 							}

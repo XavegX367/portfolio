@@ -8,6 +8,7 @@ import Outcome from '../components/Projects/Outcome'
 import Languages from '../components/Projects/Languages'
 import Documents from '../components/Projects/Documents'
 import Links from '../components/Projects/Links'
+import ReadingGuide from '../components/Projects/ReadingGuide'
 
 const Project = () => {
 	const [project, setProject] = useState(null)
@@ -49,6 +50,11 @@ const Project = () => {
 							</div>
 						</div>
 
+						{/* Render reading guide */}
+						{project.reading_guide &&
+							<ReadingGuide guide={project.reading_guide} />
+						}
+
 						{/* Render outcomes */}
 						{project.learning_outcomes &&
 							Object.entries(project.learning_outcomes).map(
@@ -66,7 +72,8 @@ const Project = () => {
 										</div>
 									</div>
 								)
-							)}
+							)
+						}
 
 						{/* Buildup */}
 						{project.buildup !== undefined && project.buildup === true ? (
